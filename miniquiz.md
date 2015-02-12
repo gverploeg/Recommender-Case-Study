@@ -1,4 +1,4 @@
-This morning we will have a little fun exercise around web scraping to refresh your memory! Scrape [this](http://www.snackdata.com) site and use it's data to answer the following questions (using mongoDB queries):
+This morning we will have a little fun exercise around web scraping to refresh your memory! Scrape [snackdata](http://www.snackdata.com) and use its data to answer the following questions (using mongoDB queries):
 
 1. Create a record in mongoDB for each snack containing the following:
     * Name
@@ -13,9 +13,9 @@ This morning we will have a little fun exercise around web scraping to refresh y
 
 2. How many snacks are there in total?
  
-3. What is the most (and least) common cuisine?
+3. What are the most and least common cuisines?
 
-4. Which is the most common ingredient across snacks (look at composition)?
+4. Which is the most common ingredient across snacks? (Hint: Look at composition.)
 
 5. What are the five most recently added snacks?
 
