@@ -16,13 +16,11 @@ We will be using [this](http://www.occamslab.com/petricek/data/) data set of use
 
  1. To emulate the preference data from the Pinterest like browsing experience, transform the ratings data from a scale of 1-10 into { 0 | 1 }: 0 if a user has never seen a profile, and 1 if a user has clicked on a users' picture.
 
-You can find this transformed dataset in `data/preferences.csv`.  There is also a mapping to the users gender in `data/gender.csv`.
+ ## Getting Started
 
-## Getting Started
+ To start, we are going to build a basic collaborative filter to create a baseline.  And since there are quite a few ratings (17,359,346 to be exact), we will be using [Dato](https://dato.com/) (formerly Graphlab) to build our recommendation engine.
 
-To start, we are going to build a basic collaborative filter to create a baseline.  And since there are quite a few ratings (17,359,346 to be exact), we will be using [Dato](https://dato.com/) (formerly Graphlab) to build our recommendation engine.
-
-Our goal throughout is to determine the next series of profiles to show a given user. Or more explicitly, for user __X__, what are the __N__ profiles that user __X__ is most likely to click (like) on.
+ Our goal throughout is to determine the next series of profiles to show a given user. Or more explicitly, for user __X__, what are the __N__ profiles that user __X__ is most likely to click (like) on.
 
 1. To start, let us explore the data. Create a histogram of the number of ratings each user has made.
 
@@ -32,7 +30,7 @@ Our goal throughout is to determine the next series of profiles to show a given 
 
  ## Evaluation (Pt. 1)
 
- In the beginning, (data) scientists an engineers applied the same methodology they used for prediction to recommendations: __accuracy__.
+ In the beginning, (data) scientists and engineers applied the same methodology they used for prediction to recommendations: __accuracy__.
 
  Models for recommendation were evaluated using a lot of the same methodology as classifiers/regression... but the industry quickly realized that recommenders are not simply predictors of user ratings.
 
@@ -44,10 +42,7 @@ Our goal throughout is to determine the next series of profiles to show a given 
 
  The next iteration of improving our recommendation is to try a more complex model.
 
-4. Use the 
- Normalization:
-* subtract bias from rating matrix (both for rating and users)
-
+4. Use the [other recommender](http://blog.dato.com/choosing-a-recommender-model) models in Dato and compare their effectiveness to the collaborative filter.
 
  ## Feature Engineering
 
@@ -67,20 +62,6 @@ Our goal throughout is to determine the next series of profiles to show a given 
 
 5. Using the 1-10 rating data, evaluate your recommender and compare its performance to the other two preference types.  Which performed the best?
 
- ## Evaluation (Pt. 2)
-
-Cross validating a recommender:
-* treat each cell as a label
-* selective block out ratings (20% for each user)
-
-A/B test a recommender in production
-* How many users will you have to give recommendations to assuming you want 80% power and 95% confidence with a lift of 5% more engagement time?
-* How long will it take assuming you are EverPix?
-
-How to qualify your recommendation: You got recommended this movie because...
-
- ## Productionizing
-
  ## Troubleshooting
 
  One of the canonical problems with building a recommendation engine is the [cold-start problem](https://www.linkedin.com/pulse/20130429011005-50510-the-cold-start-problem).
@@ -92,4 +73,16 @@ How to qualify your recommendation: You got recommended this movie because...
 1. How would you determine an order of profiles to show for a user who has just joined?  What are the next 20 profiles you would show for user xxxx?
 
 2. Why might you want to intentionally not rank the profiles to show a given user by those which are most likely to be swiped right on?
+
+## Extra Credit: Productionizing
+
+ Your recommendations are only as good as your ability to give them to users.  Now that we have evaluated a recommender and decided on the model we want to put into production... lets expose it to our application!  We will be using Graphlabs's [pipeline functionality](https://dato.com/learn/gallery/notebooks/datapipeline_recsys_intro.html) to modularize our analysis.
+
+1. Define a function/task that preprocesses the dataset.  Give it an argument so you can choose { implicit | explicit | scaled } data.  Implicit will be the 0/1 ratings data, explicit is -1/0/1 preference data, and scaled is the 1-10 rating data.
+
+2. Now that we have modularized the featurization, create a function/task that trains the model and another that generates predictions.
+
+4. Now that we have recommendations, create a function/task to persist our recommendations to a Postgres database.
+
+5. Now that things are working locally, try to connect your Graphlab instance to AWS to run your pipeline on EC2.
 
