@@ -8,22 +8,27 @@ In this sprint, we will try to build a better Tinder by incorporating all of the
 
 ## The Data
 
-We will be using [this](http://www.occamslab.com/petricek/data/) data set of user ratings of each other.  The ratings data has been transformed from a scale of 1-10 into { 0 | 1 }: 0 if you have never seen a profile, and 1 if you have clicked on a users' picture.
+Assume our product started off as a Pinterest like scrolling interface of potential matches.
 
-You can find this transformed dataset in `data/ratings.csv`.  There is also a mapping to the users gender in `data/gender.csv`.
+![](http://cdn3.pcadvisor.co.uk/cmsdata/features/3289472/Online-dating-match.jpg)
+
+We will be using [this](http://www.occamslab.com/petricek/data/) data set of user ratings of each other.
+
+ 1. To emulate the preference data from the Pinterest like browsing experience, transform the ratings data from a scale of 1-10 into { 0 | 1 }: 0 if a user has never seen a profile, and 1 if a user has clicked on a users' picture.
+
+You can find this transformed dataset in `data/preferences.csv`.  There is also a mapping to the users gender in `data/gender.csv`.
 
 ## Getting Started
 
 To start, we are going to build a basic collaborative filter to create a baseline.  And since there are quite a few ratings (17,359,346 to be exact), we will be using [Dato](https://dato.com/) (formerly Graphlab) to build our recommendation engine.
 
-Our goal throughout is to determine the next series of profiles to show a given user. Or more explicitly, for user __X__, what are the __N__ profiles that user __X__ is most likely to swipe right (like) on.
+Our goal throughout is to determine the next series of profiles to show a given user. Or more explicitly, for user __X__, what are the __N__ profiles that user __X__ is most likely to click (like) on.
 
-1. To start, let us explore the data. What is the distribution of ratings (how many -1 vs. 1)?
+1. To start, let us explore the data. Create a histogram of the number of ratings each user has made.
 
-2. Create a histogram of the number of ratings each user has made.  On average how many ratings does a user make?  Will this cause issues for your recommender?
+2. On average how many ratings does a user make?  Will this cause issues for your recommender?
 
-3. 
-Who are the top 20 users you
+3. Build a basic item-item collaborative filter using this preference data. Who are the top 20 users you would show to user __1508__?
 
  ## Evaluation (Pt. 1)
 
@@ -31,12 +36,15 @@ Who are the top 20 users you
 
  Models for recommendation were evaluated using a lot of the same methodology as classifiers/regression... but the industry quickly realized that recommenders are not simply predictors of user ratings.
 
-1. Let us start with this naive evaluation strategy.  Using a holdout set of 20% vs. 80%, use the `[evaluate]()` functionality of Dato to compute the RMSE for your recommender.
+1. Let us start with this naive evaluation strategy.  Using a holdout set of 20% vs. 80%, use the `[evaluate](https://dato.com/products/create/docs/generated/graphlab.recommender.item_similarity_recommender.ItemSimilarityRecommender.evaluate.html#graphlab.recommender.item_similarity_recommender.ItemSimilarityRecommender.evaluate)` functionality of Dato to compute the RMSE for your recommender.
 
-2. We learned about different distance metrics yesterday.  Compare the performance of Jaccard vs. Cosine vs. Pearson.
+2. We learned about different distance metrics yesterday.  Compare the performance of Jaccard vs. Cosine vs. Pearson.  Which metric performs best on this preference data?
 
 3. Why might/might not Jaccard be good for the given preference data we have?
 
+ The next iteration of improving our recommendation is to try a more complex model.
+
+4. Use the 
  Normalization:
 * subtract bias from rating matrix (both for rating and users)
 

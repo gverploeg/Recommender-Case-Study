@@ -16,7 +16,7 @@ __Tutorials: [http://graphlab.com/learn/index.html](http://graphlab.com/learn/in
 
 1. Explore the data files.  To start load them into a GraphLab SFrame.
 
-2. We will do some exploratory analysis in pandas first.  How many users are there?  How many artists are there? How many songs are there?
+2. We will do some exploratory analysis first.  How many users are there?  How many artists are there? How many songs are there?
 
 3. What is user 666's favorite song (and how absolutely heavy metal is it)?  What are user 333's top 10 favorite songs?
 
@@ -121,9 +121,7 @@ Recommenders are notoriously hard to evaluate. GraphLab makes it pretty effortle
 
 ### Collaboration
 
-Now you might be asking yourself why we created such a simple model, we hand-coded a Collaborative filter after all!  The ItemMeansModel will serve as our baseline, remember:
-
-![data science pyramid](images/data_science_pyramid.jpg)
+Now you might be asking yourself why we created such a simple model, we hand-coded a Collaborative filter after all!  The ItemMeansModel will serve as our baseline.
 
 1. Create a [basic collaborative filter](http://graphlab.com/learn/notebooks/five_line_recommender.html) on the listening data. Use the [item-similarity model](http://graphlab.com/products/create/docs/generated/graphlab.recommender.ItemSimilarityModel.html#graphlab.recommender.ItemSimilarityModel) with cosine distance as the `similarity_type`.  __NOTE: This is an item-item collaborative filter__
 
