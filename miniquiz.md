@@ -20,3 +20,5 @@ This morning we will have a little fun exercise around web scraping to refresh y
 5. What are the five most recently added snacks?
 
 6. Make a histogram of the dates snacks have been added.
+
+Lastly, we'll be using a dataset from [lastfm](http://www.dtic.upf.edu/~ocelma/MusicRecommendationDataset/lastfm-1K.html) for the individual exercises today. Begin downloading on your machine of choice before lecture.
