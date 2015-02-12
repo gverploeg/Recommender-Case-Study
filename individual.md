@@ -180,19 +180,3 @@ http://developer.echonest.com/api/v4/song/profile?api_key=XXX&id=musicbrainz:son
 2. Now that we have enriched our data with identifiers to link our song to the MDS, we can use all of its rich [meta-data](http://labrosa.ee.columbia.edu/millionsong/pages/field-list) to create a content based recommender.  Create a new feature matrix for our content based song recommender.  Each row should be a song and each column should be a corresponding feature.  Do not feel you need to use all of the [fields](http://labrosa.ee.columbia.edu/millionsong/pages/field-list) from the MSD.
 
 3. Create a content based recommender.  Combine this with our matrix factorization (or collaborative filter) based on the listen counts.  You can blend the models by assigning a weight to each of the predictions and even customize it on a user-by-user basis (depending on their preferences).
-
-## References
-
-### GraphLab
-
-* [Getting Started with GraphLab Create](http://graphlab.com/learn/notebooks/getting_started_with_graphlab_create.html)
-* [Five Line Recommender Explained](http://graphlab.com/learn/notebooks/five_line_recommender.html)
-* [Building a Recommender with Ratings Data](http://graphlab.com/learn/notebooks/recsys_explicit_rating.html)
-* [Basic Recommender Functionalities](http://graphlab.com/learn/notebooks/basic_recommender_functionalities.html)
-* [Building a Recommender with Implicit data](http://graphlab.com/learn/notebooks/recsys_rank_10K_song.html)
-
-### Mortar Data
-
-* [Product is more important than math](http://blog.mortardata.com/post/58246541129/recommender-tips-product-is-more-important-than-math)
-* [Building a Recommendation Engine](http://help.mortardata.com/data_apps/recommendation_engine/recommendation_engine_basics)
-* [Improving Recommendations](http://help.mortardata.com/data_apps/recommendation_engine/interpret_results)
