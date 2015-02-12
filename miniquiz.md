@@ -1,4 +1,4 @@
-Scrape [this](http://www.snackdata.com) site and use it's data to answer the following questions (using mongoDB queries):
+This morning we will have a little fun exercise around web scraping to refresh your memory! Scrape [this](http://www.snackdata.com) site and use it's data to answer the following questions (using mongoDB queries):
 
 1. Create a record in mongoDB for each snack containing the following:
     * Name
