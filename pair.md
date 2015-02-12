@@ -34,7 +34,7 @@ We will be using [this](http://www.occamslab.com/petricek/data/) data set of use
 
  Models for recommendation were evaluated using a lot of the same methodology as classifiers/regression... but the industry quickly realized that recommenders are not simply predictors of user ratings.
 
-1. Let us start with this naive evaluation strategy.  Using a holdout set of 20% vs. 80%, use the `[evaluate](https://dato.com/products/create/docs/generated/graphlab.recommender.item_similarity_recommender.ItemSimilarityRecommender.evaluate.html#graphlab.recommender.item_similarity_recommender.ItemSimilarityRecommender.evaluate)` functionality of Dato to compute the RMSE for your recommender.
+1. Let us start with this naive evaluation strategy.  Using a holdout set of 20% vs. 80%, use the [evaluate](https://dato.com/products/create/docs/generated/graphlab.recommender.item_similarity_recommender.ItemSimilarityRecommender.evaluate.html#graphlab.recommender.item_similarity_recommender.ItemSimilarityRecommender.evaluate) functionality of Dato to compute the RMSE for your recommender.
 
 2. We learned about different distance metrics yesterday.  Compare the performance of Jaccard vs. Cosine vs. Pearson.  Which metric performs best on this preference data?
 
@@ -70,7 +70,7 @@ We will be using [this](http://www.occamslab.com/petricek/data/) data set of use
 
  We will run into a potential more sinister version of this cold start problem since the only prior information we have on a user before they make any ratings is his/her gender.
 
-1. How would you determine an order of profiles to show for a user who has just joined?  What are the next 20 profiles you would show for user xxxx?
+1. How would you determine an order of profiles to show for a user who has just joined?  What are the next 20 profiles you would show for user 135400?
 
 2. Why might you want to intentionally not rank the profiles to show a given user by those which are most likely to be swiped right on?
 
