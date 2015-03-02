@@ -6,11 +6,14 @@ This morning we will have a little fun exercise around web scraping to refresh y
     * Flavor
     * Cuisine
     * Series
-    * Composition ([reference](http://docs.mongodb.org/manual/tutorial/model-referenced-one-to-many-relationships-between-documents/) these to the appropriate documents in mongo)
+    * Composition
     * Date it became an official snack
     * Description (text before taste description)
     * Taste description
 
+## Extra Credit
+
+1. Use Mongo [references](http://docs.mongodb.org/manual/tutorial/model-referenced-one-to-many-relationships-between-documents/) to link ingredients to one another (in `Composition`)
 2. How many snacks are there in total?
  
 3. What are the most and least common cuisines?
