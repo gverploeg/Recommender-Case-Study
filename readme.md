@@ -1,11 +1,9 @@
 # Building a Recommender
 
-In this sprint we will use Graphlab (Dato) to create a Data Product.
 
 ## Files
 
 * [miniquiz.md](miniquiz.md)
-* [individual.md](individual.md)
 * [pair.md](pair.md)
 
 ## References
@@ -18,8 +16,4 @@ In this sprint we will use Graphlab (Dato) to create a Data Product.
 * [Basic Recommender Functionalities](http://graphlab.com/learn/notebooks/basic_recommender_functionalities.html)
 * [Building a Recommender with Implicit data](http://graphlab.com/learn/notebooks/recsys_rank_10K_song.html)
 
-### Mortar Data
 
-* [Product is more important than math](http://blog.mortardata.com/post/58246541129/recommender-tips-product-is-more-important-than-math)
-* [Building a Recommendation Engine](http://help.mortardata.com/data_apps/recommendation_engine/recommendation_engine_basics)
-* [Improving Recommendations](http://help.mortardata.com/data_apps/recommendation_engine/interpret_results)
