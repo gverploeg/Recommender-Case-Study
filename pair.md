@@ -1,7 +1,9 @@
 ## Movie Recommendations
 
-Go do awesome at [this](https://inclass.kaggle.com/c/movie-recommendation) data modeling competition.
+Your job is to do awesome at [this](https://inclass.kaggle.com/c/movie-recommendation) data modeling competition.  **Spend a few minutes reading the competition web page.  Familiarize yourself with the instructions, the data available from the competition web page, and the data and code in this repository.**
 
-More instructions are on that web page. To get started, build off the code you wrote yesterday and/or the code available on the competition page.
+On the competition web page, you'll see some idiosyncrasies to the required formatting of your submission file.  The rec_runner.py file gives an example of how to create submissions in the appropriate format, but it does not use Dato's Graphlab library that you used yesterday.  To start, convert rec_runner.py file to create submissions from a Graphlab recommender.
 
-The leaderboard will not be updated automatically when you make your submission, but you will receive a score.  Write your best score on the whiteboard, and we will have our own in-class competition.
+When you have a version of rec_runner.py that works with the graphlab recommenders, test it by uploading your submission to the competition.  The leaderboard will not be update, but you will receive a score.  Write your best score on the whiteboard.
+
+Your are now ready to build the best recommender possible.  We will keep updating scores on the whiteboard, and have our own in-class competition.
