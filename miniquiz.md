@@ -1,4 +1,8 @@
-This morning we will have a little fun exercise around web scraping to refresh your memory! Scrape [snackdata](http://www.snackdata.com) and use its data to answer the following questions (using mongoDB queries):
+## Miniquiz: Scraping
+
+**Include your code and answers in** `miniquiz.py`.
+
+This morning we will have a little fun exercise around web scraping to refresh your memory! Scrape [snackdata](http://www.snackdata.com), and use its data to answer the following questions (using mongoDB queries):
 
 1. Create a record in mongoDB for each snack containing the following:
     * Name
