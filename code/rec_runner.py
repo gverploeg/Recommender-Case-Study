@@ -13,21 +13,23 @@ def manip_sample_sub_format(sample_sub):
 
 class RecComparer(Comparer):
     def score(self, predictions):
-        """Look at 5% of most highly predicted movies for each movie.
+        """Look at 5% of most highly predicted movies for each user.
         Return the average actual rating of those movies.
         """
         #sample = pd.read_csv('data/sample_submission.csv')
         
         df = pd.concat([#sample,
                         predictions,
-                        self.target])
+                        self.target], axis=1)
+
+
         g = df.groupby('user')
         
         top_5 = g.rating.transform(
-            lambda x: x>=x.quantile(.95)
+            lambda x: x >= x.quantile(.95)
         )
 
-        return self.target[top_5].mean()
+        return self.target[top_5==1].mean()
 
 if __name__ == "__main__":
     sample_sub_fname = "data/sample_submission.csv"
@@ -35,6 +37,7 @@ if __name__ == "__main__":
     output_fname = "test_submission.csv"
 
     test=pd.read_csv('data/dont_use.csv')
+    test.rating.name='test_rating'
     rc = RecComparer(test.rating, config_file='code/config.yaml')
     
     ratings = gl.SFrame(ratings_data_fname)
@@ -44,13 +47,13 @@ if __name__ == "__main__":
                                                      user_id="user",
                                                      item_id="movie",
                                                      target='rating',
-                                                     num_factors=4,
-                                                     solver='auto')
+                                                     num_factors=1,
+                                                     regularization=0,
+                                                     linear_regularization=0,
+                                                     solver='als')
 
     sample_sub.rating = rec_engine.predict(for_prediction)
 
     rc.report_to_slack(sample_sub)
-    
-    #sample_sub.to_csv(output_fname, index=False)
 
 
