@@ -1,5 +1,6 @@
+import sys
 import pandas as pd
-import graphlab as gl
+#import graphlab as gl
 from performotron import Comparer
 
 def manip_sample_sub_format(sample_sub):
@@ -17,14 +18,14 @@ class RecComparer(Comparer):
         Return the average actual rating of those movies.
         """
         #sample = pd.read_csv('data/sample_submission.csv')
-        
+
         df = pd.concat([#sample,
                         predictions,
                         self.target], axis=1)
 
 
         g = df.groupby('user')
-        
+
         top_5 = g.rating.transform(
             lambda x: x >= x.quantile(.95)
         )
@@ -32,28 +33,16 @@ class RecComparer(Comparer):
         return self.target[top_5==1].mean()
 
 if __name__ == "__main__":
-    sample_sub_fname = "data/sample_submission.csv"
-    ratings_data_fname = "data/training_ratings_for_kaggle_comp.csv"
-    output_fname = "test_submission.csv"
+    sample_sub_fname = sys.argv[1]
 
     test=pd.read_csv('data/dont_use.csv')
     test.rating.name='test_rating'
     rc = RecComparer(test.rating, config_file='code/config.yaml')
-    
-    ratings = gl.SFrame(ratings_data_fname)
+
     sample_sub = pd.read_csv(sample_sub_fname)
-    for_prediction = manip_sample_sub_format(sample_sub)
-    rec_engine = gl.factorization_recommender.create(observation_data=ratings,
-                                                     user_id="user",
-                                                     item_id="movie",
-                                                     target='rating',
-                                                     num_factors=1,
-                                                     regularization=0,
-                                                     linear_regularization=0,
-                                                     solver='als')
-
-    sample_sub.rating = rec_engine.predict(for_prediction)
-
-    rc.report_to_slack(sample_sub)
-
-
+    if sample_sub.shape[0] != 500109:
+        print " ".join(["Your matrix of predictions is the wrong size.",
+        "It should provide ratings",
+        " for 50109 entries (yours=%s)." % sample_sub.shape[0]])
+    else:
+        rc.report_to_slack(sample_sub)
