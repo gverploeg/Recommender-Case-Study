@@ -1,48 +1,31 @@
-import sys
 import pandas as pd
-#import graphlab as gl
-from performotron import Comparer
+import graphlab as gl
 
 def manip_sample_sub_format(sample_sub):
     """
-    Return SFrame based on sample sub, with movid id pulled into separate
-    format for consistency with the data used for model fitting.
+    Return SFrame based on sample sub, with movid id pulled into separate format for consistency
+    with the data used for model fitting.
     """
-    for_pred = gl.SFrame(sample_sub)
-    for_pred['movie'] = sample_sub.id.apply(lambda x: int(x.split('_')[1]))
-    return for_pred
+    sample_sub['movie'] = sample_sub.id.apply(lambda x: int(x.split('_')[1]))
+    for_prediction = gl.SFrame(sample_sub)
+    return for_prediction
 
-class RecComparer(Comparer):
-    def score(self, predictions):
-        """Look at 5% of most highly predicted movies for each user.
-        Return the average actual rating of those movies.
-        """
-        #sample = pd.read_csv('data/sample_submission.csv')
-
-        df = pd.concat([#sample,
-                        predictions,
-                        self.target], axis=1)
-
-
-        g = df.groupby('user')
-
-        top_5 = g.rating.transform(
-            lambda x: x >= x.quantile(.95)
-        )
-
-        return self.target[top_5==1].mean()
 
 if __name__ == "__main__":
-    sample_sub_fname = sys.argv[1]
+    sample_sub_fname = "data/sample_submission.csv"
+    ratings_data_fname = "data/training_ratings.csv"
+    output_fname = "data/test_ratings.csv"
 
-    test=pd.read_csv('data/dont_use.csv')
-    test.rating.name='test_rating'
-    rc = RecComparer(test.rating, config_file='code/config.yaml')
-
+    ratings = gl.SFrame(ratings_data_fname)
     sample_sub = pd.read_csv(sample_sub_fname)
-    if sample_sub.shape[0] != 500109:
-        print " ".join(["Your matrix of predictions is the wrong size.",
-        "It should provide ratings",
-        " for 50109 entries (yours=%s)." % sample_sub.shape[0]])
-    else:
-        rc.report_to_slack(sample_sub)
+    for_prediction = manip_sample_sub_format(sample_sub)
+    rec_engine = gl.factorization_recommender.create(   observation_data=ratings, 
+                                                        user_id="user", 
+                                                        item_id="movie", 
+                                                        target='rating',
+                                                        num_factors=4,
+                                                        solver='auto')
+    
+    sample_sub.rating = rec_engine.predict(for_prediction)
+    sample_sub.drop('movie', inplace=True, axis=1)
+    sample_sub.to_csv(output_fname, index=False)
