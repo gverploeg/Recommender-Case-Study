@@ -3,7 +3,6 @@
 
 ## Files
 
-* [miniquiz.md](miniquiz.md)
 * [pair.md](pair.md)
 
 ## References
