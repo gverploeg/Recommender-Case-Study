@@ -15,7 +15,7 @@ class RecComparer(Comparer):
                         self.target], axis=1)
 
 
-        g = df.groupby('user')
+        g = df.groupby('user_id')
 
         top_5 = g.rating.transform(
             lambda x: x >= x.quantile(.95)
@@ -30,9 +30,9 @@ if __name__ == "__main__":
     rc = RecComparer(test.rating, config_file='config.yaml')
 
     sample_sub = pd.read_csv(sample_sub_fname)
-    if sample_sub.shape[0] != 533838:
+    if sample_sub.shape[0] != 522169:
         print " ".join(["Your matrix of predictions is the wrong size.",
         "It should provide ratings",
-        " for 533838 entries (yours=%s)." % sample_sub.shape[0]])
+        " for 522169 entries (yours=%s)." % sample_sub.shape[0]])
     else:
         rc.report_to_slack(sample_sub)
