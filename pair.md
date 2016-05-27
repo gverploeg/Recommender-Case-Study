@@ -1,17 +1,15 @@
-# Tell Users Which Movies to Watch
+# Recommend a good joke.
 
 Today you are going to have a little friendly competition with your classmates. 
 You are going to building a recommendation system based off data from the 
-[MovieLens dataset](http://grouplens.org/datasets/movielens/). It includes movie 
-information, user information, and the users' ratings. However, the most recent 50% 
-of the ratings have been removed from the version you receive to create the 
-test dataset. 
+[Jester Dataset](http://eigentaste.berkeley.edu/dataset/). It includes user 
+ratings of over 100 jokes.
 
-The movies and user data are in `data/movies.dat` and `data/users.dat`. The users'
+The joke data are in `data/jokes.dat`. The users'
 ratings have been broken into a training and test set for you, with the training 
 data in `data/training_ratings.csv`. Your goal is to build a recommendation system 
-and to suggest movies to users! Your score will be measured based off of how well 
-you predict the ratings for the users' ratings in our test set. 
+and to suggest jokes to users! Your score will be measured based off of how well 
+you predict the top-rated jokes for the users' ratings in our test set. 
 
 Note that we will be using [GraphLab](https://dato.com/) to build our 
 recommendation system. If you don't already have it installed, follow the 
