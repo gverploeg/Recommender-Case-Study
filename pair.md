@@ -7,7 +7,7 @@ ratings of over 100 jokes.
 
 The joke data are in `data/jokes.dat`. The users'
 ratings have been broken into a training and test set for you, with the training 
-data in `data/training_ratings.csv`. Your goal is to build a recommendation system 
+data in `data/ratings.dat`. Your goal is to build a recommendation system 
 and to suggest jokes to users! Your score will be measured based off of how well 
 you predict the top-rated jokes for the users' ratings in our test set. 
 
@@ -45,9 +45,9 @@ See if you can get the best score!
 
 ## Score
 
-For each user, our scoring metric will select the 5% of movies you thought would be most highly rated by that user. It then looks at the actual ratings (in the test data) that the user gave those movies.  Your score is the average of those ratings.
+For each user, our scoring metric will select the 5% of jokes you thought would be most highly rated by that user. It then looks at the actual ratings (in the test data) that the user gave those movies.  Your score is the average of those ratings.
 
-Thus, for an algorithm to score well, it only needs to identify which movies a user is likely to rate most highly (so the absolute accuracy of your ratings is less important than the rank ordering).
+Thus, for an algorithm to score well, it only needs to identify which jokes a user is likely to rate most highly (so the absolute accuracy of your ratings is less important than the rank ordering).
 
 As mentioned above, your submission should be in the same format as the sample 
 submission file, and the only thing that will be changed is the ratings column. 
