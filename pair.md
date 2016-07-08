@@ -45,7 +45,7 @@ See if you can get the best score!
 
 ## Score
 
-For each user, our scoring metric will select the 5% of jokes you thought would be most highly rated by that user. It then looks at the actual ratings (in the test data) that the user gave those movies.  Your score is the average of those ratings.
+For each user, our scoring metric will select the 5% of jokes you thought would be most highly rated by that user. It then looks at the actual ratings (in the test data) that the user gave those jokes.  Your score is the average of those ratings.
 
 Thus, for an algorithm to score well, it only needs to identify which jokes a user is likely to rate most highly (so the absolute accuracy of your ratings is less important than the rank ordering).
 
