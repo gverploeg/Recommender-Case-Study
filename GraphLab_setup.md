@@ -1,27 +1,23 @@
 # Setting up GraphLab
 
-### Sign up for the free trial. 
+## Sign up for an academic license. 
 
-1.) Visit [GraphLab's website](https://dato.com/), and sign up for the free
-trial by clicking in the upper right corner.  
+1. Visit [Turi](https://turi.com/download/academic.html), and sign up for an academic license (*not* the free trial).
 
-2.) You can put in Galvanize for the organization and Data Science Fellow
-for your Job Title.   
+2. Take note of your Product key after you are done signing up. 
 
-3.) Take note of your Product key after you are done signing up. 
+## Install GraphLab Create and set up your license. 
 
-### Pip install and set up a configuration file.  
-
-1.) Pip install graphlab-create: 
+1. Install `graphlab-create` using `pip`: 
 
 ```bash 
 pip install graphlab-create
 ```
 
-2.) Create a configuration file so that graphlab-create will know where
-to look to find your product key (fill in 1234 below with your product key): 
+2.) Create a configuration file so that `graphlab-create` will have your product key (fill in 1234 below with your product key): 
 
 ```bash 
-mkdir -p ~/.graphlab && echo -e "[Product]\nproduct_key=1234" > ~/.graphlab/config \
+export GRAPHLAB_KEY=1234
+mkdir -p ~/.graphlab && echo -e "[Product]\nproduct_key=${GRAPHLAB_KEY}" > ~/.graphlab/config \
 && echo "Configuration file written" || echo "Configuration file not written"
 ```
