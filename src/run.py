@@ -43,10 +43,12 @@ if __name__ == "__main__":
     reco_instance = MovieRecommender()
 
     model = reco_instance.fit(train_data)
-    result_data = model.predict(request_data)
+    result_y = model.predict(request_data)
 
-    if 'rating' not in result_data.columns:
-        logger.critical("column 'rating' does not exist in the df returned by recommender")
+    if result_y.shape[0] != request_data.shape[0]:
+        logger.critical("return prediction column has the wrong size ({} requests, {} predictions)".format(request_data.shape[0],result_y.shape[0]))
         sys.exit(-1)
 
+    result_data = request_data
+    result_data['rating'] = result_y
     result_data.to_csv(args.outputfile[0], index=False)
