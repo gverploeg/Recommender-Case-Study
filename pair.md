@@ -28,22 +28,23 @@ The file `src/recommender.py` is your main template for creating your recommende
 
 `src/run.py` has been prepared for your convenience (doesn't need modification). By executing it you create an instance of your `Recommender`, feeds it with the training data and outputs the results in a file.
 
-It outputs a _properly formatted_ file of recommendations for you! I suggest using this file as a base and building off of it as you work through the day.
+It outputs a _properly formatted_ file of recommendations for you!
 
   Here's how to use this script:
   ```bash
-  usage: run.py [-h] [--train TRAIN] [--requests REQUESTS] [--output OUTPUT]
-                [--silent]
+  usage: run.py [-h] [--train TRAIN] [--requests REQUESTS] [--silent] outputfile
+
+  positional arguments:
+    outputfile           output file (where predictions are stored)
 
   optional arguments:
     -h, --help           show this help message and exit
     --train TRAIN        path to training ratings file (to fit)
     --requests REQUESTS  path to the input requests (to predict)
-    --output OUTPUT      output file (where predictions are stored)
     --silent             deactivate debug output
   ```
 
-**You need to** specify your prediction output file `--output` option.
+**You need to** specify your prediction output file as an argument.
 
 
 ## How to submit your score to Slack
@@ -52,22 +53,20 @@ It outputs a _properly formatted_ file of recommendations for you! I suggest usi
 
   Here's how to use this script:
   ```bash
-  usage: submit.py [-h] --prediction PREDICTION [--score] [--submit] [--silent]
+  usage: submit.py [-h] [--submit] [--silent] predfile
+
+  positional arguments:
+    predfile    prediction file to submit
 
   optional arguments:
-    -h, --help            show this help message and exit
-    --prediction PREDICTION
-                          prediction file to submit
-    --score               display score
-    --submit              submits result on slack
-    --silent              deactivate debug output
+    -h, --help  show this help message and exit
+    --submit    submits result on slack
+    --silent    deactivate debug output
   ```
 
-**You need to** specify your prediction file (the one produced by `src/run.py`) using the `--prediction` option.
+**You need to** specify your prediction file (the one produced by `src/run.py`) as an argument.
 
-**You need to** explicitely specify `--submit` to submit to slack.
-
-You can use `--score` to display the score (not submitting).
+**You need to** explicitly specify `--submit` to actually submit to slack.
 
 
 ## TODO: test your installation
@@ -83,7 +82,7 @@ After that, you should be able to use the `src/submit.py` file to post your scor
 In a terminal, use
 
 ```bash
-python src/submit.py --prediction data/sample_submission.csv --score --submit
+python src/submit.py --submit data/sample_submission.csv
 ```
 
 This will take a _properly formatted_ file of recommendations (see `data/sample_submission.csv` for an

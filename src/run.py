@@ -1,7 +1,7 @@
 import sys
 import logging
 import argparse
-from recommender import Recommender     # the class you have to develop
+from recommender import MovieRecommender     # the class you have to develop
 import pandas as pd
 
 
@@ -10,7 +10,7 @@ if __name__ == "__main__":
     parser.add_argument("--train", help="path to training ratings file (to fit)")
     parser.add_argument("--requests", help="path to the input requests (to predict)")
     parser.add_argument('--silent', action='store_true', help="deactivate debug output")
-    parser.add_argument("--output", required=True, help="output file (where predictions are stored)")
+    parser.add_argument("outputfile", nargs=1, help="output file (where predictions are stored)")
 
     args = parser.parse_args()
 
@@ -27,8 +27,7 @@ if __name__ == "__main__":
     path_requests_ = args.requests if args.requests else "data/requests.csv"
     logger.debug("using requests from {}".format(path_requests_))
 
-    path_output_ = args.output if args.output else "data/predicted_ratings.csv"
-    logger.debug("using output as {}".format(path_output_))
+    logger.debug("using output as {}".format(args.outputfile[0]))
 
     # REQUESTS: reading from input file into pandas
     request_data = pd.read_csv(path_requests_)
@@ -37,9 +36,7 @@ if __name__ == "__main__":
     train_data = pd.read_csv(path_train_)
 
     # Creating an instance of your recommender with the right parameters
-    reco_instance = Recommender(user_id="user",
-                                item_id="movie",
-                                target='rating')
+    reco_instance = MovieRecommender()
 
     model = reco_instance.fit(train_data)
     result_data = model.predict(request_data)
@@ -48,4 +45,4 @@ if __name__ == "__main__":
         logger.critical("column 'rating' does not exist in the df returned by recommender")
         sys.exit(-1)
 
-    result_data.to_csv(path_output_, index=False)
+    result_data.to_csv(args.outputfile[0], index=False)

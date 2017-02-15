@@ -1,7 +1,6 @@
 import sys
 import logging
 import argparse
-from recommender import Recommender     # the class you have to develop
 import pandas as pd
 
 from performotron import Comparer
@@ -28,10 +27,9 @@ class RecComparer(Comparer):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--prediction", required=True, help="prediction file to submit")
-    parser.add_argument('--score', action='store_true', help="display score")
     parser.add_argument('--submit', action='store_true', help="submits result on slack")
     parser.add_argument('--silent', action='store_true', help="deactivate debug output")
+    parser.add_argument("predfile", nargs=1, help="prediction file to submit")
     args = parser.parse_args()
 
     if args.silent:
@@ -41,9 +39,8 @@ if __name__ == "__main__":
     logger = logging.getLogger()
 
 
-    path_prediction_ = args.prediction if args.prediction else "data/sample_submission.csv"
-    logger.debug("using predictions from {}".format(path_prediction_))
-    prediction_data = pd.read_csv(path_prediction_)
+    logger.debug("using predictions from {}".format(args.predfile[0]))
+    prediction_data = pd.read_csv(args.predfile[0])
 
     if prediction_data.shape[0] != 500109:
         error_msg_ = " ".join(["Your matrix of predictions is the wrong size.",
@@ -57,9 +54,7 @@ if __name__ == "__main__":
     test_data.rating.name='test_rating'
     rc = RecComparer(test_data.rating, config_file='conf/config.yaml')
 
-
-    if args.score:
-	    print("score={}".format(rc.score(prediction_data)))
+    logger.debug("score={}".format(rc.score(prediction_data)))
 
     if args.submit:
         logger.critical("slack not configured yet")
