@@ -30,7 +30,7 @@ class Recommender():
         """
         self.logger.debug("starting predict")
 
-        # just relying on luck...
+        # just relying on luck for now...
         ratings[self.target_field] = np.random.choice(range(1, 5), ratings.shape[0])
 
         self.logger.debug("finishing predict")
