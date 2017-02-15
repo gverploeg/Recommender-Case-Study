@@ -9,8 +9,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--train", help="path to training ratings file (to fit)")
     parser.add_argument("--requests", help="path to the input requests (to predict)")
-    parser.add_argument("--output", help="output file (where predictions are stored)")
     parser.add_argument('--silent', action='store_true', help="deactivate debug output")
+    parser.add_argument("--output", required=True, help="output file (where predictions are stored)")
 
     args = parser.parse_args()
 
