@@ -86,7 +86,7 @@ python src/submit.py --submit data/sample_submission.csv
 ```
 
 This will take a _properly formatted_ file of recommendations (see `data/sample_submission.csv` for an
-example). This should output the score `3.56090572255` (random ratings) and submit it to slack from "Team Anonymous".
+example). This should output the score `3.56090572255` and submit it to slack from "Team Anonymous".
 
 Modify the file `conf/config.yaml` for setting up your team's name and test that again.
 
