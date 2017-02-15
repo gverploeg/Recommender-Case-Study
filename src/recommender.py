@@ -46,12 +46,12 @@ class MovieRecommender():
         self.logger.debug("request count: {}".format(requests.shape[0]))
 
         # just relying on luck for now...
-        output_ratings = np.zeros(requests.shape[0])
+        #output_ratings = np.zeros(requests.shape[0])
 
-        for index, row in requests.iterrows():
-            output_ratings[index] = 0
+        #for index, row in requests.iterrows():
+        #    output_ratings[index] = 0
 
-        #ratings['rating'] = np.random.choice(range(1, 5), ratings.shape[0])
+        output_ratings = np.random.choice(range(1, 5), requests.shape[0])
 
         self.logger.debug("result shape: {}".format(output_ratings.shape))
         self.logger.debug("finishing predict")

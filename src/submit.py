@@ -33,9 +33,13 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.silent:
-        logging.basicConfig(level=logging.INFO)
+        logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s',
+                            datefmt='%m/%d/%Y %I:%M:%S %p',
+                            level=logging.INFO)
     else:
-        logging.basicConfig(level=logging.DEBUG)
+        logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s',
+                            datefmt='%m/%d/%Y %I:%M:%S %p',
+                            level=logging.DEBUG)
     logger = logging.getLogger()
 
 
