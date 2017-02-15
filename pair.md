@@ -106,3 +106,12 @@ As mentioned above, your submission should be in the same format as the sample
 submission file, and the only thing that will be changed is the ratings column.
 Use `src/run.py` as a starting point, as it has a function to create
 correctly formatted submission files.
+
+
+## Note on running your script with Spark
+
+If your `recommender.py` script relies on spark, you may want to use the script `run_on_spark.sh` to execute your code.
+
+In a terminal, use: `run_on_spark.sh src/run.py` with arguments to run your recommender.
+
+The `src/submit.py` doesn't need to run on spark, as it simply reads the result file produced by `run.py`.
