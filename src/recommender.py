@@ -1,5 +1,6 @@
 import logging
 import numpy as np
+from scipy.sparse import lil_matrix
 
 class MovieRecommender():
     def __init__(self):
@@ -16,9 +17,21 @@ class MovieRecommender():
         """
         self.logger.debug("starting fit")
 
-        # ...
+        self.logger.debug("shape of ratings: {}".format(ratings.shape))
 
-        self.logger.debug("finishing fit")
+        self.user_ids = set(ratings['user'])
+        self.item_ids = set(ratings['movie'])
+
+        self.logger.debug("users: {} // items: {}".format(max(self.user_ids),max(self.item_ids)))
+
+        self.utility = lil_matrix((max(self.user_ids)+1,max(self.item_ids)+1))
+
+        for index, row in ratings.iterrows():
+            _user = row['user']
+            _item = row['movie']
+            self.utility[_user,_item] = row['rating']
+
+        self.logger.debug("finishing fit")        
         return(self)  # we return self to use .predict() on it
 
 
