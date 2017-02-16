@@ -7,16 +7,16 @@ information, user information, and the users' ratings. Your goal is to build a
 recommendation system and to suggest movies to users!
 
 
-## Training / Testing and scoring
+## Datasets available, datasets not available
 
 The **movies data** and **user data** are in `data/movies.dat` and `data/users.dat`. The users'
 ratings have been broken into a training and test set for you (the split has been done by keeping the most recent 50% of the ratings for the testing set).
 
-The ratings from the **training data** can be found in `data/training_ratings.csv`.
+The **ratings data** can be found in `data/ratings.mat`.
 
 You are provided a **request** file in `data/requests.csv`. It contains a list of `user,movie,id` for which you need to predict the (missing) `rating` column. Your **score** will be measured based on how well you predict the ratings for the users' ratings compared to our test set.
 
-The ratings for the **testing data** can be found in `data/dont_use.csv`... as indicated by the filename, you SHOULD NOT USE this file to train your model. This would be considered as cheating.
+At the end of the day, we will collect your predicted ratings and provide a score.
 
 
 ## How to implement your recommender
@@ -44,12 +44,12 @@ It outputs a _properly formatted_ file of recommendations for you!
     --silent             deactivate debug output
   ```
 
-**You need to** specify your prediction output file as an argument.
+**You need to** specify your prediction output file as an argument (the one you will submit).
 
 
-## How to submit your score to Slack
+## How to submit your prediction for scoring
 
-`src/submit.py` is the script you'll use to submit your results. It reads your submission from a file and computes your score against the testing test.
+`src/submit.py` is the script you'll use to submit your results. It reads your submission from a file and sends it for scoring.
 
   Here's how to use this script:
   ```bash
