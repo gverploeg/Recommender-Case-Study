@@ -1,5 +1,4 @@
 import logging
-import numpy as np
 
 class MovieRecommender():
     def __init__(self):
@@ -22,17 +21,18 @@ class MovieRecommender():
         return(self)  # we return self to use .predict() on it
 
 
-    def predict(self, ratings):
+    def predict(self, requests):
         """On a given dataframe, predict the ratings.
         Returns the ratings df with an added 'rating' column. (???)
         """
         self.logger.debug("starting predict")
+        self.logger.debug("request count: {}".format(requests.shape[0]))
 
         # just relying on luck for now...
-        ratings['rating'] = np.random.choice(range(1, 5), ratings.shape[0])
+        output_ratings = np.random.choice(range(1, 5), requests.shape[0])
 
         self.logger.debug("finishing predict")
-        return(ratings)
+        return(output_ratings)
 
 
 if __name__ == "__main__":
