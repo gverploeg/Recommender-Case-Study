@@ -7,9 +7,7 @@ def compute_score(predictions, actual):
     """Look at 5% of most highly predicted movies for each user.
     Return the average actual rating of those movies.
     """
-    #sample = pd.read_csv('data/sample_submission.csv')
-
-    df = pd.concat([predictions, actual.actualrating], axis=1)
+    df = pd.concat([predictions.fillna(1.0), actual.actualrating], axis=1)
 
     # for each user
     g = df.groupby('user')
@@ -47,7 +45,7 @@ if __name__ == "__main__":
     logger.debug("using predictions from {}".format(args.predfile[0]))
     prediction_data = pd.read_csv(args.predfile[0])
 
-    if prediction_data.shape[0] != 104530:
+    if prediction_data.shape[0] != 200209:
         error_msg_ = " ".join(["Your matrix of predictions is the wrong size.",
         "It should provide ratings for {} entries (yours={}).".format(200209,prediction_data.shape[0])])
         logger.critical(error_msg_)
