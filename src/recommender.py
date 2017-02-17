@@ -1,4 +1,5 @@
 import logging
+import numpy as np
 
 class MovieRecommender():
     def __init__(self):

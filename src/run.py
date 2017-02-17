@@ -25,7 +25,7 @@ if __name__ == "__main__":
     logger = logging.getLogger()
 
 
-    path_train_ = args.train if args.train else "data/training_ratings.csv"
+    path_train_ = args.train if args.train else "data/training.csv"
     logger.debug("using training ratings from {}".format(path_train_))
 
     path_requests_ = args.requests if args.requests else "data/requests.csv"

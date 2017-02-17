@@ -26,8 +26,8 @@ def compute_score(predictions, actual):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--silent', action='store_true', help="deactivate debug output")
+    parser.add_argument('--testing', help="testing set")
     parser.add_argument("predfile", nargs=1, help="prediction file to submit")
-    parser.add_argument("groundtruthfile", nargs=1, help="actual ratings")
 
     args = parser.parse_args()
 
@@ -41,19 +41,18 @@ if __name__ == "__main__":
                             level=logging.DEBUG)
     logger = logging.getLogger()
 
+    path_testing_ = args.testing if args.testing else "data/testing.csv"
+    logger.debug("using groundtruth from {}".format(path_testing_))
+
     logger.debug("using predictions from {}".format(args.predfile[0]))
     prediction_data = pd.read_csv(args.predfile[0])
 
-    logger.debug("using groundtruth from {}".format(args.groundtruthfile[0]))
-    actual_data = pd.read_csv(args.groundtruthfile[0])
-
-    if prediction_data.shape[0] != actual_data.shape[0]:
+    if prediction_data.shape[0] != 200209:
         error_msg_ = " ".join(["Your matrix of predictions is the wrong size.",
-        "It should provide ratings for {} entries (yours={}}).".format(actual_data.shape[0],prediction_data.shape[0])])
+        "It should provide ratings for {} entries (yours={}).".format(200209,prediction_data.shape[0])])
         logger.critical(error_msg_)
         sys.exit(-1)
 
-    if prediction_data.shape[0] != 500109:
-        logger.warn('YOUR PREDICTION DOESNT HAVE THE RIGHT FORMAT FOR SUBMITTING.')
+    actual_data = pd.read_csv(path_testing_)
 
     logger.debug("score={}".format(compute_score(prediction_data, actual_data)))
