@@ -7,7 +7,8 @@ def compute_score(predictions, actual):
     """Look at 5% of most highly predicted movies for each user.
     Return the average actual rating of those movies.
     """
-    df = pd.concat([predictions.fillna(1.0), actual.actualrating], axis=1)
+    df = pd.merge(predictions, actual, on=['user','movie']).fillna(1.0)
+    #df = pd.concat([predictions.fillna(1.0), actual.actualrating], axis=1)
 
     # for each user
     g = df.groupby('user')
@@ -18,7 +19,7 @@ def compute_score(predictions, actual):
     )
 
     # return the mean of the actual score on those
-    return actual.actualrating[top_5==1].mean()
+    return df.actualrating[top_5==1].mean()
 
 
 if __name__ == "__main__":
