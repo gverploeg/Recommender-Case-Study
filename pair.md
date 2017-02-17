@@ -9,14 +9,13 @@ recommendation system and to suggest movies to users!
 
 ## Datasets available, datasets not available
 
-The **movies data** and **user data** are in `data/movies.dat` and `data/users.dat`. The users'
-ratings have been broken into a training and test set for you (the split has been done by keeping the most recent 50% of the ratings for the testing set).
+The **movies data** and **user data** are in `data/movies.dat` and `data/users.dat`.
 
-The **ratings data** can be found in `data/ratings.mat`.
+The **ratings data** can be found in `data/training.csv`. The users' ratings have been broken into a training and test set for you (the split has been done by keeping the most recent 20% of the ratings for the testing set).
 
-You are provided a **request** file in `data/requests.csv`. It contains a list of `user,movie,id` for which you need to predict the (missing) `rating` column. Your **score** will be measured based on how well you predict the ratings for the users' ratings compared to our test set.
+You are provided a **request** file in `data/requests.csv`. It contains a list of `user,movie` for which you need to predict the (missing) `rating` column.
 
-At the end of the day, we will collect your predicted ratings and provide a score.
+Your **score** will be measured based on how well you predict the ratings for the users' ratings compared to our test set. At the end of the day, we will collect your predicted ratings and provide a score.
 
 
 ## How to implement your recommender
@@ -44,67 +43,54 @@ It outputs a _properly formatted_ file of recommendations for you!
     --silent             deactivate debug output
   ```
 
-**You need to** specify your prediction output file as an argument (the one you will submit).
+When running this script, **you need to** specify your prediction output file as an argument (the one you will submit).
+
+**Try now** to create a random prediction file by typing:
+
+```bash
+python src/run.py data/sample_submission.csv
+```
 
 
-## How to submit your prediction for scoring
+## How we will submit your prediction for scoring
 
-`src/submit.py` is the script you'll use to submit your results. It reads your submission from a file and sends it for scoring.
+`src/submit.py` is the script **we** will use to submit your results for scoring. It reads your submission from a csv as produced by `src/run.py` compares it to our **secret testing set**.
 
-  Here's how to use this script:
+Here's how we use this script:
   ```bash
-  usage: submit.py [-h] [--submit] [--silent] predfile
+  usage: submit.py [-h] [--silent] [--testing TESTING] predfile
 
   positional arguments:
-    predfile    prediction file to submit
+    predfile           prediction file to submit
 
   optional arguments:
-    -h, --help  show this help message and exit
-    --submit    submits result on slack
-    --silent    deactivate debug output
+    -h, --help         show this help message and exit
+    --silent           deactivate debug output
+    --testing TESTING  testing set
   ```
 
 **You need to** specify your prediction file (the one produced by `src/run.py`) as an argument.
 
-**You need to** explicitly specify `--submit` to actually submit to slack.
-
-
-## TODO: test your installation
-
-Before doing anything, make sure that you are able to post your score to slack. To begin, you'll need to pip install the `performortron` library:
+If you want to try this script, try running :
 
 ```bash
-pip install git+https://github.com/zipfian/performotron.git --upgrade
+python src/submit.py --testing data/fake_testing.csv data/sample_submission.csv
 ```
 
-After that, you should be able to use the `src/submit.py` file to post your score to slack.
-
-In a terminal, use
-
-```bash
-python src/submit.py --submit data/sample_submission.csv
-```
-
-This will take a _properly formatted_ file of recommendations (see `data/sample_submission.csv` for an
-example). This should output the score `3.56090572255` and submit it to slack from "Team Anonymous".
-
-Modify the file `conf/config.yaml` for setting up your team's name and test that again.
-
-the URL that `slack_poster` will prompt you for, and use a gschool channel to
-post results to, **prefacing the channel with a `#` when you are promted
-(i.e. #dsi)**.
+It should return a score around 2.50. **WARNING: this fake_testing.csv is just a random testing test, DO NOT USE IT to validate your model**.
 
 
 ## Evaluation: how the score is computed
 
-For each user, our scoring metric will select the 5% of movies you thought would be most highly rated by that user. It then looks at the actual ratings (in the test data) that the user gave those movies.  Your score is the average of those ratings.
+We provide this submit script so that you can understand the scoring methodology. Look at the function `compute_score()` to get the idea:
+- we will use your prediction file to extract, for each user, the 5% most highly predicted movies
+- we will look at the actual rating of those movies in our hidden testing set.
+- we will compute the mean of those ratings.
 
 Thus, for an algorithm to score well, it only needs to identify which movies a user is likely to rate most highly (so the absolute accuracy of your ratings is less important than the rank ordering).
 
 As mentioned above, your submission should be in the same format as the sample
 submission file, and the only thing that will be changed is the ratings column.
-Use `src/run.py` as a starting point, as it has a function to create
-correctly formatted submission files.
 
 
 ## Note on running your script with Spark
