@@ -1,4 +1,4 @@
-# Objective: Tell Users Which Movies to Watch
+# Movie Recommender Case Study
 
 Today you are going to have a little friendly competition with your classmates.
 
