@@ -1,31 +1,38 @@
 # Objective: Tell Users Which Movies to Watch
 
 Today you are going to have a little friendly competition with your classmates.
+
 You are going to building a recommendation system based off data from the
 [MovieLens dataset](http://grouplens.org/datasets/movielens/). It includes movie
 information, user information, and the users' ratings. Your goal is to build a
 recommendation system and to suggest movies to users!
 
-
-## Datasets available, datasets not available
-
 The **movies data** and **user data** are in `data/movies.dat` and `data/users.dat`.
 
-The **ratings data** can be found in `data/training.csv`. The users' ratings have been broken into a training and test set for you (the split has been done by keeping the most recent 20% of the ratings for the testing set).
+The **ratings data** can be found in `data/training.csv`. The users' ratings have been broken into a training and test set for you (to obtain the testing set, we have split the 20% of **the most recent** ratings).
 
-You are provided a **request** file in `data/requests.csv`. It contains a list of `user,movie` for which you need to predict the (missing) `rating` column.
 
-Your **score** will be measured based on how well you predict the ratings for the users' ratings compared to our test set. At the end of the day, we will collect your predicted ratings and provide a score.
+## Your mission [read carefully]
+
+You are provided a **request** file in `data/requests.csv`. It contains a list of `user,movie` pairs.
+
+**Your mission** is to provide a rating for each of those `user,movie` pairs. You will submit a csv file with three columns `user,movie,rating` as created by the script `src/run.py` (see below).
+
+We ask you to **provide this submission file via a link to your github repository** (the master of your group).
+
+Your **score** will be measured based on how well you predict the ratings for the users' ratings compared to our test set. At the end of the day, we will collect your predicted ratings and provide a score (see below).
 
 
 ## How to implement your recommender
 
-The file `src/recommender.py` is your main template for creating your recommender. You can work from this file and implement whatever strategy you think is best. You need to implement both the `.fit()` and the `.predict()` methods.
+The file `src/recommender.py` is your main template for creating your recommender. You can work from this file and implement whatever strategy you think is best. You need to implement both the `.fit()` and the `.transform()` methods.
+
+**Tips**: You might want to consider working in a notebook first, in order to establish a proper training strategy (proof of concept). In practice, it is not necessary to implement the file `src/recommender.py` to provide a submission file (a notebook can perfectly do that without running through `src/run.py`). If you don't do that during the case study, eventually we recommend you to try to integrate your implementation into the `src/recommender.py` file.
 
 
 ## How to run your recommender
 
-`src/run.py` has been prepared for your convenience (doesn't need modification). By executing it you create an instance of your `Recommender`, feeds it with the training data and outputs the results in a file.
+`src/run.py` has been prepared for your convenience (doesn't need modification). By executing it you create an instance of a `MovieRecommender` class (see file `src/recommender.py`), feeds it with the training data and outputs the results in a file.
 
 It outputs a _properly formatted_ file of recommendations for you!
 
@@ -50,7 +57,6 @@ When running this script, **you need to** specify your prediction output file as
 ```bash
 python src/run.py data/sample_submission.csv
 ```
-
 
 ## How we will submit your prediction for scoring
 
