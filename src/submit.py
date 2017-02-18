@@ -38,7 +38,7 @@ if __name__ == "__main__":
         logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s',
                             datefmt='%m/%d/%Y %I:%M:%S %p',
                             level=logging.DEBUG)
-    logger = logging.getLogger()
+    logger = logging.getLogger('reco-cs')
 
     path_testing_ = args.testing if args.testing else "data/testing.csv"
     logger.debug("using groundtruth from {}".format(path_testing_))
@@ -54,4 +54,6 @@ if __name__ == "__main__":
 
     actual_data = pd.read_csv(path_testing_)
 
-    logger.debug("score={}".format(compute_score(prediction_data, actual_data)))
+    score = compute_score(prediction_data, actual_data)
+    print(score)
+    logger.debug("score={}".format(score))

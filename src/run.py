@@ -3,7 +3,7 @@ import logging
 import argparse
 from recommender import MovieRecommender     # the class you have to develop
 import pandas as pd
-
+from log import configure_logging
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -15,14 +15,10 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.silent:
-        logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s',
-                            datefmt='%m/%d/%Y %I:%M:%S %p',
-                            level=logging.INFO)
+        configure_logging('INFO')
     else:
-        logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s',
-                            datefmt='%m/%d/%Y %I:%M:%S %p',
-                            level=logging.DEBUG)
-    logger = logging.getLogger()
+        configure_logging('DEBUG')
+    logger = logging.getLogger('reco-cs')
 
 
     path_train_ = args.train if args.train else "data/training.csv"
@@ -33,22 +29,27 @@ if __name__ == "__main__":
 
     logger.debug("using output as {}".format(args.outputfile[0]))
 
-    # REQUESTS: reading from input file into pandas
+    # Reading REQUEST SET from input file into pandas
     request_data = pd.read_csv(path_requests_)
 
-    # TRAINING: reading from input file into pandas
+    # Reading TRAIN SET from input file into pandas
     train_data = pd.read_csv(path_train_)
 
     # Creating an instance of your recommender with the right parameters
     reco_instance = MovieRecommender()
 
+    # fits on training data, returns a MovieRecommender object
     model = reco_instance.fit(train_data)
-    result_y = model.predict(request_data)
 
-    if result_y.shape[0] != request_data.shape[0]:
-        logger.critical("return prediction column has the wrong size ({} requests, {} predictions)".format(request_data.shape[0],result_y.shape[0]))
+    # apply predict on request_data, returns a dataframe
+    result_data = model.transform(request_data)
+
+    # test if the format of results is ok
+    if (result_data.shape[0] != request_data.shape[0]) or (result_data.shape[1] != 3):
+        logger.critical(
+                        "wrong shape of prediction (request={} expected={})"\
+                        .format(result_data.shape,(request_data.shape[0],3))
+                        )
         sys.exit(-1)
 
-    result_data = request_data
-    result_data['rating'] = result_y
     result_data.to_csv(args.outputfile[0], index=False)
