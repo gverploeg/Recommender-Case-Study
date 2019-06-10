@@ -11,6 +11,7 @@ The **movies data** and **user data** are in `data/movies.dat` and `data/users.d
 
 The **ratings data** can be found in `data/training.csv`. The users' ratings have been broken into a training and test set for you (to obtain the testing set, we have split the 20% of **the most recent** ratings).
 
+You can get **additional metadata** by downloading [The Movies Dataset](https://www.kaggle.com/rounakbanik/the-movies-dataset/version/7). This may be useful for creating NLP (content-based) features, which could be part of your team's solution to the "cold start" problem. (Remember to start with a simple model first!)
 
 ## Your mission [read carefully]
 
