@@ -51,8 +51,8 @@ Means**.  We see that some users like to rate things highly---others
 simply do not.  Some items are just better or worse.  We can capture
 these general trends through per-user and per-item rating means. We
 also incorporate the global mean to smooth things out a bit. So if we
-see a missing value in cell $$R_{ij}$$, we'll average the global
-mean with the mean of $$U_i$$ and the mean of $$V_j$$ and use
+see a missing value in cell $R_{ij}$, we'll average the global
+mean with the mean of $U_i$ and the mean of $V_j$ and use
 that value to fill it in.
 
 We would like you to use this as a baseline when making your
