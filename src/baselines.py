@@ -81,8 +81,8 @@ if __name__ == "__main__":
     data = Dataset.load_builtin('ml-100k')
     print("\nGlobal Mean...")
     algo = GlobalMean()
-    cross_validate(algo, data)
-
+    cross_validate(algo, data, measures=['RMSE', 'MAE'], cv=5, verbose=True)
+    
     print("\nMeanOfMeans...")
     algo = MeanofMeans()
-    cross_validate(algo, data)
+    cross_validate(algo, data, measures=['RMSE', 'MAE'], cv=5, verbose=True)
