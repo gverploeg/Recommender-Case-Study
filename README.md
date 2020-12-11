@@ -27,7 +27,7 @@ Currently, the company uses their **Mean of Means** solution, which captures the
 
 ### Initial Data
 The data used to evaluate the current **Mean of Means** model, as well as build our new recommender model is from the [MovieLens dataset](https://grouplens.org/datasets/movielens/). The small sample dataset we are using consists of four csv files:
--  ```movies.csv```: 193,609 movies listed with a unique ```movieId```, their title and the genres to which the movie belongs
+-  ```movies.csv```: 193,609 movies listed with a unique ```movieId```, their title and the genres to which the movie belongs--our small sample has about 9,700 movies
 -  ```ratings.csv```: Ratings ranging between 0.5 to 5.0 from 610 users with unique ```userId``` for various movies linked by their unique ```movieId```
 -  ```tags.csv```: User identified tags for each movie specified by the unique ```userId``` and ```movieId```
 -  ```links.csv```: ??
@@ -36,9 +36,10 @@ The data used to evaluate the current **Mean of Means** model, as well as build 
 
 
 ## New Recommender Model
-
+solved the problem
 
 ## Analysis and Business Advice
+found more problems and here are some more innovative solutions
 
 <div align="center"> 
 <img src="images/kayla.png" class="center">
