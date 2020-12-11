@@ -7,10 +7,6 @@
 
 ![](images/kayla.png)  
 
- 
-
-[source](https://www.facebook.com/MRPJD/photos/a.113642393607538/116536716651439)  
-
 ## Table of Contents
 1. [Background](#background)
 2. [Data](#data)
@@ -24,6 +20,7 @@ Our data science team has been tasked with proposing a new movie recommender pla
 Currently, the company uses their **Mean of Means** solution, which captures the general per-user and per-item trends of rating movies. If there are any missing ratings, the model averages the global mean along with the mean of the user and item ratings to fill in the value.   
 
 ![](images/movie_banner.jpg) 
+[source](https://www.facebook.com/MRPJD/photos/a.113642393607538/116536716651439)  
 
 ## Data  
 
