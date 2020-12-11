@@ -1,6 +1,6 @@
 *DS_Store*
 *.py[cod]
 *.gitignore
-# *.csv
+
 __pycache__/
 *.json
