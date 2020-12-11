@@ -34,8 +34,26 @@ The data used to evaluate the current **Mean of Means** model, as well as build 
 
 ### Merged Data: PySpark, SQL & Pandas
 
+## New Recommender Model(s)
 
-## New Recommender Model
+## Recommender Models in Development
+### **The Pedro**
+This algorithm facilitates the ability to tune recommendations to an emphasis of interest: 
+* The user to movie dial
+  * here we can choose how much to weight a user's own reviews versus a movie's overall reviews.
+* The personality to honesty dial
+  * the effect of users whose reviews don't vary much can be controlled here. The carmudgeon-factor and the I-only-give-give-reviews factor can be addressed here.  
+![](images/tune-it.png)
+### **We Met at the Movies**
+Our models improve performance metrics, but it is difficult to make that meaningful in the context of what you really care about measuring. We are trying to measure how good you are at giving people what they want. What do people want in the context of movies? The same thing people want in the context of everything. Connection.  
+Your product isn't movies. It's connection. Let's provide connection!  
 
+> **kismet** fate, destiny, your movie soul-mates  
+We have (almost) developed a way to walk through movies to each other and make new recommendations. 
+This algorithm creates a group, a kismet, of people with the same movie-personality, and collection of recommended movies that the kismet hasn't seen. We would like to expand the rating interface to include space for kismets to connect by rating and discussing new movies. In addition to increasing personal connections, we are also genrating more data for better and better recommendations!
+* users must opt-in to ensure that all kismet members are open to connection
+* caveat that untoward behavior will buy them a ticket out of their kismet(s)
+
+**BEST PART:** even unwanted recommendations give the kismet something to connect about...we are providing connection, remember?
 
 ## Analysis and Business Advice
