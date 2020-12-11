@@ -95,10 +95,3 @@ if __name__ == "__main__":
     algo = MeanofMeans()
     cross_validate(algo, data, measures=['RMSE', 'MAE'], cv=3, verbose=True)
   
-    a = cross_validate(GlobalMean(), data, measures=['RMSE', 'MAE'], cv=5)
-    global_rmse, global_mae = get_mean_errors(a, 'test_rmse', 'test_mae')
-    print('Mean RMSE: {}'.format(global_rmse))
-
-    b = cross_validate(MeanofMeans(), data, measures=['RMSE', 'MAE'], cv=5)
-    mom_rmse, mom_mae = get_mean_errors(b, 'test_rmse', 'test_mae')
-    print('Mean RMSE: {}'.format(mom_rmse))
