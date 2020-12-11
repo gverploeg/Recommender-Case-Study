@@ -1,0 +1,1776 @@
+,userId,movieId,title,tag,rating,tag_amount
+0,2,60756,Step Brothers (2008),funny / Highly quotable / will ferrell,5.0,3
+1,2,89774,Warrior (2011),Boxing story / MMA / Tom Hardy,5.0,3
+2,2,106782,"Wolf of Wall Street, The (2013)",drugs / Leonardo DiCaprio / Martin Scorsese,5.0,3
+3,7,48516,"Departed, The (2006)",way too long,1.0,1
+4,18,431,Carlito's Way (1993),Al Pacino / gangster / mafia,4.0,3
+5,18,1221,"Godfather: Part II, The (1974)",Al Pacino / Mafia,5.0,2
+6,18,5995,"Pianist, The (2002)",holocaust / true story,4.5,2
+7,18,44665,Lucky Number Slevin (2006),twist ending,4.5,1
+8,18,52604,Fracture (2007),Anthony Hopkins / courtroom drama / twist ending,4.5,3
+9,18,88094,Upside Down: The Creation Records Story (2010),britpop / indie record label / music,3.0,3
+10,18,144210,Just Eat It: A Food Waste Story (2014),dumpster diving / Sustainability,4.0,2
+11,21,1569,My Best Friend's Wedding (1997),romantic comedy / wedding,,2
+12,21,118985,Big Eyes (2014),painter,,1
+13,21,119141,The Interview (2014),bloody,0.5,1
+14,49,109487,Interstellar (2014),black hole / sci-fi / time-travel,4.5,3
+15,62,2,Jumanji (1995),fantasy / magic board game / Robin Williams,4.0,3
+16,62,110,Braveheart (1995),beautiful scenery / epic / historical / inspirational / Medieval / mel gibson / Oscar (Best Cinematography) / revenge / sword fight,4.5,9
+17,62,410,Addams Family Values (1993),black comedy / Christina Ricci / Christopher Lloyd / dark comedy / family / gothic,4.5,6
+18,62,2023,"Godfather: Part III, The (1990)",Al Pacino / Andy Garcia / Classic / Francis Ford Coppola / mafia,5.0,5
+19,62,2124,"Addams Family, The (1991)",black comedy / Christina Ricci / Christopher Lloyd / Family / gothic / quirky,5.0,6
+20,62,2953,Home Alone 2: Lost in New York (1992),family / funny / Macaulay Culkin / sequel,3.5,4
+21,62,3114,Toy Story 2 (1999),animation / Disney / funny / original / Pixar / sequel / Tom Hanks,3.0,7
+22,62,3578,Gladiator (2000),ancient Rome / Epic / history / imdb top 250 / revenge / Rome / Russell Crowe,4.5,7
+23,62,4223,Enemy at the Gates (2001),Ed Harris / Jude Law / Rachel Weisz / sniper / World War II,4.5,5
+24,62,5388,Insomnia (2002),Al Pacino / atmospheric / Hilary Swank / Robin Williams,4.5,4
+25,62,6058,Final Destination 2 (2003),sequel / violent,3.5,2
+26,62,6534,Hulk (2003),dogs / Eric Bana / mad scientist / marvel,3.5,4
+27,62,6541,"League of Extraordinary Gentlemen, The (a.k.a. LXG) (2003)",captain nemo / comic book / gothic / Peta Wilson / Sean Connery / superhero,3.5,6
+28,62,6564,Lara Croft Tomb Raider: The Cradle of Life (2003),adventure / Angelina Jolie / heroine in tight suit,3.5,3
+29,62,7153,"Lord of the Rings: The Return of the King, The (2003)",Adventure / ensemble cast / fantasy / fantasy world / great soundtrack / lord of the rings / scenic / stylized / Tolkien,5.0,9
+30,62,8641,Anchorman: The Legend of Ron Burgundy (2004),hilarious / Steve Carell / Will Ferrell,4.0,3
+31,62,27660,"Animatrix, The (2003)",animation / anime / cyberpunk / dark / Matrix / sci-fi,4.5,6
+32,62,27706,Lemony Snicket's A Series of Unfortunate Events (2004),dark comedy / Jim Carrey / meryl streep / quirky / stylized,4.0,5
+33,62,27808,Spanglish (2004),Adam Sandler / family / sweet,4.0,3
+34,62,27831,Layer Cake (2004),British gangster / confusing / daniel craig / Exquisite plotting. / organized crime / stylish / Tom Hardy,4.5,7
+35,62,31658,Howl's Moving Castle (Hauru no ugoku shiro) (2004),anime / fantasy world / Hayao Miyazaki / Studio Ghibli,3.5,4
+36,62,33162,Kingdom of Heaven (2005),David Thewlis / Eva Green / Liam Neeson / Orlando Bloom,4.0,4
+37,62,34150,Fantastic Four (2005),Chris Evans / comic book / heroine in tight suit / Jessica Alba / sexy female scientist / superhero,3.0,6
+38,62,37729,Corpse Bride (2005),gothic / helena bonham carter / Johnny Depp / Tim Burton / visually appealing,4.0,5
+39,62,38061,Kiss Kiss Bang Bang (2005),black comedy / clever / fast-paced dialogue / good dialogue / Robert Downey Jr. / witty,4.0,6
+40,62,45447,"Da Vinci Code, The (2006)",adventure / Audrey Tautou / conspiracy theory / Mystery / Paris / Tom Hanks / treasure hunt,3.5,7
+41,62,46723,Babel (2006),Brad Pitt / cate blanchett / multiple storylines / social commentary,3.0,4
+42,62,46972,Night at the Museum (2006),Ben Stiller / Robin Williams,4.0,2
+43,62,46976,Stranger than Fiction (2006),emma thompson / Maggie Gyllenhaal / modern fantasy / romance / surreal / Will Ferrell,4.0,6
+44,62,49130,"Good Year, A (2006)",Marion Cotillard,4.0,1
+45,62,49530,Blood Diamond (2006),Africa / corruption / Jennifer Connelly / justice / Leonardo DiCaprio,4.5,5
+46,62,53464,Fantastic Four: Rise of the Silver Surfer (2007),bad acting / bad jokes / bad plot / Chris Evans / Jessica Alba / Marvel / sexy female scientist,3.0,7
+47,62,58047,"Definitely, Maybe (2008)",Rachel Weisz / Ryan Reynolds,3.5,2
+48,62,59501,"Chronicles of Narnia: Prince Caspian, The (2008)",fantasy / lion / narnia / Tilda Swinton,4.0,4
+49,62,60074,Hancock (2008),bad script / Charlize Theron / Will Smith,3.0,3
+50,62,60126,Get Smart (2008),Anne Hathaway / Steve Carell,3.0,2
+51,62,60756,Step Brothers (2008),comedy / funny / will ferrell,3.5,3
+52,62,61024,Pineapple Express (2008),comedy / James Franco / Seth Rogen / Stoner Movie,4.0,4
+53,62,63992,Twilight (2008),audience intelligence underestimated / boring / chick flick / overrated / Teen movie,1.0,5
+54,62,68848,"Brothers Bloom, The (2008)",Adrien Brody / con artists / funny / interesting characters / Mark Ruffalo / Rachel Weisz,4.0,6
+55,62,71535,Zombieland (2009),Bill Murray / dark comedy / Emma Stone / funny / Jesse Eisenberg / Woody Harrelson,3.5,6
+56,62,87430,Green Lantern (2011),audience intelligence underestimated / CGI / cheesy / comic book / DC / DC Comics / Ryan Reynolds / space / superhero,3.5,9
+57,62,88405,Friends with Benefits (2011),comedy / funny / happy ending / HOT actress / Justin Timberlake / Mila Kunis / New York City / romance / sex,3.5,9
+58,62,96861,Taken 2 (2012),Istanbul / Liam Neeson / predictable / Turkey / unnecessary sequel,3.5,5
+59,62,99114,Django Unchained (2012),action / Christoph Waltz / funny / good soundtrack / Great performances / Humour / Leonardo DiCaprio / Quentin Tarantino / Samuel L. Jackson / Soundtrack / western,5.0,11
+60,62,103042,Man of Steel (2013),Amy Adams / superhero,3.5,2
+61,62,104863,What If (2013),daniel radcliffe / zoe kazan,4.0,2
+62,62,107348,Anchorman 2: The Legend Continues (2013),comedy / Steve Carell / stupid but funny / will ferrell,4.0,4
+63,62,108190,Divergent (2014),anti-intellectual / bad writing / dystopia / new society / plot holes / predictable / scifi / unintelligent,3.0,8
+64,62,111743,A Million Ways to Die in the West (2014),Charlize Theron / Liam Neeson / Seth MacFarlane / witty,3.5,4
+65,62,114180,"Maze Runner, The (2014)",action / dystopia / plot holes / post-apocalyptic / survival / thriller / unexplained / weak plot,3.5,8
+66,62,115149,John Wick (2014),dark hero / gun-fu / Keanu Reeves / Revenge / secret society / stylish,5.0,6
+67,62,116897,Wild Tales (2014),black comedy / dark comedy / dark humor / ironic / multiple short stories / short stories,4.0,6
+68,62,119141,The Interview (2014),bromance / comedy / funny / James Franco / Seth Rogen,3.0,5
+69,62,122912,Avengers: Infinity War - Part I (2018),comic book / Dr. Strange / Great villain / Guardians of the Galaxy / Marvel / MCU / Robert Downey Jr. / Thanos / Thor / Visually stunning,4.0,10
+70,62,128360,The Hateful Eight (2015),characters / Dialogue / humor / Kurt Russell / Quentin Tarantino / Samuel L. Jackson / tension building / violent / Western,5.0,9
+71,62,135133,The Hunger Games: Mockingjay - Part 2 (2015),dystopia / Jennifer Lawrence / love story / nonsense / politics / rebellion / revolution,3.5,7
+72,62,135518,Self/less (2015),Ben Kingsley / ethics / immortality / ryan reynolds,3.5,4
+73,62,135536,Suicide Squad (2016),Bad story / Bad writing / Batman / Ben Affleck / comic book / dc comics / good soundtrack / Harley Quinn / Harley Quinn's ass / Horrible directing / Jared Leto / Joker / lack of plot / Margot Robbie / Poor story / poorly paced / superhero / visually appealing / Will Smith,4.0,19
+74,62,136864,Batman v Superman: Dawn of Justice (2016),action / batman / ben affleck / dark / dc comics / Gal Gadot / superhero / superman / wonderwoman,4.0,9
+75,62,139385,The Revenant (2015),leonardo DiCarpio / survival / tom hardy / visually appealing,4.0,4
+76,62,158966,Captain Fantastic (2016),building a family / creative / freedom / good writing / individualism / Viggo Mortensen,4.5,6
+77,62,168248,John Wick: Chapter Two (2017),action / dark hero / gun tactics / hitman / Keanu Reeves / organized crime / secret society,4.5,7
+78,62,174053,Black Mirror: White Christmas (2014),Dystopia / future / interesting / jon hamm / thought provoking,5.0,5
+79,62,179401,Jumanji: Welcome to the Jungle (2017),Action / Comedy / Dwayne Johnson / funny,3.5,4
+80,62,183611,Game Night (2018),Comedy / funny / Rachel McAdams,4.0,3
+81,62,184471,Tomb Raider (2018),adventure / Alicia Vikander / video game adaptation,3.5,3
+82,62,187593,Deadpool 2 (2018),Josh Brolin / Ryan Reynolds / sarcasm,4.0,3
+83,62,187595,Solo: A Star Wars Story (2018),Emilia Clarke / star wars,4.0,2
+84,63,260,Star Wars: Episode IV - A New Hope (1977),classic / space action,5.0,2
+85,76,260,Star Wars: Episode IV - A New Hope (1977),action / sci-fi,4.0,2
+86,103,260,Star Wars: Episode IV - A New Hope (1977),EPIC / great soundtrack,4.0,2
+87,103,296,Pulp Fiction (1994),good dialogue / great soundtrack / non-linear,5.0,3
+88,106,4896,Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001),Everything you want is here,5.0,1
+89,106,106489,"Hobbit: The Desolation of Smaug, The (2013)",adventure,5.0,1
+90,112,260,Star Wars: Episode IV - A New Hope (1977),classic sci-fi / engrossing adventure / EPIC,5.0,3
+91,119,260,Star Wars: Episode IV - A New Hope (1977),classic / Nerd,,2
+92,119,101142,"Croods, The (2013)",animation / funny / stone age,4.0,3
+93,119,115149,John Wick (2014),action / killer / widows/widowers,4.5,3
+94,119,115617,Big Hero 6 (2014),animation / kids / robots,5.0,3
+95,119,120635,Taken 3 (2015),action / murder / police,4.5,3
+96,125,1726,"Postman, The (1997)",Kevin Costner / Post apocalyptic,4.5,2
+97,125,2387,Very Bad Things (1998),dark comedy / dark humor,4.5,2
+98,125,3052,Dogma (1999),irreverent / jay and silent bob / Kevin Smith / satire,5.0,4
+99,125,5088,"Going Places (Valseuses, Les) (1974)",irreverent,5.0,1
+100,125,7022,Battle Royale (Batoru rowaiaru) (2000),based on a book / bloody / brutal / controversial / dystopia / goretastic / satire / social commentary / survival / violence,5.0,10
+101,125,7254,The Butterfly Effect (2004),alternate reality / sci-fi / science fiction / time travel,5.0,4
+102,125,8957,Saw (2004),brutal / clever / Disturbing / great ending / mindfuck / surprise ending / suspense,5.0,7
+103,125,9010,Love Me If You Dare (Jeux d'enfants) (2003),cruel characters,5.0,1
+104,125,42632,Lady Vengeance (Sympathy for Lady Vengeance) (Chinjeolhan geumjassi) (2005),brutality,5.0,1
+105,125,58301,Funny Games U.S. (2007),dark humor,5.0,1
+106,125,60950,Vicky Cristina Barcelona (2008),threesome,5.0,1
+107,125,62434,Zack and Miri Make a Porno (2008),Seth Rogen / Sexual Humor,4.5,2
+108,125,67695,Observe and Report (2009),Seth Rogen,5.0,1
+109,125,100083,Movie 43 (2013),embarassing scenes / offensive / R language / sarcasm / satire,5.0,5
+110,125,156371,Everybody Wants Some (2016),80's,4.0,1
+111,125,158872,Sausage Party (2016),Crude humor / mindfuck / sarcasm / satire / Vulgar,5.0,5
+112,132,3556,"Virgin Suicides, The (1999)",sofia coppola,4.0,1
+113,132,6323,Identity (2003),John Cusack,3.0,1
+114,132,6367,Down with Love (2003),Ewan McGregor / Renee Zellweger,3.0,2
+115,138,59103,"Forbidden Kingdom, The (2008)",jackie chan / kung fu,4.5,2
+116,161,52287,Meet the Robinsons (2007),Something for everyone in this one... saw it without and plan on seeing it with kids!,4.0,1
+117,166,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),assassin / Jean Reno,4.5,2
+118,166,54286,"Bourne Ultimatum, The (2007)",assassin / assassin-in-training (scene) / espionage / Robert Ludlum,5.0,4
+119,167,104,Happy Gilmore (1996),test tag,4.0,1
+120,177,115617,Big Hero 6 (2014),feel-good / fun family movie / very funny,5.0,3
+121,184,2579,Following (1998),black and white / Christopher Nolan / directorial debut / mindfuck / not linear / Twist Ending,4.0,6
+122,184,3793,X-Men (2000),action / comic book / hugh jackman / marvel / superhero,3.5,5
+123,184,4226,Memento (2000),dark / Mindfuck / nonlinear / psychology / twist ending,5.0,5
+124,184,4896,Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001),alan rickman / harry potter / humorous / Magic,3.5,4
+125,184,5388,Insomnia (2002),atmospheric / insomnia / thought-provoking,3.5,3
+126,184,6283,Cowboy Bebop: The Movie (Cowboy Bebop: Tengoku no Tobira) (2001),amazing artwork / anime / sci-fi,4.0,3
+127,184,27156,"Neon Genesis Evangelion: The End of Evangelion (Shin seiki Evangelion Gekijô-ban: Air/Magokoro wo, kimi ni) (1997)",anime / end of the world / epic / mecha / psychology,4.5,5
+128,184,193565,Gintama: The Movie (2010),anime / comedy / gintama / remaster,3.5,4
+129,193,260,Star Wars: Episode IV - A New Hope (1977),classic sci-fi / space action / space epic,5.0,3
+130,193,4878,Donnie Darko (2001),atmospheric / cult film / dreamlike / hallucinatory / psychological / surreal / time travel,4.0,7
+131,193,7147,Big Fish (2003),dreamlike / sentimental / surreal / Tim Burton,3.5,4
+132,193,7361,Eternal Sunshine of the Spotless Mind (2004),alternate reality / memory / thought-provoking,,3
+133,193,97938,Life of Pi (2012),cinematography / India / surreal,4.0,3
+134,205,260,Star Wars: Episode IV - A New Hope (1977),oldie but goodie / sci-fi / Star Wars,4.5,3
+135,226,6938,Billabong Odyssey (2003),big wave / surfing,4.0,2
+136,226,48780,"Prestige, The (2006)",ummarti2006,4.0,1
+137,256,126548,The DUFF (2015),funny / high school,4.5,2
+138,274,68319,X-Men Origins: Wolverine (2009),comic book,2.5,1
+139,288,7020,Proof (1991),Notable Nudity,,1
+140,289,3,Grumpier Old Men (1995),moldy / old,2.5,2
+141,289,527,Schindler's List (1993),moving,,1
+142,289,1101,Top Gun (1986),predictable,2.0,1
+143,291,50872,Ratatouille (2007),a clever chef rat / inspirational,5.0,2
+144,291,102007,"Invincible Iron Man, The (2007)",animation,3.0,1
+145,291,118696,The Hobbit: The Battle of the Five Armies (2014),hope,4.0,1
+146,300,6711,Lost in Translation (2003),atmospheric,5.0,1
+147,305,4034,Traffic (2000),drugs,4.5,1
+148,305,4995,"Beautiful Mind, A (2001)",mathematics,5.0,1
+149,305,6502,28 Days Later (2002),zombies,5.0,1
+150,305,6953,21 Grams (2003),DEPRESSING,1.0,1
+151,305,8641,Anchorman: The Legend of Ron Burgundy (2004),stupid,3.0,1
+152,305,34405,Serenity (2005),predictable,2.5,1
+153,305,55721,Elite Squad (Tropa de Elite) (2007),Favelas,5.0,1
+154,305,83134,Tucker & Dale vs Evil (2010),black comedy,5.0,1
+155,318,778,Trainspotting (1996),based on a book / dark comedy / narrated,4.0,3
+156,318,4612,Jesus of Montreal (Jésus de Montréal) (1989),reciprocal spectator,4.5,1
+157,318,4708,Marat/Sade (1966),reciprocal spectator,5.0,1
+158,318,6400,Murder on a Sunday Morning (Un coupable idéal) (2001),documentary,,1
+159,318,30892,In the Realms of the Unreal (2004),Animation / Documentary / Henry Darger,,3
+160,318,48698,Deliver Us from Evil (2006),the catholic church is the most corrupt organization in history,,1
+161,318,64034,"Boy in the Striped Pajamas, The (Boy in the Striped Pyjamas, The) (2008)",childish naivity / friendship,4.0,2
+162,318,68954,Up (2009),adventure / Bechdel Test:Fail / cartoon / children / computer animation / divorce / dogs / dreams / Pixar,4.0,9
+163,318,71494,"Haunted World of El Superbeasto, The (2009)",Narrative pisstake,3.5,1
+164,318,81158,Restrepo (2010),american idolatry,3.0,1
+165,318,82459,True Grit (2010),atmospheric / Coen Brothers / Jeff Bridges / Matt Damon / predictable,5.0,5
+166,318,90769,Starsuckers (2009),celebrity fetishism / mediacentralism / system holism,4.0,3
+167,318,96084,Hands Over the City (Le mani sulla città) (1963),city politics / italy / political right versus left,4.5,3
+168,318,111364,Godzilla (2014),Creature Feature,3.0,1
+169,318,118784,Good Copy Bad Copy (2007),documentary / music industry / remix culture,3.5,3
+170,318,127172,A Story of Children and Film (2013),film history / poetic / representation of children,3.5,3
+171,319,364,"Lion King, The (1994)",Disney / Disney animated feature / Oscar (Best Music - Original Score),5.0,3
+172,327,1288,This Is Spinal Tap (1984),music,4.0,1
+173,327,1923,There's Something About Mary (1998),Ben Stiller,5.0,1
+174,327,2616,Dick Tracy (1990),comic book,3.5,1
+175,327,3481,High Fidelity (2000),music,5.0,1
+176,327,3897,Almost Famous (2000),music,4.0,1
+177,327,8641,Anchorman: The Legend of Ron Burgundy (2004),awesome,5.0,1
+178,327,51255,Hot Fuzz (2007),british comedy,3.5,1
+179,336,1,Toy Story (1995),pixar,4.0,1
+180,336,153,Batman Forever (1995),superhero,,1
+181,336,552,"Three Musketeers, The (1993)",knights,3.0,1
+182,336,1246,Dead Poets Society (1989),highschool,4.5,1
+183,336,32587,Sin City (2005),cult,4.0,1
+184,336,33660,Cinderella Man (2005),boksdrama,4.5,1
+185,336,34162,Wedding Crashers (2005),stiller,4.0,1
+186,336,36529,Lord of War (2005),wapendrama,4.0,1
+187,336,37729,Corpse Bride (2005),animation,2.5,1
+188,336,38798,In Her Shoes (2005),sisters,3.5,1
+189,341,260,Star Wars: Episode IV - A New Hope (1977),ROBOTS AND ANDROIDS / space,,2
+190,356,2146,St. Elmo's Fire (1985),post-college,4.5,1
+191,356,37384,Waiting... (2005),restaurant,5.0,1
+192,356,40955,Breakfast on Pluto (2005),transvestite,4.0,1
+193,356,44889,Reefer Madness: The Movie Musical (2005),satire,5.0,1
+194,356,61323,Burn After Reading (2008),dark comedy,5.0,1
+195,357,39,Clueless (1995),chick flick / funny / Paul Rudd / quotable / seen more than once,4.5,5
+196,357,1059,William Shakespeare's Romeo + Juliet (1996),Amazing Cinematography / Leonardo DiCaprio / shakespeare / updated classics,4.5,4
+197,357,2762,"Sixth Sense, The (1999)",Atmospheric / Bruce Willis / ghosts / imdb top 250 / mindfuck / stylized / twist ending,5.0,7
+198,357,4370,A.I. Artificial Intelligence (2001),android(s)/cyborg(s) / artificial intelligence / Bittersweet / Steven Spielberg,4.0,4
+199,357,5464,Road to Perdition (2002),cinematography / Tom Hanks,4.0,2
+200,357,7078,Jezebel (1938),Bette Davis / Oscar (Best Actress),5.0,2
+201,357,7444,13 Going on 30 (2004),Mark Ruffalo,4.5,1
+202,357,7451,Mean Girls (2004),clever / High School / lesbian subtext,4.5,3
+203,357,48516,"Departed, The (2006)",Leonardo DiCaprio / suspense / twist ending / undercover cop,4.0,4
+204,357,54997,3:10 to Yuma (2007),Christian Bale,4.0,1
+205,357,55290,Gone Baby Gone (2007),Casey Affleck / great performances / twist,5.0,3
+206,357,91500,The Hunger Games (2012),ending,4.5,1
+207,357,91529,"Dark Knight Rises, The (2012)",Anne Hathaway / Christian Bale / Christopher Nolan / comic book / great ending / Morgan Freeman / political commentary / superhero,4.5,8
+208,419,98961,Zero Dark Thirty (2012),Afghanistan / American propaganda / assassination / military / terrorism,5.0,5
+209,424,32,Twelve Monkeys (a.k.a. 12 Monkeys) (1995),time travel,3.5,1
+210,424,47,Seven (a.k.a. Se7en) (1995),mystery / twist ending,5.0,2
+211,424,50,"Usual Suspects, The (1995)",mindfuck / suspense / thriller / tricky / twist ending,5.0,5
+212,424,147,"Basketball Diaries, The (1995)",addiction / heroin / Leonardo DiCaprio / Mark Wahlberg,3.5,4
+213,424,175,Kids (1995),controversial / New York City / Nudity (Full Frontal),4.5,3
+214,424,223,Clerks (1994),cynical / hilarious / independent film / quirky / witty,3.5,5
+215,424,260,Star Wars: Episode IV - A New Hope (1977),classic sci-fi / sci-fi / space adventure / Star Wars,,4
+216,424,288,Natural Born Killers (1994),brutality / controversial / dark comedy / psychedelic / satire / stylized,4.0,6
+217,424,296,Pulp Fiction (1994),cult film / drugs / Quentin Tarantino / Tarantino,4.5,4
+218,424,364,"Lion King, The (1994)",soundtrack,4.5,1
+219,424,527,Schindler's List (1993),thought-provoking,,1
+220,424,541,Blade Runner (1982),sci-fi,,1
+221,424,589,Terminator 2: Judgment Day (1991),apocalypse / Arnold Schwarzenegger / nuclear war / sci-fi / Suspense / time travel,2.0,6
+222,424,608,Fargo (1996),based on a true story / dark comedy / KIDNAPPING / Steve Buscemi,3.5,4
+223,424,628,Primal Fear (1996),edward norton / psychology / suspense / thought-provoking / twist ending,5.0,5
+224,424,1089,Reservoir Dogs (1992),ensemble cast / nonlinear / Quentin Tarantino / stylized,3.5,4
+225,424,1120,"People vs. Larry Flynt, The (1996)",freedom of expression,3.5,1
+226,424,1136,Monty Python and the Holy Grail (1975),british comedy / Monty Python,,2
+227,424,1193,One Flew Over the Cuckoo's Nest (1975),emotional / jack nicholson,4.0,2
+228,424,1198,Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),adventure / archaeology / indiana jones / Steven Spielberg / treasure hunt,,5
+229,424,1200,Aliens (1986),action / aliens / horror / sci-fi / space / space craft / SPACE TRAVEL / suspense,,8
+230,424,1219,Psycho (1960),Alfred Hitchcock / psychology / suspenseful / tense,4.0,4
+231,424,1240,"Terminator, The (1984)",Action / artificial intelligence / robots / Sci-Fi / special effects / tense / time travel,,7
+232,424,1258,"Shining, The (1980)",atmospheric / disturbing / Horror / jack nicholson / masterpiece / psychological / Stanley Kubrick / suspense,4.5,8
+233,424,1343,Cape Fear (1991),horror / Juliette Lewis / Martin Scorsese / Robert De Niro,4.5,4
+234,424,1625,"Game, The (1997)",mindfuck / Mystery / plot twist / psychological / suspense / twist ending,4.5,6
+235,424,1704,Good Will Hunting (1997),inspirational,4.0,1
+236,424,1921,Pi (1998),hallucinatory / mental illness / mindfuck / paranoid,3.5,4
+237,424,1923,There's Something About Mary (1998),Ben Stiller / crude humor / goofy,3.5,3
+238,424,2160,Rosemary's Baby (1968),Atmospheric / creepy / paranoia / scary / suspense,4.5,5
+239,424,2296,"Night at the Roxbury, A (1998)",SNL,3.0,1
+240,424,2329,American History X (1998),thought-provoking,4.0,1
+241,424,2505,8MM (1999),Nicolas Cage,3.5,1
+242,424,2571,"Matrix, The (1999)",martial arts / sci-fi,2.0,2
+243,424,2700,"South Park: Bigger, Longer and Uncut (1999)",adult humor / controversial / crude humor / free speech / parody / satire / south park / Trey Parker,5.0,8
+244,424,2959,Fight Club (1999),dark comedy / psychology / thought-provoking / twist ending,4.5,4
+245,424,3176,"Talented Mr. Ripley, The (1999)",based on a book / creepy / disturbing / Jude Law / murder / obsession / psychology / secrets / serial killer / suspense,5.0,10
+246,424,3186,"Girl, Interrupted (1999)",asylum / based on a true story / Brittany Murphy / Mental Hospital / psychology / winona ryder,3.5,6
+247,424,3499,Misery (1990),claustrophobic / horror / scary / stephen king / suspenseful / tense / thriller,3.5,7
+248,424,3527,Predator (1987),aliens / sci-fi / scifi cult,,3
+249,424,3911,Best in Show (2000),satire,3.5,1
+250,424,3948,Meet the Parents (2000),comedy / Robert De Niro,4.5,2
+251,424,4226,Memento (2000),mystery / psychological / twist ending,4.5,3
+252,424,4262,Scarface (1983),Al Pacino,3.5,1
+253,424,4816,Zoolander (2001),ben stiller / comedy / David Bowie / goofy / mindless one liners / Will Ferrell,3.0,6
+254,424,4878,Donnie Darko (2001),jake gyllenhaal,,1
+255,424,4993,"Lord of the Rings: The Fellowship of the Ring, The (2001)",fantasy / high fantasy / Magic / mythology / tolkien / wizards,,6
+256,424,5291,Rashomon (Rashômon) (1950),black and white / samurai,,2
+257,424,6016,City of God (Cidade de Deus) (2002),multiple storylines / true story,,2
+258,424,6188,Old School (2003),comedy / Will Ferrell,4.5,2
+259,424,6290,House of 1000 Corpses (2003),Rob Zombie,4.5,1
+260,424,7361,Eternal Sunshine of the Spotless Mind (2004),jim carrey,,1
+261,424,8641,Anchorman: The Legend of Ron Burgundy (2004),comedy / Will Ferrell,4.5,2
+262,424,8950,The Machinist (2004),Christian Bale / creepy / powerful ending / psychology / schizophrenia / twist ending,4.5,6
+263,424,27020,Gia (1998),drugs / lesbian,3.5,2
+264,424,30825,Meet the Fockers (2004),Ben Stiller / Robert De Niro,3.5,2
+265,424,34323,"Devil's Rejects, The (2005)",Rob Zombie,4.5,1
+266,424,40278,Jarhead (2005),Jake Gyllenhaal / Modern war,4.0,2
+267,424,48516,"Departed, The (2006)",atmospheric / Jack Nicholson / Leonardo DiCaprio / Martin Scorsese / suspense,4.5,5
+268,424,53127,Bug (2007),based on a play / conspiracy theory / creepy / Insanity / paranoia / PTSD,3.5,6
+269,424,60756,Step Brothers (2008),funny / will ferrell,4.0,2
+270,424,66097,Coraline (2009),claymation / creepy / dark / dark fairy tale / Surreal / Tim Burton,4.5,6
+271,424,68157,Inglourious Basterds (2009),black comedy / Brad Pitt / Christoph Waltz / Quentin Tarantino / satire,4.5,5
+272,424,74458,Shutter Island (2010),insanity / Leonardo DiCaprio / Martin Scorsese / plot twist / psychological / Psychological Thriller / thought-provoking,5.0,7
+273,424,79132,Inception (2010),action / alternate reality / Leonardo DiCaprio / sci-fi / thought-provoking / visually appealing,2.5,6
+274,424,81562,127 Hours (2010),stranded,,1
+275,424,81591,Black Swan (2010),alter ego / atmospheric / creepy / horror / obsession / surreal,3.5,6
+276,424,102903,Now You See Me (2013),illusions / overcomplicated / predictable / stupid ending,1.5,4
+277,424,104879,Prisoners (2013),absorbing / acting / atmospheric / Hugh Jackman / Jake Gyllenhaal / morality / mystery / thriller,5.0,8
+278,424,106100,Dallas Buyers Club (2013),Jared Leto / social commentary / uplifting,4.0,3
+279,424,106489,"Hobbit: The Desolation of Smaug, The (2013)",fantasy / Tolkien / too long,,3
+280,424,109487,Interstellar (2014),Christopher Nolan / sci-fi / time-travel,,3
+281,424,112515,"Babadook, The (2014)",atmospheric / dark / Metaphorical / psychological,4.5,4
+282,424,112556,Gone Girl (2014),annoying / Stupid ending,1.0,2
+283,435,750,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),dark comedy,,1
+284,435,2959,Fight Club (1999),dark comedy,5.0,1
+285,435,58559,"Dark Knight, The (2008)",psychology / superhero,5.0,2
+286,439,5952,"Lord of the Rings: The Two Towers, The (2002)",Myth,4.0,1
+287,439,98809,"Hobbit: An Unexpected Journey, The (2012)",Action / Myth,3.5,2
+288,462,152711,Who Killed Chea Vichea? (2010),Cambodia / crime / human rights / murder / procedural,5.0,5
+289,474,1,Toy Story (1995),pixar,4.0,1
+290,474,2,Jumanji (1995),game,3.0,1
+291,474,5,Father of the Bride Part II (1995),pregnancy / remake,1.5,2
+292,474,7,Sabrina (1995),remake,3.0,1
+293,474,11,"American President, The (1995)",politics / president,2.5,2
+294,474,14,Nixon (1995),politics / president,3.0,2
+295,474,16,Casino (1995),Mafia,4.0,1
+296,474,17,Sense and Sensibility (1995),Jane Austen,5.0,1
+297,474,21,Get Shorty (1995),Hollywood,4.0,1
+298,474,22,Copycat (1995),serial killer,3.0,1
+299,474,25,Leaving Las Vegas (1995),alcoholism,3.5,1
+300,474,26,Othello (1995),Shakespeare,3.5,1
+301,474,28,Persuasion (1995),In Netflix queue / Jane Austen,4.5,2
+302,474,29,"City of Lost Children, The (Cité des enfants perdus, La) (1995)",kidnapping,3.5,1
+303,474,31,Dangerous Minds (1995),high school / teacher,3.0,2
+304,474,32,Twelve Monkeys (a.k.a. 12 Monkeys) (1995),time travel,4.0,1
+305,474,34,Babe (1995),Animal movie / pigs,4.5,2
+306,474,36,Dead Man Walking (1995),death penalty / Nun,5.0,2
+307,474,38,It Takes Two (1995),twins,1.0,1
+308,474,39,Clueless (1995),Emma / Jane Austen,3.5,2
+309,474,40,"Cry, the Beloved Country (1995)",In Netflix queue / South Africa,,2
+310,474,41,Richard III (1995),Shakespeare,3.5,1
+311,474,43,Restoration (1995),England,3.5,1
+312,474,45,To Die For (1995),Journalism,4.0,1
+313,474,46,How to Make an American Quilt (1995),wedding,3.0,1
+314,474,47,Seven (a.k.a. Se7en) (1995),serial killer,4.0,1
+315,474,50,"Usual Suspects, The (1995)",heist,4.0,1
+316,474,52,Mighty Aphrodite (1995),adoption / prostitution,4.0,2
+317,474,58,"Postman, The (Postino, Il) (1994)",writing,3.5,1
+318,474,62,Mr. Holland's Opus (1995),music,2.5,1
+319,474,92,Mary Reilly (1996),Jekyll and Hyde,3.5,1
+320,474,96,In the Bleak Midwinter (1995),theater,3.5,1
+321,474,101,Bottle Rocket (1996),crime,3.5,1
+322,474,104,Happy Gilmore (1996),golf,2.0,1
+323,474,107,Muppet Treasure Island (1996),muppets,3.0,1
+324,474,110,Braveheart (1995),Scotland,3.0,1
+325,474,111,Taxi Driver (1976),assassination,4.0,1
+326,474,116,Anne Frank Remembered (1995),Holocaust,3.5,1
+327,474,122,Boomerang (1992),dating,1.0,1
+328,474,140,Up Close and Personal (1996),journalism,2.5,1
+329,474,150,Apollo 13 (1995),moon / NASA / space,4.5,3
+330,474,153,Batman Forever (1995),superhero,3.0,1
+331,474,160,Congo (1995),Michael Crichton,1.0,1
+332,474,161,Crimson Tide (1995),submarine,3.5,1
+333,474,162,Crumb (1994),In Netflix queue,3.5,1
+334,474,185,"Net, The (1995)",computers,3.0,1
+335,474,199,"Umbrellas of Cherbourg, The (Parapluies de Cherbourg, Les) (1964)",Made me cry,4.5,1
+336,474,215,Before Sunrise (1995),generation X,3.5,1
+337,474,216,Billy Madison (1995),school,1.0,1
+338,474,222,Circle of Friends (1995),Ireland,4.0,1
+339,474,223,Clerks (1994),generation X,3.5,1
+340,474,224,Don Juan DeMarco (1995),mental illness / psychology,3.5,2
+341,474,230,Dolores Claiborne (1995),Stephen King,3.5,1
+342,474,232,Eat Drink Man Woman (Yin shi nan nu) (1994),In Netflix queue,4.0,1
+343,474,235,Ed Wood (1994),movie business,4.0,1
+344,474,237,Forget Paris (1995),basketball / France / infertility,3.5,3
+345,474,246,Hoop Dreams (1994),basketball,4.0,1
+346,474,247,Heavenly Creatures (1994),Australia,4.0,1
+347,474,249,Immortal Beloved (1994),Beethoven,4.0,1
+348,474,252,I.Q. (1994),Einstein,2.0,1
+349,474,257,Just Cause (1995),court,3.0,1
+350,474,260,Star Wars: Episode IV - A New Hope (1977),darth vader / luke skywalker / space opera,4.0,3
+351,474,261,Little Women (1994),Louisa May Alcott,4.0,1
+352,474,262,"Little Princess, A (1995)",England / Girl Power / India,4.0,3
+353,474,272,"Madness of King George, The (1994)",England / mental illness,3.5,2
+354,474,277,Miracle on 34th Street (1994),Christmas,2.0,1
+355,474,279,My Family (1995),In Netflix queue,,1
+356,474,280,Murder in the First (1995),prison,3.0,1
+357,474,282,Nell (1994),disability / twins,3.0,2
+358,474,290,Once Were Warriors (1994),In Netflix queue,,1
+359,474,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),hit men,3.5,1
+360,474,296,Pulp Fiction (1994),hit men,4.0,1
+361,474,300,Quiz Show (1994),TV,4.0,1
+362,474,307,Three Colors: Blue (Trois couleurs: Bleu) (1993),Death,4.5,1
+363,474,308,Three Colors: White (Trzy kolory: Bialy) (1994),marriage,4.0,1
+364,474,316,Stargate (1994),time travel,3.5,1
+365,474,317,"Santa Clause, The (1994)",Christmas,2.0,1
+366,474,318,"Shawshank Redemption, The (1994)",prison / Stephen King / wrongful imprisonment,5.0,3
+367,474,326,To Live (Huozhe) (1994),In Netflix queue,,1
+368,474,329,Star Trek: Generations (1994),Enterprise,4.0,1
+369,474,337,What's Eating Gilbert Grape (1993),mental illness,4.0,1
+370,474,338,Virtuosity (1995),serial killer,3.0,1
+371,474,339,While You Were Sleeping (1995),coma,3.5,1
+372,474,342,Muriel's Wedding (1994),Australia / weddings,3.5,2
+373,474,345,"Adventures of Priscilla, Queen of the Desert, The (1994)",cross dressing / men in drag / remade,3.5,3
+374,474,349,Clear and Present Danger (1994),Tom Clancy,3.0,1
+375,474,350,"Client, The (1994)",John Grisham,3.0,1
+376,474,351,"Corrina, Corrina (1994)",interracial romance,2.0,1
+377,474,356,Forrest Gump (1994),shrimp / Vietnam,3.0,2
+378,474,357,Four Weddings and a Funeral (1994),wedding,3.0,1
+379,474,361,It Could Happen to You (1994),gambling,3.5,1
+380,474,363,"Wonderful, Horrible Life of Leni Riefenstahl, The (Macht der Bilder: Leni Riefenstahl, Die) (1993)",Holocaust / In Netflix queue,,2
+381,474,364,"Lion King, The (1994)",Disney,4.5,1
+382,474,371,"Paper, The (1994)",journalism,3.0,1
+383,474,377,Speed (1994),bus,4.0,1
+384,474,380,True Lies (1994),spies,4.0,1
+385,474,381,When a Man Loves a Woman (1994),alcoholism,2.5,1
+386,474,412,"Age of Innocence, The (1993)",Edith Wharton,4.0,1
+387,474,421,Black Beauty (1994),horses,3.5,1
+388,474,425,Blue Sky (1994),mental illness / Oscar (Best Actress),3.5,2
+389,474,440,Dave (1993),President,4.5,1
+390,474,454,"Firm, The (1993)",John Grisham,4.0,1
+391,474,457,"Fugitive, The (1993)",based on a TV show,5.0,1
+392,474,471,"Hudsucker Proxy, The (1994)",hula hoop,3.0,1
+393,474,474,In the Line of Fire (1993),assassination,3.5,1
+394,474,475,In the Name of the Father (1993),Ireland,4.0,1
+395,474,477,What's Love Got to Do with It? (1993),biopic,3.5,1
+396,474,480,Jurassic Park (1993),Dinosaur,4.5,1
+397,474,488,M. Butterfly (1993),Japan / sexuality,3.0,2
+398,474,497,Much Ado About Nothing (1993),Shakespeare,5.0,1
+399,474,500,Mrs. Doubtfire (1993),cross dressing / divorce / men in drag,2.5,3
+400,474,508,Philadelphia (1993),AIDs,3.0,1
+401,474,513,Radioland Murders (1994),radio / show business,3.5,2
+402,474,515,"Remains of the Day, The (1993)",Butler / Housekeeper,5.0,2
+403,474,516,Renaissance Man (1994),military,2.0,1
+404,474,522,Romper Stomper (1992),Australia / racism / violence,3.5,3
+405,474,524,Rudy (1993),football,2.5,1
+406,474,527,Schindler's List (1993),Holocaust,5.0,1
+407,474,529,Searching for Bobby Fischer (1993),chess,4.0,1
+408,474,531,"Secret Garden, The (1993)",In Netflix queue,,1
+409,474,534,Shadowlands (1993),C.S. Lewis,5.0,1
+410,474,535,Short Cuts (1993),large cast,4.0,1
+411,474,538,Six Degrees of Separation (1993),race,3.5,1
+412,474,539,Sleepless in Seattle (1993),Empire State Building,4.5,1
+413,474,541,Blade Runner (1982),robots,3.0,1
+414,474,543,So I Married an Axe Murderer (1993),beat poetry,4.5,1
+415,474,551,"Nightmare Before Christmas, The (1993)",Christmas / Halloween,3.0,2
+416,474,556,"War Room, The (1993)",politics,3.0,1
+417,474,562,Welcome to the Dollhouse (1995),adolescence,4.0,1
+418,474,586,Home Alone (1990),christmas,2.0,1
+419,474,587,Ghost (1990),overrated,3.0,1
+420,474,588,Aladdin (1992),Disney,4.0,1
+421,474,589,Terminator 2: Judgment Day (1991),robots,4.0,1
+422,474,590,Dances with Wolves (1990),American Indians / Native Americans,3.5,2
+423,474,592,Batman (1989),superhero,4.0,1
+424,474,593,"Silence of the Lambs, The (1991)",Hannibal Lector,4.5,1
+425,474,594,Snow White and the Seven Dwarfs (1937),Disney,3.0,1
+426,474,595,Beauty and the Beast (1991),Disney,5.0,1
+427,474,596,Pinocchio (1940),Disney,2.0,1
+428,474,597,Pretty Woman (1990),prostitution,4.0,1
+429,474,608,Fargo (1996),Coen Brothers,4.0,1
+430,474,616,"Aristocats, The (1970)",Disney,3.5,1
+431,474,628,Primal Fear (1996),priest,3.0,1
+432,474,638,Jack and Sarah (1995),babies,3.0,1
+433,474,647,Courage Under Fire (1996),Gulf War,3.0,1
+434,474,648,Mission: Impossible (1996),based on a TV show,3.5,1
+435,474,668,Song of the Little Road (Pather Panchali) (1955),India,3.5,1
+436,474,670,"World of Apu, The (Apur Sansar) (1959)",India,4.5,1
+437,474,671,Mystery Science Theater 3000: The Movie (1996),spoof,3.5,1
+438,474,673,Space Jam (1996),Bugs Bunny,1.5,1
+439,474,708,"Truth About Cats & Dogs, The (1996)",Veterinarian,4.5,1
+440,474,720,Wallace & Gromit: The Best of Aardman Animation (1996),Aardman,4.0,1
+441,474,728,Cold Comfort Farm (1995),In Netflix queue,3.5,1
+442,474,733,"Rock, The (1996)",Alcatraz,4.0,1
+443,474,736,Twister (1996),Disaster,2.0,1
+444,474,745,Wallace & Gromit: A Close Shave (1995),Aardman,4.0,1
+445,474,748,"Arrival, The (1996)",aliens,3.5,1
+446,474,750,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),Atomic bomb,4.5,1
+447,474,778,Trainspotting (1996),drug abuse,4.0,1
+448,474,780,Independence Day (a.k.a. ID4) (1996),aliens,4.0,1
+449,474,800,Lone Star (1996),In Netflix queue,,1
+450,474,805,"Time to Kill, A (1996)",John Grisham,3.0,1
+451,474,818,"Very Brady Sequel, A (1996)",based on a TV show,3.0,1
+452,474,830,"First Wives Club, The (1996)",adultery,2.0,1
+453,474,832,Ransom (1996),kidnapping,2.0,1
+454,474,838,Emma (1996),Jane Austen,3.0,1
+455,474,852,Tin Cup (1996),golf,2.0,1
+456,474,858,"Godfather, The (1972)",Mafia,5.0,1
+457,474,892,Twelfth Night (1996),Shakespeare,3.0,1
+458,474,898,"Philadelphia Story, The (1940)",divorce,4.0,1
+459,474,899,Singin' in the Rain (1952),movie business,4.0,1
+460,474,900,"American in Paris, An (1951)",France,3.5,1
+461,474,902,Breakfast at Tiffany's (1961),Capote,3.5,1
+462,474,903,Vertigo (1958),falling,4.5,1
+463,474,904,Rear Window (1954),voyeurism,4.0,1
+464,474,905,It Happened One Night (1934),Screwball,5.0,1
+465,474,906,Gaslight (1944),Brooch,5.0,1
+466,474,907,"Gay Divorcee, The (1934)",divorce,3.0,1
+467,474,908,North by Northwest (1959),Mount Rushmore,3.5,1
+468,474,909,"Apartment, The (1960)",adultery,4.0,1
+469,474,910,Some Like It Hot (1959),men in drag,4.0,1
+470,474,911,Charade (1963),heist,3.5,1
+471,474,912,Casablanca (1942),start of a beautiful friendship,5.0,1
+472,474,913,"Maltese Falcon, The (1941)",statue,4.0,1
+473,474,914,My Fair Lady (1964),George Bernard Shaw,4.5,1
+474,474,915,Sabrina (1954),rich guy - poor girl,4.0,1
+475,474,916,Roman Holiday (1953),Italy / royalty,4.0,2
+476,474,918,Meet Me in St. Louis (1944),1900s,3.5,1
+477,474,919,"Wizard of Oz, The (1939)",Dorothy / Toto,4.5,2
+478,474,920,Gone with the Wind (1939),Civil War,2.0,1
+479,474,921,My Favorite Year (1982),television,3.0,1
+480,474,922,Sunset Blvd. (a.k.a. Sunset Boulevard) (1950),movies,4.0,1
+481,474,923,Citizen Kane (1941),Rosebud,4.5,1
+482,474,924,2001: A Space Odyssey (1968),Hal / space,4.0,2
+483,474,926,All About Eve (1950),Hollywood,4.5,1
+484,474,927,"Women, The (1939)",divorce,4.0,1
+485,474,928,Rebecca (1940),Mrs. DeWinter,5.0,1
+486,474,929,Foreign Correspondent (1940),Europe / journalism / war,3.5,3
+487,474,930,Notorious (1946),assassination,4.0,1
+488,474,931,Spellbound (1945),amnesia,3.5,1
+489,474,934,Father of the Bride (1950),wedding,3.0,1
+490,474,936,Ninotchka (1939),Cold War / Russia,4.0,2
+491,474,938,Gigi (1958),prostitution,2.5,1
+492,474,940,"Adventures of Robin Hood, The (1938)",swashbuckler,3.5,1
+493,474,941,"Mark of Zorro, The (1940)",swashbuckler,3.5,1
+494,474,943,"Ghost and Mrs. Muir, The (1947)",ghosts,3.5,1
+495,474,944,Lost Horizon (1937),Shangri-La,4.0,1
+496,474,945,Top Hat (1935),Astaire and Rogers,4.5,1
+497,474,947,My Man Godfrey (1936),butler / homeless / screwball,3.5,3
+498,474,948,Giant (1956),oil,4.0,1
+499,474,950,"Thin Man, The (1934)",Nick and Nora Charles,4.0,1
+500,474,951,His Girl Friday (1940),Screwball,4.5,1
+501,474,952,Around the World in 80 Days (1956),race,3.0,1
+502,474,953,It's a Wonderful Life (1946),Christmas,3.5,1
+503,474,954,Mr. Smith Goes to Washington (1939),Politics,4.5,1
+504,474,955,Bringing Up Baby (1938),leopard / screwball,4.0,2
+505,474,956,Penny Serenade (1941),adoption,4.0,1
+506,474,965,"39 Steps, The (1935)",fugitive,4.0,1
+507,474,968,Night of the Living Dead (1968),zombies,4.0,1
+508,474,969,"African Queen, The (1951)",missionary,5.0,1
+509,474,970,Beat the Devil (1953),crime,3.5,1
+510,474,971,Cat on a Hot Tin Roof (1958),Tennessee Williams,3.5,1
+511,474,973,Meet John Doe (1941),journalism,3.5,1
+512,474,976,"Farewell to Arms, A (1932)",Hemingway,3.0,1
+513,474,986,Fly Away Home (1996),Animal movie,4.0,1
+514,474,991,Michael Collins (1996),Ireland,3.0,1
+515,474,994,Big Night (1996),food,3.5,1
+516,474,1006,"Chamber, The (1996)",death penalty / John Grisham,3.5,2
+517,474,1010,"Love Bug, The (1969)",Disney / race,3.0,2
+518,474,1013,"Parent Trap, The (1961)",twins,3.0,1
+519,474,1022,Cinderella (1950),Disney,4.0,1
+520,474,1025,"Sword in the Stone, The (1963)",Disney / King Arthur,3.0,2
+521,474,1028,Mary Poppins (1964),Disney / nanny,3.0,2
+522,474,1029,Dumbo (1941),Disney,3.0,1
+523,474,1030,Pete's Dragon (1977),Disney,2.0,1
+524,474,1032,Alice in Wonderland (1951),Disney,2.0,1
+525,474,1033,"Fox and the Hound, The (1981)",Disney,4.5,1
+526,474,1035,"Sound of Music, The (1965)",Rogers and Hammerstein,5.0,1
+527,474,1041,Secrets & Lies (1996),In Netflix queue,4.5,1
+528,474,1042,That Thing You Do! (1996),Music,4.5,1
+529,474,1059,William Shakespeare's Romeo + Juliet (1996),Shakespeare,4.5,1
+530,474,1066,Shall We Dance (1937),Astaire and Rogers,4.0,1
+531,474,1068,Crossfire (1947),anti-Semitism,3.5,1
+532,474,1076,"Innocents, The (1961)",governess,,1
+533,474,1079,"Fish Called Wanda, A (1988)",fish,4.5,1
+534,474,1080,Monty Python's Life of Brian (1979),Bible / parody / religion,3.0,3
+535,474,1081,Victor/Victoria (1982),cross dressing,3.5,1
+536,474,1082,"Candidate, The (1972)",politics,3.5,1
+537,474,1084,Bonnie and Clyde (1967),1920s / gangsters,3.5,2
+538,474,1088,Dirty Dancing (1987),dance / music,3.5,2
+539,474,1089,Reservoir Dogs (1992),heist / violence,4.0,2
+540,474,1090,Platoon (1986),Vietnam,3.5,1
+541,474,1093,"Doors, The (1991)",1960s / Jim Morrison / music,3.0,3
+542,474,1096,Sophie's Choice (1982),Holocaust,2.5,1
+543,474,1097,E.T. the Extra-Terrestrial (1982),aliens,4.0,1
+544,474,1101,Top Gun (1986),Navy,3.5,1
+545,474,1103,Rebel Without a Cause (1955),1950s / adolescence,4.0,2
+546,474,1104,"Streetcar Named Desire, A (1951)",Tennessee Williams,4.0,1
+547,474,1124,On Golden Pond (1981),aging,4.0,1
+548,474,1125,"Return of the Pink Panther, The (1975)",Clousseau,3.0,1
+549,474,1135,Private Benjamin (1980),military,2.0,1
+550,474,1136,Monty Python and the Holy Grail (1975),England / King Arthur,4.5,2
+551,474,1147,When We Were Kings (1996),boxing / In Netflix queue,3.0,2
+552,474,1148,Wallace & Gromit: The Wrong Trousers (1993),Aardman,4.0,1
+553,474,1171,Bob Roberts (1992),politics,4.0,1
+554,474,1177,Enchanted April (1992),Italy,5.0,1
+555,474,1178,Paths of Glory (1957),court / military,3.5,2
+556,474,1179,"Grifters, The (1990)",crime,3.5,1
+557,474,1183,"English Patient, The (1996)",adultery,2.0,1
+558,474,1185,My Left Foot (1989),In Netflix queue,4.0,1
+559,474,1187,Passion Fish (1992),disability,4.0,1
+560,474,1188,Strictly Ballroom (1992),Australia / dance,5.0,2
+561,474,1189,"Thin Blue Line, The (1988)",In Netflix queue / police,4.0,2
+562,474,1193,One Flew Over the Cuckoo's Nest (1975),mental illness,3.5,1
+563,474,1196,Star Wars: Episode V - The Empire Strikes Back (1980),I am your father / space / space opera,5.0,3
+564,474,1197,"Princess Bride, The (1987)",Inigo Montoya / six-fingered man,4.5,2
+565,474,1198,Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),archaeology / ark of the covenant / indiana jones,4.0,3
+566,474,1200,Aliens (1986),space,3.5,1
+567,474,1201,"Good, the Bad and the Ugly, The (Buono, il brutto, il cattivo, Il) (1966)",spaghetti western,3.5,1
+568,474,1203,12 Angry Men (1957),court,4.0,1
+569,474,1204,Lawrence of Arabia (1962),Middle East,4.0,1
+570,474,1206,"Clockwork Orange, A (1971)",brainwashing,3.5,1
+571,474,1207,To Kill a Mockingbird (1962),Harper Lee / racism,4.0,2
+572,474,1208,Apocalypse Now (1979),Vietnam,3.5,1
+573,474,1209,Once Upon a Time in the West (C'era una volta il West) (1968),spaghetti western,3.5,1
+574,474,1210,Star Wars: Episode VI - Return of the Jedi (1983),darth vader / luke skywalker / space opera,4.0,3
+575,474,1212,"Third Man, The (1949)",ferris wheel / Venice / zither,4.0,3
+576,474,1213,Goodfellas (1990),Mafia,3.5,1
+577,474,1214,Alien (1979),aliens,4.0,1
+578,474,1217,Ran (1985),samurai,4.0,1
+579,474,1219,Psycho (1960),Norman Bates,4.5,1
+580,474,1220,"Blues Brothers, The (1980)",Saturday Night Live,3.0,1
+581,474,1221,"Godfather: Part II, The (1974)",Mafia,5.0,1
+582,474,1222,Full Metal Jacket (1987),Vietnam,4.0,1
+583,474,1223,"Grand Day Out with Wallace and Gromit, A (1989)",moon,4.5,1
+584,474,1224,Henry V (1989),Shakespeare,4.0,1
+585,474,1225,Amadeus (1984),Mozart / Salieri,4.5,2
+586,474,1228,Raging Bull (1980),boxing,3.0,1
+587,474,1230,Annie Hall (1977),New York,4.0,1
+588,474,1231,"Right Stuff, The (1983)",NASA / space,4.0,2
+589,474,1233,"Boot, Das (Boat, The) (1981)",submarine,3.5,1
+590,474,1234,"Sting, The (1973)",The Entertainer,4.0,1
+591,474,1235,Harold and Maude (1971),May-December romance,4.0,1
+592,474,1237,"Seventh Seal, The (Sjunde inseglet, Det) (1957)",chess / death,2.5,2
+593,474,1240,"Terminator, The (1984)",robots,4.0,1
+594,474,1242,Glory (1989),Civil War,4.5,1
+595,474,1243,Rosencrantz and Guildenstern Are Dead (1990),Shakespeare sort of,4.0,1
+596,474,1244,Manhattan (1979),black and white,3.5,1
+597,474,1245,Miller's Crossing (1990),Mafia,3.0,1
+598,474,1246,Dead Poets Society (1989),High School,4.5,1
+599,474,1247,"Graduate, The (1967)",Simon and Garfunkel,5.0,1
+600,474,1249,"Femme Nikita, La (Nikita) (1990)",hit men,3.5,1
+601,474,1250,"Bridge on the River Kwai, The (1957)",POW,4.0,1
+602,474,1252,Chinatown (1974),incest,4.0,1
+603,474,1253,"Day the Earth Stood Still, The (1951)",aliens,4.0,1
+604,474,1254,"Treasure of the Sierra Madre, The (1948)",Cold,4.5,1
+605,474,1257,Better Off Dead... (1985),skiing,3.0,1
+606,474,1258,"Shining, The (1980)",Stephen King,4.0,1
+607,474,1259,Stand by Me (1986),Stephen King,4.0,1
+608,474,1260,M (1931),serial killer,4.0,1
+609,474,1262,"Great Escape, The (1963)",POW,4.0,1
+610,474,1263,"Deer Hunter, The (1978)",Vietnam,3.0,1
+611,474,1266,Unforgiven (1992),revenge,4.0,1
+612,474,1267,"Manchurian Candidate, The (1962)",assassination / brainwashing,4.0,2
+613,474,1269,Arsenic and Old Lace (1944),murder,3.5,1
+614,474,1270,Back to the Future (1985),time travel,4.5,1
+615,474,1272,Patton (1970),World War II,4.0,1
+616,474,1276,Cool Hand Luke (1967),prison,3.5,1
+617,474,1277,Cyrano de Bergerac (1990),In Netflix queue,,1
+618,474,1278,Young Frankenstein (1974),spoof,4.0,1
+619,474,1280,Raise the Red Lantern (Da hong deng long gao gao gua) (1991),In Netflix queue,,1
+620,474,1281,"Great Dictator, The (1940)",Nazis,4.0,1
+621,474,1282,Fantasia (1940),Disney,3.0,1
+622,474,1283,High Noon (1952),gunfight,3.5,1
+623,474,1284,"Big Sleep, The (1946)",Hammett,3.5,1
+624,474,1285,Heathers (1989),high school,4.0,1
+625,474,1288,This Is Spinal Tap (1984),heavy metal / mockumentary / music,4.0,3
+626,474,1291,Indiana Jones and the Last Crusade (1989),archaeology / Holy Grail,4.0,2
+627,474,1292,Being There (1979),television,4.0,1
+628,474,1293,Gandhi (1982),India,4.0,1
+629,474,1296,"Room with a View, A (1986)",E. M. Forster,4.0,1
+630,474,1299,"Killing Fields, The (1984)",Cambodia / Vietnam,3.5,2
+631,474,1301,Forbidden Planet (1956),Shakespeare sort of / space,3.5,2
+632,474,1302,Field of Dreams (1989),baseball,3.5,1
+633,474,1303,"Man Who Would Be King, The (1975)",India,4.0,1
+634,474,1304,Butch Cassidy and the Sundance Kid (1969),crime,3.5,1
+635,474,1307,When Harry Met Sally... (1989),New York,5.0,1
+636,474,1333,"Birds, The (1963)",birds,4.5,1
+637,474,1343,Cape Fear (1991),remake,4.5,1
+638,474,1344,Cape Fear (1962),lawyer,4.5,1
+639,474,1345,Carrie (1976),high school / prom / Stephen King,3.5,3
+640,474,1348,"Nosferatu (Nosferatu, eine Symphonie des Grauens) (1922)",vampires,2.5,1
+641,474,1350,"Omen, The (1976)",demons,4.0,1
+642,474,1353,"Mirror Has Two Faces, The (1996)",personals ads,4.5,1
+643,474,1354,Breaking the Waves (1996),religion,4.5,1
+644,474,1356,Star Trek: First Contact (1996),Borg,5.0,1
+645,474,1358,Sling Blade (1996),ex-con,4.5,1
+646,474,1361,Paradise Lost: The Child Murders at Robin Hood Hills (1996),In Netflix queue,,1
+647,474,1363,"Preacher's Wife, The (1996)",religion,2.5,1
+648,474,1366,"Crucible, The (1996)",Arthur Miller,4.0,1
+649,474,1367,101 Dalmatians (1996),dogs / remake,2.0,2
+650,474,1372,Star Trek VI: The Undiscovered Country (1991),Klingons,4.5,1
+651,474,1374,Star Trek II: The Wrath of Khan (1982),Captain Kirk,4.0,1
+652,474,1376,Star Trek IV: The Voyage Home (1986),whales,4.0,1
+653,474,1377,Batman Returns (1992),superhero,2.0,1
+654,474,1380,Grease (1978),high school,4.0,1
+655,474,1381,Grease 2 (1982),high school,2.0,1
+656,474,1387,Jaws (1975),Shark,4.5,1
+657,474,1389,Jaws 3-D (1983),shark,1.5,1
+658,474,1393,Jerry Maguire (1996),sports,4.5,1
+659,474,1394,Raising Arizona (1987),Coen Brothers,4.5,1
+660,474,1396,Sneakers (1992),spying,4.0,1
+661,474,1398,In Love and War (1996),Hemingway,2.5,1
+662,474,1407,Scream (1996),slasher / spoof,4.0,2
+663,474,1408,"Last of the Mohicans, The (1992)",Hawkeye / James Fennimore Cooper,4.0,2
+664,474,1411,Hamlet (1996),Shakespeare,4.0,1
+665,474,1413,"Whole Wide World, The (1996)",Conan,4.5,1
+666,474,1416,Evita (1996),Andrew Lloyd Weber,2.0,1
+667,474,1423,Hearts and Minds (1996),In Netflix queue / Vietnam,4.0,2
+668,474,1441,Benny & Joon (1993),mental illness,3.0,1
+669,474,1446,Kolya (Kolja) (1996),In Netflix queue,,1
+670,474,1449,Waiting for Guffman (1996),mockumentary,4.0,1
+671,474,1466,Donnie Brasco (1997),Mafia,4.0,1
+672,474,1474,Jungle2Jungle (a.k.a. Jungle 2 Jungle) (1997),jungle,2.0,1
+673,474,1485,Liar Liar (1997),lawyer,3.0,1
+674,474,1496,Anna Karenina (1997),Tolstoy,4.0,1
+675,474,1500,Grosse Pointe Blank (1997),hit men / reunion,4.0,2
+676,474,1513,Romy and Michele's High School Reunion (1997),reunion,3.0,1
+677,474,1537,Shall We Dance? (Shall We Dansu?) (1996),ballroom dance,4.0,1
+678,474,1542,Brassed Off (1996),In Netflix queue,,1
+679,474,1544,"Lost World: Jurassic Park, The (1997)",dinosaurs,1.0,1
+680,474,1545,Ponette (1996),death,4.0,1
+681,474,1569,My Best Friend's Wedding (1997),weddings,4.0,1
+682,474,1573,Face/Off (1997),transplants,4.5,1
+683,474,1580,Men in Black (a.k.a. MIB) (1997),aliens,4.5,1
+684,474,1586,G.I. Jane (1997),military,2.0,1
+685,474,1608,Air Force One (1997),president,3.0,1
+686,474,1610,"Hunt for Red October, The (1990)",Tom Clancy,4.0,1
+687,474,1617,L.A. Confidential (1997),Police,5.0,1
+688,474,1625,"Game, The (1997)",twist ending,4.0,1
+689,474,1635,"Ice Storm, The (1997)",1970s,4.0,1
+690,474,1643,"Mrs. Brown (a.k.a. Her Majesty, Mrs. Brown) (1997)",England / Queen Victoria,3.0,2
+691,474,1645,The Devil's Advocate (1997),lawyers,2.0,1
+692,474,1650,Washington Square (1997),Henry James,4.0,1
+693,474,1653,Gattaca (1997),future,4.5,1
+694,474,1663,Stripes (1981),military,3.0,1
+695,474,1672,"Rainmaker, The (1997)",In Netflix queue,,1
+696,474,1674,Witness (1985),Amish,4.0,1
+697,474,1680,Sliding Doors (1998),alternate universe,4.0,1
+698,474,1682,"Truman Show, The (1998)",TV,4.5,1
+699,474,1683,"Wings of the Dove, The (1997)",Henry James,4.5,1
+700,474,1711,Midnight in the Garden of Good and Evil (1997),Savannah,2.0,1
+701,474,1717,Scream 2 (1997),sequel / slasher / spoof,4.0,3
+702,474,1719,"Sweet Hereafter, The (1997)",Canada / death,4.0,2
+703,474,1721,Titanic (1997),shipwreck,4.0,1
+704,474,1732,"Big Lebowski, The (1998)",Coen Brothers,3.5,1
+705,474,1735,Great Expectations (1998),Charles Dickens,2.0,1
+706,474,1748,Dark City (1998),amnesia,4.0,1
+707,474,1777,"Wedding Singer, The (1998)",1980s,4.5,1
+708,474,1797,Everest (1998),In Netflix queue,4.0,1
+709,474,1810,Primary Colors (1998),politics,2.5,1
+710,474,1834,"Spanish Prisoner, The (1997)",twist ending,4.0,1
+711,474,1836,"Last Days of Disco, The (1998)",No DVD at Netflix,,1
+712,474,1893,Beyond Silence (Jenseits der Stille) (1996),In Netflix queue,4.5,1
+713,474,1900,"Children of Heaven, The (Bacheha-Ye Aseman) (1997)",In Netflix queue,,1
+714,474,1902,Dream for an Insomniac (1996),generation X,4.0,1
+715,474,1909,"X-Files: Fight the Future, The (1998)",conspiracy,4.5,1
+716,474,1912,Out of Sight (1998),heist,4.0,1
+717,474,1913,Picnic at Hanging Rock (1975),Australia,4.0,1
+718,474,1917,Armageddon (1998),space,1.5,1
+719,474,1921,Pi (1998),mathematics,4.0,1
+720,474,1931,Mutiny on the Bounty (1935),ships,4.0,1
+721,474,1938,"Lost Weekend, The (1945)",alcoholism,4.0,1
+722,474,1940,Gentleman's Agreement (1947),anti-Semitism / Judaism,4.0,2
+723,474,1942,All the King's Men (1949),Huey Long / In Netflix queue / Robert Penn Warren,3.5,3
+724,474,1945,On the Waterfront (1954),boxing / coulda been a contender,4.0,2
+725,474,1947,West Side Story (1961),Gangs,5.0,1
+726,474,1950,In the Heat of the Night (1967),racism,3.5,1
+727,474,1951,Oliver! (1968),Dickens,4.0,1
+728,474,1952,Midnight Cowboy (1969),prostitution,4.0,1
+729,474,1953,"French Connection, The (1971)",drugs / police,4.0,2
+730,474,1954,Rocky (1976),boxing / sports,4.0,2
+731,474,1955,Kramer vs. Kramer (1979),divorce,4.5,1
+732,474,1957,Chariots of Fire (1981),Olympics / sports,5.0,2
+733,474,1959,Out of Africa (1985),adultery / Africa,4.0,2
+734,474,1960,"Last Emperor, The (1987)",China,4.0,1
+735,474,1961,Rain Man (1988),autism,4.0,1
+736,474,1962,Driving Miss Daisy (1989),rasicm,4.0,1
+737,474,1975,Friday the 13th Part 2 (1981),Jason,2.0,1
+738,474,1976,Friday the 13th Part 3: 3D (1982),Jason,0.5,1
+739,474,1977,Friday the 13th Part IV: The Final Chapter (1984),Jason,1.5,1
+740,474,1978,Friday the 13th Part V: A New Beginning (1985),Jason,,1
+741,474,1979,Friday the 13th Part VI: Jason Lives (1986),Jason,,1
+742,474,1983,Halloween II (1981),halloween,2.0,1
+743,474,1984,Halloween III: Season of the Witch (1982),halloween,2.0,1
+744,474,1994,Poltergeist (1982),ghosts,4.0,1
+745,474,1995,Poltergeist II: The Other Side (1986),ghosts,2.0,1
+746,474,1996,Poltergeist III (1988),ghosts,1.0,1
+747,474,1997,"Exorcist, The (1973)",demons,4.0,1
+748,474,2006,"Mask of Zorro, The (1998)",California / Mexico,4.0,2
+749,474,2011,Back to the Future Part II (1989),time travel,2.0,1
+750,474,2019,Seven Samurai (Shichinin no samurai) (1954),samurai,4.0,1
+751,474,2020,Dangerous Liaisons (1988),adultery,4.0,1
+752,474,2022,"Last Temptation of Christ, The (1988)",Bible / Katzanzakis,4.0,2
+753,474,2028,Saving Private Ryan (1998),World War II,3.0,1
+754,474,2054,"Honey, I Shrunk the Kids (1989)",Disney,4.0,1
+755,474,2058,"Negotiator, The (1998)",police,4.0,1
+756,474,2059,"Parent Trap, The (1998)",twins,2.0,1
+757,474,2064,Roger & Me (1989),General Motors / Michigan,4.0,2
+758,474,2065,"Purple Rose of Cairo, The (1985)",In Netflix queue,,1
+759,474,2066,Out of the Past (1947),memory,4.0,1
+760,474,2070,Tender Mercies (1983),music,4.0,1
+761,474,2071,And the Band Played On (1993),AIDs / In Netflix queue,,2
+762,474,2076,Blue Velvet (1986),sexuality / suburbia,4.0,2
+763,474,2078,"Jungle Book, The (1967)",Disney,4.0,1
+764,474,2080,Lady and the Tramp (1955),Disney,4.0,1
+765,474,2085,101 Dalmatians (One Hundred and One Dalmatians) (1961),Disney,4.0,1
+766,474,2097,Something Wicked This Way Comes (1983),carnival / Ray Bradbury,3.5,2
+767,474,2100,Splash (1984),mermaid,4.0,1
+768,474,2108,L.A. Story (1991),weather forecaster,4.0,1
+769,474,2114,"Outsiders, The (1983)",S.E. Hinton,4.0,1
+770,474,2115,Indiana Jones and the Temple of Doom (1984),archaeology,2.0,1
+771,474,2116,"Lord of the Rings, The (1978)",Tolkein,2.0,1
+772,474,2118,"Dead Zone, The (1983)",Stephen King,4.0,1
+773,474,2121,Cujo (1983),Stephen King,2.0,1
+774,474,2122,Children of the Corn (1984),Stephen King,1.0,1
+775,474,2139,"Secret of NIMH, The (1982)",mice,4.0,1
+776,474,2145,Pretty in Pink (1986),1980s / high school,4.0,2
+777,474,2160,Rosemary's Baby (1968),demons,4.0,1
+778,474,2167,Blade (1998),vampires,2.0,1
+779,474,2171,Next Stop Wonderland (1998),aquarium / Boston / personals ads,5.0,3
+780,474,2186,Strangers on a Train (1951),murder,4.5,1
+781,474,2187,Stage Fright (1950),theater,3.5,1
+782,474,2194,"Untouchables, The (1987)",Capone / gangsters,4.0,2
+783,474,2202,Lifeboat (1944),survival,4.5,1
+784,474,2203,Shadow of a Doubt (1943),small towns,4.0,1
+785,474,2206,Suspicion (1941),paranoia,4.5,1
+786,474,2208,"Lady Vanishes, The (1938)",train,4.0,1
+787,474,2243,Broadcast News (1987),journalism,4.5,1
+788,474,2247,Married to the Mob (1988),Mafia,2.0,1
+789,474,2248,Say Anything... (1989),In Your Eyes / Lloyd Dobbler,5.0,2
+790,474,2249,My Blue Heaven (1990),Mafia,2.0,1
+791,474,2268,"Few Good Men, A (1992)",court / military,4.0,2
+792,474,2291,Edward Scissorhands (1990),freaks,4.5,1
+793,474,2295,"Impostors, The (1998)",Screwball,5.0,1
+794,474,2300,"Producers, The (1968)",Broadway,4.5,1
+795,474,2302,My Cousin Vinny (1992),court,2.0,1
+796,474,2310,"Mighty, The (1998)",adolescence,4.0,1
+797,474,2312,Children of a Lesser God (1986),death penalty,2.5,1
+798,474,2313,"Elephant Man, The (1980)",freaks,4.5,1
+799,474,2324,Life Is Beautiful (La Vita è bella) (1997),Holocaust,5.0,1
+800,474,2329,American History X (1998),racism,4.0,1
+801,474,2334,"Siege, The (1998)",terrorism,4.0,1
+802,474,2335,"Waterboy, The (1998)",football,2.0,1
+803,474,2336,Elizabeth (1998),England,4.0,1
+804,474,2351,"Nights of Cabiria (Notti di Cabiria, Le) (1957)",In Netflix queue,,1
+805,474,2355,"Bug's Life, A (1998)",Pixar,4.0,1
+806,474,2357,Central Station (Central do Brasil) (1998),South America,4.5,1
+807,474,2360,"Celebration, The (Festen) (1998)",In Netflix queue,,1
+808,474,2390,Little Voice (1998),In Netflix queue,3.5,1
+809,474,2391,"Simple Plan, A (1998)",heist,4.0,1
+810,474,2394,"Prince of Egypt, The (1998)",Bible / Moses,5.0,2
+811,474,2396,Shakespeare in Love (1998),England,4.0,1
+812,474,2410,Rocky III (1982),boxing,2.0,1
+813,474,2411,Rocky IV (1985),boxing,1.0,1
+814,474,2412,Rocky V (1990),boxing,1.5,1
+815,474,2420,"Karate Kid, The (1984)",martial arts,4.0,1
+816,474,2421,"Karate Kid, Part II, The (1986)",martial arts,2.0,1
+817,474,2422,"Karate Kid, Part III, The (1989)",martial arts,2.0,1
+818,474,2423,Christmas Vacation (National Lampoon's Christmas Vacation) (1989),christmas,1.5,1
+819,474,2424,You've Got Mail (1998),e-mail / remake,5.0,2
+820,474,2431,Patch Adams (1998),doctors,1.0,1
+821,474,2442,Hilary and Jackie (1998),In Netflix queue,4.0,1
+822,474,2463,Ruthless People (1986),kidnapping,2.0,1
+823,474,2467,"Name of the Rose, The (Name der Rose, Der) (1986)",religion,3.5,1
+824,474,2470,Crocodile Dundee (1986),Australia,2.0,1
+825,474,2471,Crocodile Dundee II (1988),Australia,1.0,1
+826,474,2491,Simply Irresistible (1999),food,2.0,1
+827,474,2494,"Last Days, The (1998)",Holocaust / Hungary,4.0,2
+828,474,2502,Office Space (1999),stapler / workplace,4.0,2
+829,474,2506,"Other Sister, The (1999)",disability,2.0,1
+830,474,2517,Christine (1983),Stephen King,1.0,1
+831,474,2529,Planet of the Apes (1968),twist ending,4.0,1
+832,474,2550,"Haunting, The (1963)",ghosts,4.0,1
+833,474,2553,Village of the Damned (1960),evil children,3.5,1
+834,474,2554,Children of the Damned (1963),evil children,3.5,1
+835,474,2565,"King and I, The (1956)",Siam,5.0,1
+836,474,2571,"Matrix, The (1999)",alternate universe,4.5,1
+837,474,2572,10 Things I Hate About You (1999),Shakespeare sort of,2.5,1
+838,474,2579,Following (1998),black and white,4.0,1
+839,474,2581,Never Been Kissed (1999),high school,4.0,1
+840,474,2583,Cookie's Fortune (1999),southern US,4.0,1
+841,474,2598,Pushing Tin (1999),golfing,2.0,1
+842,474,2600,eXistenZ (1999),virtual reality,4.0,1
+843,474,2612,Mildred Pierce (1945),motherhood,4.0,1
+844,474,2628,Star Wars: Episode I - The Phantom Menace (1999),prequel / the Force,4.0,2
+845,474,2640,Superman (1978),superhero,4.0,1
+846,474,2641,Superman II (1980),superhero,4.0,1
+847,474,2642,Superman III (1983),superhero,1.5,1
+848,474,2648,Frankenstein (1931),In Netflix queue,3.5,1
+849,474,2660,"Thing from Another World, The (1951)",aliens,3.5,1
+850,474,2664,Invasion of the Body Snatchers (1956),1950s,4.0,1
+851,474,2677,Buena Vista Social Club (1999),In Netflix queue,,1
+852,474,2692,Run Lola Run (Lola rennt) (1998),alternate endings,4.0,1
+853,474,2693,Trekkies (1997),Star Trek,4.0,1
+854,474,2699,Arachnophobia (1990),spiders,,1
+855,474,2710,"Blair Witch Project, The (1999)",claims to be true / video,4.0,2
+856,474,2712,Eyes Wide Shut (1999),sexuality,4.0,1
+857,474,2716,Ghostbusters (a.k.a. Ghost Busters) (1984),ghosts,4.5,1
+858,474,2717,Ghostbusters II (1989),Ghosts,0.5,1
+859,474,2719,"Haunting, The (1999)",remake,1.5,1
+860,474,2723,Mystery Men (1999),superhero,4.5,1
+861,474,2726,"Killing, The (1956)",heist,4.5,1
+862,474,2728,Spartacus (1960),crucifixion / Rome / slavery,4.0,3
+863,474,2745,"Mission, The (1986)",Missionary / Priest,5.0,2
+864,474,2750,Radio Days (1987),nostalgia / radio,3.5,2
+865,474,2761,"Iron Giant, The (1999)",robots,4.0,1
+866,474,2762,"Sixth Sense, The (1999)",ghosts / I see dead people,5.0,2
+867,474,2787,Cat's Eye (1985),Stephen King,2.0,1
+868,474,2791,Airplane! (1980),aviation / spoof,4.0,2
+869,474,2797,Big (1988),children,4.0,1
+870,474,2801,Oscar and Lucinda (a.k.a. Oscar & Lucinda) (1997),gambling,4.5,1
+871,474,2803,"Pelican Brief, The (1993)",lawyers,2.5,1
+872,474,2804,"Christmas Story, A (1983)",Christmas,4.0,1
+873,474,2827,"Astronaut's Wife, The (1999)",aliens,2.0,1
+874,474,2863,"Hard Day's Night, A (1964)",Beatles,4.0,1
+875,474,2871,Deliverance (1972),river,4.0,1
+876,474,2872,Excalibur (1981),England / King Arthur,4.0,2
+877,474,2905,Sanjuro (Tsubaki Sanjûrô) (1962),In Netflix queue,,1
+878,474,2915,Risky Business (1983),prostitution,2.0,1
+879,474,2918,Ferris Bueller's Day Off (1986),High School,4.0,1
+880,474,2919,"Year of Living Dangerously, The (1982)",Academy award (Best Supporting Actress) / Indonesia / journalism,4.0,3
+881,474,2927,Brief Encounter (1946),adultery,4.0,1
+882,474,2935,"Lady Eve, The (1941)",gambling,4.0,1
+883,474,2937,"Palm Beach Story, The (1942)",screwball,4.5,1
+884,474,2939,Niagara (1953),In Netflix queue,,1
+885,474,2940,Gilda (1946),nightclub,4.0,1
+886,474,2941,South Pacific (1958),island,4.0,1
+887,474,2943,Indochine (1992),Vietnam,3.5,1
+888,474,2952,Sydney (Hard Eight) (1996),gambling,4.0,1
+889,474,2959,Fight Club (1999),violence,4.0,1
+890,474,2966,"Straight Story, The (1999)",brothers / lawn mower,4.0,2
+891,474,2967,"Bad Seed, The (1956)",evil children,4.0,1
+892,474,2968,Time Bandits (1981),time travel,4.0,1
+893,474,2987,Who Framed Roger Rabbit? (1988),live action/animation,4.0,1
+894,474,3000,Princess Mononoke (Mononoke-hime) (1997),anime,4.0,1
+895,474,3006,"Insider, The (1999)",tobacco / true story,4.0,2
+896,474,3007,American Movie (1999),In Netflix queue,,1
+897,474,3011,"They Shoot Horses, Don't They? (1969)",dance marathon,4.0,1
+898,474,3028,"Taming of the Shrew, The (1967)",Shakespeare,2.0,1
+899,474,3030,Yojimbo (1961),samurai,4.0,1
+900,474,3039,Trading Places (1983),class,4.0,1
+901,474,3040,Meatballs (1979),camp,1.0,1
+902,474,3044,Dead Again (1991),memory / music,5.0,2
+903,474,3052,Dogma (1999),religion,4.0,1
+904,474,3060,"Commitments, The (1991)",In Netflix queue,,1
+905,474,3071,Stand and Deliver (1988),high school,2.5,1
+906,474,3072,Moonstruck (1987),New York,5.0,1
+907,474,3077,42 Up (1998),In Netflix queue / Up series,,2
+908,474,3081,Sleepy Hollow (1999),Ichabod Crane,2.0,1
+909,474,3087,Scrooged (1988),christmas / new york,1.5,2
+910,474,3095,"Grapes of Wrath, The (1940)",depression / dust bowl,4.5,2
+911,474,3097,"Shop Around the Corner, The (1940)",remade,4.0,1
+912,474,3098,"Natural, The (1984)",baseball / sports,3.5,2
+913,474,3101,Fatal Attraction (1987),adultery,4.0,1
+914,474,3108,"Fisher King, The (1991)",homeless,2.5,1
+915,474,3111,Places in the Heart (1984),racism,4.0,1
+916,474,3114,Toy Story 2 (1999),Pixar,4.0,1
+917,474,3115,Flawless (1999),men in drag,4.0,1
+918,474,3125,"End of the Affair, The (1999)",Graham Greene,4.0,1
+919,474,3135,"Great Santini, The (1979)",fatherhood,4.0,1
+920,474,3147,"Green Mile, The (1999)",Stephen King,4.0,1
+921,474,3152,"Last Picture Show, The (1971)",black-and-white,4.0,1
+922,474,3160,Magnolia (1999),L.A.,5.0,1
+923,474,3174,Man on the Moon (1999),Andy Kaufman,4.0,1
+924,474,3175,Galaxy Quest (1999),spoof,4.0,1
+925,474,3176,"Talented Mr. Ripley, The (1999)",Europe / murder,5.0,2
+926,474,3178,"Hurricane, The (1999)",boxing,2.0,1
+927,474,3181,Titus (1999),Shakespeare,4.5,1
+928,474,3192,"Terrorist, The (a.k.a. Malli) (Theeviravaathi) (1998)",In Netflix queue,,1
+929,474,3210,Fast Times at Ridgemont High (1982),high school,2.0,1
+930,474,3211,"Cry in the Dark, A (1988)",a dingo ate my baby / Australia,4.0,2
+931,474,3247,Sister Act (1992),nuns,2.0,1
+932,474,3250,Alive (1993),In Netflix queue,,1
+933,474,3258,Death Becomes Her (1992),plastic surgery,2.5,1
+934,474,3259,Far and Away (1992),Ireland,2.5,1
+935,474,3260,Howards End (1992),E.M. Forster,4.5,1
+936,474,3263,White Men Can't Jump (1992),basketball,2.0,1
+937,474,3270,"Cutting Edge, The (1992)",figure skating,2.5,1
+938,474,3273,Scream 3 (2000),slasher / spoof,4.0,2
+939,474,3281,"Brandon Teena Story, The (1998)",sexuality,2.0,1
+940,474,3306,"Circus, The (1928)",big top / circus,4.5,2
+941,474,3307,City Lights (1931),blind,4.5,1
+942,474,3310,"Kid, The (1921)",orphans,4.0,1
+943,474,3317,Wonder Boys (2000),writing,4.0,1
+944,474,3330,Splendor in the Grass (1961),adolescence / sexuality,4.0,2
+945,474,3338,For All Mankind (1989),In Netflix queue,,1
+946,474,3341,Born Yesterday (1950),remade,4.0,1
+947,474,3360,Hoosiers (a.k.a. Best Shot) (1986),basketball,3.5,1
+948,474,3384,"Taking of Pelham One Two Three, The (1974)",subway,4.0,1
+949,474,3385,Volunteers (1985),Peace Corp,2.0,1
+950,474,3386,JFK (1991),politics / president,4.0,2
+951,474,3408,Erin Brockovich (2000),scandal / true story,4.0,2
+952,474,3420,...And Justice for All (1979),lawyers,2.5,1
+953,474,3421,Animal House (1978),college / TOGA,2.0,2
+954,474,3424,Do the Right Thing (1989),racism,4.0,1
+955,474,3429,Creature Comforts (1989),aardman,3.5,1
+956,474,3435,Double Indemnity (1944),Insurance,4.0,1
+957,474,3447,"Good Earth, The (1937)",Pearl S Buck,4.0,1
+958,474,3451,Guess Who's Coming to Dinner (1967),Hepburn and Tracy / interracial marriage / prejudice / racism,4.5,4
+959,474,3456,"Color of Paradise, The (Rang-e khoda) (1999)",In Netflix queue,,1
+960,474,3461,Lord of the Flies (1963),island,4.0,1
+961,474,3462,Modern Times (1936),factory,4.5,1
+962,474,3468,"Hustler, The (1961)",pool,3.5,1
+963,474,3469,Inherit the Wind (1960),court / evolution / religion,2.5,3
+964,474,3475,"Place in the Sun, A (1951)",class,4.0,1
+965,474,3481,High Fidelity (2000),Nick Hornby,5.0,1
+966,474,3489,Hook (1991),Peter Pan,4.0,1
+967,474,3498,Midnight Express (1978),In Netflix queue,4.0,1
+968,474,3502,My Life (1993),death,2.5,1
+969,474,3504,Network (1976),journalism,4.0,1
+970,474,3507,"Odd Couple, The (1968)",In Netflix queue,,1
+971,474,3512,Return to Me (2000),transplants,4.5,1
+972,474,3515,Me Myself I (2000),alternate endings,4.0,1
+973,474,3526,Parenthood (1989),families,4.0,1
+974,474,3528,"Prince of Tides, The (1991)",psychiatrist,2.0,1
+975,474,3536,Keeping the Faith (2000),priest / rabbi,4.5,2
+976,474,3546,What Ever Happened to Baby Jane? (1962),show business,4.0,1
+977,474,3548,Auntie Mame (1958),1920s,4.5,1
+978,474,3549,Guys and Dolls (1955),Gambling,5.0,1
+979,474,3552,Caddyshack (1980),golf,2.0,1
+980,474,3556,"Virgin Suicides, The (1999)",1970s / suicide,4.0,2
+981,474,3559,Limelight (1952),In Netflix queue,,1
+982,474,3566,"Big Kahuna, The (2000)",business / religion,4.5,2
+983,474,3608,Pee-wee's Big Adventure (1985),Pee Wee Herman,4.0,1
+984,474,3629,"Gold Rush, The (1925)",mining,4.0,1
+985,474,3675,White Christmas (1954),Christmas,4.5,1
+986,474,3676,Eraserhead (1977),In Netflix queue,,1
+987,474,3683,Blood Simple (1984),Coen Brothers,3.5,1
+988,474,3712,Soapdish (1991),television,2.5,1
+989,474,3723,Hamlet (1990),Shakespeare,4.0,1
+990,474,3724,Coming Home (1978),Vietnam,3.5,1
+991,474,3730,"Conversation, The (1974)",spying,4.0,1
+992,474,3735,Serpico (1973),police,4.0,1
+993,474,3793,X-Men (2000),superhero,4.5,1
+994,474,3801,Anatomy of a Murder (1959),court,4.0,1
+995,474,3811,Breaker Morant (1980),court,4.0,1
+996,474,3816,"Official Story, The (La historia oficial) (1985)",missing children,4.0,1
+997,474,3844,Steel Magnolias (1989),diabetes,2.5,1
+998,474,3849,The Spiral Staircase (1945),disability,4.0,1
+999,474,3859,"Eyes of Tammy Faye, The (2000)",In Netflix queue / televangelist,4.0,2
+1000,474,3877,Supergirl (1984),superhero,2.0,1
+1001,474,3897,Almost Famous (2000),journalism / music / Rolling Stone,4.5,3
+1002,474,3910,Dancer in the Dark (2000),blindness / factory,4.0,2
+1003,474,3911,Best in Show (2000),Dogs,4.5,1
+1004,474,3932,"Invisible Man, The (1933)",invisibility,4.0,1
+1005,474,3949,Requiem for a Dream (2000),drug abuse,4.0,1
+1006,474,3951,Two Family House (2000),In Netflix queue,,1
+1007,474,3967,Billy Elliot (2000),ballet,4.0,1
+1008,474,3983,You Can Count on Me (2000),family,4.5,1
+1009,474,3988,How the Grinch Stole Christmas (a.k.a. The Grinch) (2000),Dr. Seuss,1.0,1
+1010,474,3994,Unbreakable (2000),superhero,4.5,1
+1011,474,3996,"Crouching Tiger, Hidden Dragon (Wo hu cang long) (2000)",china / martial arts,4.0,2
+1012,474,4007,Wall Street (1987),business,4.0,1
+1013,474,4012,Punchline (1988),stand-up comedy,2.0,1
+1014,474,4019,Finding Forrester (2000),writing,4.0,1
+1015,474,4024,"House of Mirth, The (2000)",Edith Wharton,2.5,1
+1016,474,4025,Miss Congeniality (2000),pageant,2.0,1
+1017,474,4027,"O Brother, Where Art Thou? (2000)",bluegrass,4.0,1
+1018,474,4029,State and Main (2000),movies,4.5,1
+1019,474,4034,Traffic (2000),based on a TV show,4.5,1
+1020,474,4046,Friendly Persuasion (1956),Quakers,4.0,1
+1021,474,4077,"With a Friend Like Harry... (Harry, un ami qui vous veut du bien) (2000)",psychopaths,4.0,1
+1022,474,4105,"Evil Dead, The (1981)",zombies,2.0,1
+1023,474,4113,"Glass Menagerie, The (1987)",Tennessee Williams,4.0,1
+1024,474,4117,Hope and Glory (1987),In Netflix queue,,1
+1025,474,4138,My Demon Lover (1987),demons,1.0,1
+1026,474,4160,"Widow of St. Pierre, The (Veuve de Saint-Pierre, La) (2000)",death penalty,4.5,1
+1027,474,4164,"Caveman's Valentine, The (2001)",homeless / New York,4.0,2
+1028,474,4166,Series 7: The Contenders (2001),reality TV,2.0,1
+1029,474,4171,Long Night's Journey Into Day (2000),Eugene O'Neill,4.0,1
+1030,474,4174,Avalon (1990),In Netflix queue,,1
+1031,474,4184,"Bishop's Wife, The (1947)",Christmas,4.0,1
+1032,474,4189,"Greatest Story Ever Told, The (1965)",Bible / religion,2.5,2
+1033,474,4190,Elmer Gantry (1960),preacher / religion,4.0,2
+1034,474,4191,Alfie (1966),sexuality,4.0,1
+1035,474,4194,I Know Where I'm Going! (1945),In Netflix queue,,1
+1036,474,4204,Losin' It (1983),virginity,1.0,1
+1037,474,4210,Manhunter (1986),Hannibal Lecter / serial killer,3.5,2
+1038,474,4211,Reversal of Fortune (1990),von Bulow,4.0,1
+1039,474,4214,Revenge of the Nerds (1984),college,2.0,1
+1040,474,4218,River's Edge (1986),In Netflix queue,3.5,1
+1041,474,4221,Necessary Roughness (1991),football,2.0,1
+1042,474,4226,Memento (2000),Backwards. memory,5.0,1
+1043,474,4232,Spy Kids (2001),spying,4.0,1
+1044,474,4246,Bridget Jones's Diary (2001),singletons,4.5,1
+1045,474,4259,"Luzhin Defence, The (2000)",Nabokov,4.0,1
+1046,474,4263,Days of Wine and Roses (1962),alcoholism,4.0,1
+1047,474,4292,Norma Rae (1979),Union,4.0,1
+1048,474,4296,Love Story (1970),death,2.0,1
+1049,474,4306,Shrek (2001),fairy tales,4.5,1
+1050,474,4312,Himalaya (Himalaya - l'enfance d'un chef) (1999),In Netflix queue,,1
+1051,474,4316,Ice Castles (1978),figure skating,2.5,1
+1052,474,4326,Mississippi Burning (1988),race / rasicm,2.5,2
+1053,474,4333,Throw Momma from the Train (1987),Strangers on a Train,4.0,1
+1054,474,4347,Divided We Fall (Musíme si pomáhat) (2000),Holocaust,4.0,1
+1055,474,4356,Gentlemen Prefer Blondes (1953),In Netflix queue,3.0,1
+1056,474,4359,"Seven Year Itch, The (1955)",adultery,4.0,1
+1057,474,4361,Tootsie (1982),men in drag,4.0,1
+1058,474,4370,A.I. Artificial Intelligence (2001),robots,4.5,1
+1059,474,4380,"Princess and the Warrior, The (Krieger und die Kaiserin, Der) (2000)",accident,4.0,1
+1060,474,4396,"Cannonball Run, The (1981)",race,1.0,1
+1061,474,4404,Faust (1926),In Netflix queue,,1
+1062,474,4447,Legally Blonde (2001),lawyers,4.0,1
+1063,474,4448,"Score, The (2001)",heist,4.0,1
+1064,474,4465,"Accused, The (1988)",rape,4.0,1
+1065,474,4476,Big Business (1988),twins,2.0,1
+1066,474,4477,Big Top Pee-Wee (1988),circus,1.0,1
+1067,474,4489,Coming to America (1988),Africa / immigrants,2.0,2
+1068,474,4495,Crossing Delancey (1988),New York,5.0,1
+1069,474,4526,My Stepmother Is an Alien (1988),aliens,1.5,1
+1070,474,4537,Running on Empty (1988),hippies,4.5,1
+1071,474,4545,Short Circuit (1986),robots,2.0,1
+1072,474,4546,"Vanishing, The (Spoorloos) (1988)",kidnapping / remade,4.0,2
+1073,474,4558,Twins (1988),twins,2.0,1
+1074,474,4571,Bill & Ted's Excellent Adventure (1989),time travel,4.5,1
+1075,474,4600,Gross Anatomy (a.k.a. A Cut Above) (1989),doctors,2.5,1
+1076,474,4621,Look Who's Talking (1989),babies,2.0,1
+1077,474,4623,Major League (1989),baseball,2.0,1
+1078,474,4638,Jurassic Park III (2001),dinosaurs,2.0,1
+1079,474,4639,America's Sweethearts (2001),Hollywood / movie business,2.5,2
+1080,474,4641,Ghost World (2001),adolescence,4.0,1
+1081,474,4677,Turner & Hooch (1989),dogs,1.5,1
+1082,474,4678,UHF (1989),television,4.0,1
+1083,474,4688,Black Robe (1991),In Netflix queue,,1
+1084,474,4787,Little Man Tate (1991),prodigies,4.0,1
+1085,474,4801,"Little Foxes, The (1941)",family,4.0,1
+1086,474,4808,"Vanishing, The (1993)",remake,2.0,1
+1087,474,4809,Silkwood (1983),Nuclear disaster / union,4.0,2
+1088,474,4812,SpaceCamp (1986),NASA / space,2.0,2
+1089,474,4823,Serendipity (2001),wedding,4.0,1
+1090,474,4835,Coal Miner's Daughter (1980),Loretta Lynn,4.0,1
+1091,474,4857,Fiddler on the Roof (1971),Judaism / Tradition!,4.0,2
+1092,474,4874,K-PAX (2001),aliens / psychiatrist,2.5,2
+1093,474,4878,Donnie Darko (2001),time travel,4.5,1
+1094,474,4881,"Man Who Wasn't There, The (2001)",Coen Brothers,4.0,1
+1095,474,4896,Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001),Magic / Wizards,4.5,2
+1096,474,4902,"Devil's Backbone, The (Espinazo del diablo, El) (2001)",ghosts,4.0,1
+1097,474,4920,"Now, Voyager (1942)",psychology,4.0,1
+1098,474,4963,Ocean's Eleven (2001),heist,4.0,1
+1099,474,4969,And Then There Were None (1945),In Netflix queue,3.5,1
+1100,474,4970,"Blue Angel, The (Blaue Engel, Der) (1930)",nightclub / singers,4.0,2
+1101,474,4973,"Amelie (Fabuleux destin d'Amélie Poulain, Le) (2001)",whimsical,5.0,1
+1102,474,4979,"Royal Tenenbaums, The (2001)",new york,4.0,1
+1103,474,4980,Bill & Ted's Bogus Journey (1991),time travel,4.0,1
+1104,474,4993,"Lord of the Rings: The Fellowship of the Ring, The (2001)",Tolkein,5.0,1
+1105,474,4998,"Defiant Ones, The (1958)",racism,3.5,1
+1106,474,5008,Witness for the Prosecution (1957),Agatha Christie / court,4.0,2
+1107,474,5012,Yentl (1983),cross dressing / Judaism,4.0,2
+1108,474,5015,Monster's Ball (2001),race,4.0,1
+1109,474,5034,"Truly, Madly, Deeply (1991)",Ghost,5.0,1
+1110,474,5064,The Count of Monte Cristo (2002),Dumas / revenge,4.0,2
+1111,474,5114,"Bad and the Beautiful, The (1952)",movie business,4.0,1
+1112,474,5120,Sleuth (1972),In Netflix queue,,1
+1113,474,5135,Monsoon Wedding (2001),India,4.0,1
+1114,474,5139,"Bad News Bears, The (1976)",baseball,,1
+1115,474,5213,"Oh, God! Book II (1980)",religion,1.5,1
+1116,474,5224,Promises (2001),In Netflix queue,4.0,1
+1117,474,5238,Return of the Secaucus 7 (1980),In Netflix queue,3.5,1
+1118,474,5266,Panic Room (2002),crime,4.0,1
+1119,474,5291,Rashomon (Rashômon) (1950),In Netflix queue / samurai,4.0,2
+1120,474,5294,Frailty (2001),religion,4.0,1
+1121,474,5304,"Rome, Open City (a.k.a. Open City) (Roma, città aperta) (1945)",In Netflix queue,,1
+1122,474,5316,Enigma (2001),World War II,2.5,1
+1123,474,5349,Spider-Man (2002),superhero,4.5,1
+1124,474,5353,Butterflies Are Free (1972),blind,3.0,1
+1125,474,5377,About a Boy (2002),Nick Hornby,5.0,1
+1126,474,5379,"Believer, The (2001)",anti-Semitism / Judaism,4.5,2
+1127,474,5398,Requiem for a Heavyweight (1962),boxing,4.0,1
+1128,474,5404,84 Charing Cross Road (1987),books,4.0,1
+1129,474,5445,Minority Report (2002),future,4.5,1
+1130,474,5446,Rabbit-Proof Fence (2002),Australia,4.5,1
+1131,474,5450,Lovely & Amazing (2001),sisterhood / women,4.0,2
+1132,474,5451,Pumpkin (2002),disability / mental illness,2.5,2
+1133,474,5470,The Importance of Being Earnest (1952),Oscar Wilde,4.5,1
+1134,474,5475,Z (1969),In Netflix queue,3.5,1
+1135,474,5483,"Kid Stays in the Picture, The (2002)",movie business,4.5,1
+1136,474,5498,Red Beard (Akahige) (1965),In Netflix queue,,1
+1137,474,5502,Signs (2002),aliens,4.5,1
+1138,474,5505,"Good Girl, The (2002)",adultery / younger men,4.5,2
+1139,474,5527,Possession (2002),AS Byatt / books,4.0,2
+1140,474,5528,One Hour Photo (2002),photography / psychopaths,4.0,2
+1141,474,5548,Down and Out in Beverly Hills (1986),homeless,2.0,1
+1142,474,5577,Igby Goes Down (2002),adolescence,4.0,1
+1143,474,5601,"Yearling, The (1946)",Animal movie,4.0,1
+1144,474,5603,"Lavender Hill Mob, The (1951)",crime / heist,4.0,2
+1145,474,5618,Spirited Away (Sen to Chihiro no kamikakushi) (2001),anime,4.5,1
+1146,474,5629,Jonah: A VeggieTales Movie (2002),Bible,2.0,1
+1147,474,5630,Red Dragon (2002),Hannibal Lecter,3.5,1
+1148,474,5633,Heaven (2002),bombs,4.0,1
+1149,474,5644,"Pride of the Yankees, The (1942)",baseball / Lou Gehrig,4.0,2
+1150,474,5669,Bowling for Columbine (2002),violence in america,4.0,1
+1151,474,5673,Punch-Drunk Love (2002),pudding,4.5,1
+1152,474,5682,"Grey Zone, The (2001)",Holocaust,4.0,1
+1153,474,5685,Real Women Have Curves (2002),Girl Power,4.5,1
+1154,474,5690,Grave of the Fireflies (Hotaru no haka) (1988),made me cry / orphans,4.5,2
+1155,474,5721,"Chosen, The (1981)",In Netflix queue / Judaism,,2
+1156,474,5747,Gallipoli (1981),World War I,4.5,1
+1157,474,5791,Frida (2002),art,4.0,1
+1158,474,5792,Roger Dodger (2002),dating,2.5,1
+1159,474,5802,"World of Henry Orient, The (1964)",teenagers,4.0,1
+1160,474,5812,Far from Heaven (2002),salute to Douglas Sirk,4.5,1
+1161,474,5816,Harry Potter and the Chamber of Secrets (2002),Magic / Wizards,4.5,2
+1162,474,5820,Standing in the Shadows of Motown (2002),music business,4.0,1
+1163,474,5875,Personal Velocity (2002),short films,2.5,1
+1164,474,5876,"Quiet American, The (2002)",Graham Greene,4.0,1
+1165,474,5878,Talk to Her (Hable con Ella) (2002),coma,4.0,1
+1166,474,5899,Zulu (1964),Africa,3.0,1
+1167,474,5952,"Lord of the Rings: The Two Towers, The (2002)",Tolkein,5.0,1
+1168,474,5954,25th Hour (2002),crime / nightclub,4.0,2
+1169,474,5971,My Neighbor Totoro (Tonari no Totoro) (1988),anime,4.0,1
+1170,474,5989,Catch Me If You Can (2002),crime,4.0,1
+1171,474,5991,Chicago (2002),court / jazz / murder,4.0,3
+1172,474,5994,Nicholas Nickleby (2002),Dickens,4.0,1
+1173,474,5995,"Pianist, The (2002)",Holocaust,4.5,1
+1174,474,6002,Love Liza (2002),drugs / planes / widows/widowers,3.5,3
+1175,474,6003,Confessions of a Dangerous Mind (2002),television,3.5,1
+1176,474,6016,City of God (Cidade de Deus) (2002),crime / photography / violence,4.0,3
+1177,474,6020,Alice Adams (1935),class,3.5,1
+1178,474,6027,Dogfight (1991),In Netflix queue,,1
+1179,474,6031,Imitation of Life (1959),motherhood / race,4.0,2
+1180,474,6041,Amen. (2002),In Netflix queue,4.0,1
+1181,474,6063,May (2002),doll,2.5,1
+1182,474,6090,Kiss Me Goodbye (1982),ghosts,3.5,1
+1183,474,6101,Missing (1982),Chile / politics / South America,4.0,3
+1184,474,6104,Monty Python Live at the Hollywood Bowl (1982),spoof,4.0,1
+1185,474,6156,Shanghai Knights (2003),England,3.5,1
+1186,474,6159,All the Real Girls (2003),adolescence,3.5,1
+1187,474,6163,He Loves Me... He Loves Me Not (À la folie... pas du tout) (2002),obsession,4.5,1
+1188,474,6170,"Black Stallion, The (1979)",horses,3.5,1
+1189,474,6178,"Patch of Blue, A (1965)",blind / blindness / race,4.0,3
+1190,474,6181,"Red Badge of Courage, The (1951)",Civil War / Stephen Crane,4.0,2
+1191,474,6183,Pillow Talk (1959),Day and Hudson / sexuality,4.0,2
+1192,474,6195,Stone Reader (2002),books / Stones of Summer,4.0,2
+1193,474,6197,Spider (2002),mental illness,3.5,1
+1194,474,6201,Lady Jane (1986),England,5.0,1
+1195,474,6216,Nowhere in Africa (Nirgendwo in Afrika) (2001),World War II,3.5,1
+1196,474,6218,Bend It Like Beckham (2002),soccer,4.0,1
+1197,474,6228,"Talk of the Town, The (1942)",In Netflix queue,4.0,1
+1198,474,6232,Born Free (1966),animal movie / lions,4.0,2
+1199,474,6235,Europa Europa (Hitlerjunge Salomon) (1990),Holocaust / World War II,3.5,2
+1200,474,6238,Green Card (1990),immigrants,3.5,1
+1201,474,6242,Ringu (Ring) (1998),television,3.5,1
+1202,474,6244,Salaam Bombay! (1988),In Netflix queue,3.0,1
+1203,474,6245,Sweet Charity (1969),prostitution,3.5,1
+1204,474,6254,"Awful Truth, The (1937)",screwball,4.5,1
+1205,474,6268,Raising Victor Vargas (2002),adolescence,3.5,1
+1206,474,6269,Stevie (2002),Big Brothers,4.5,1
+1207,474,6273,In a Lonely Place (1950),L.A.,3.5,1
+1208,474,6281,Phone Booth (2002),crime,3.5,1
+1209,474,6286,"Man Without a Past, The (Mies vailla menneisyyttä) (2002)",amnesia,4.0,1
+1210,474,6288,Better Luck Tomorrow (2002),gangs,3.5,1
+1211,474,6289,Ghosts of the Abyss (2003),Titanic,3.5,1
+1212,474,6291,Lilya 4-Ever (Lilja 4-ever) (2002),prostitution,4.0,1
+1213,474,6296,"Mighty Wind, A (2003)",mockumentary,4.0,1
+1214,474,6297,Holes (2003),children,3.5,1
+1215,474,6299,"Winged Migration (Peuple migrateur, Le) (2001)",birds,3.5,1
+1216,474,6305,Fahrenheit 451 (1966),Ray Bradbury,4.5,1
+1217,474,6308,Legal Eagles (1986),lawyers,2.0,1
+1218,474,6327,"Decade Under the Influence, A (2003)",1970s / movies,3.5,2
+1219,474,6331,Spellbound (2002),spelling bee,4.0,1
+1220,474,6333,X2: X-Men United (2003),Jean Grey / Magneto / Rogue / superhero / Wolverine,5.0,5
+1221,474,6334,Blue Car (2002),teachers,4.0,1
+1222,474,6337,Owning Mahowny (2003),gambling,3.5,1
+1223,474,6339,"Man on the Train (Homme du train, L') (2002)",trains,3.5,1
+1224,474,6341,"Shape of Things, The (2003)",art,3.5,1
+1225,474,6350,Laputa: Castle in the Sky (Tenkû no shiro Rapyuta) (1986),anime,4.0,1
+1226,474,6367,Down with Love (2003),retro,4.0,1
+1227,474,6368,Cinemania (2002),movies,3.5,1
+1228,474,6373,Bruce Almighty (2003),religion,2.5,1
+1229,474,6375,Gigantic (A Tale of Two Johns) (2002),In Netflix queue / They Might Be Giants,,2
+1230,474,6377,Finding Nemo (2003),Disney / fish,4.0,2
+1231,474,6378,"Italian Job, The (2003)",heist,3.5,1
+1232,474,6380,Capturing the Friedmans (2003),child abuse,4.5,1
+1233,474,6385,Whale Rider (2002),Girl Power,5.0,1
+1234,474,6390,Silk Stockings (1957),Ninotchka remake,3.5,1
+1235,474,6400,Murder on a Sunday Morning (Un coupable idéal) (2001),crime,3.5,1
+1236,474,6407,"Walk, Don't Run (1966)",Olympics / Tokyo,2.0,2
+1237,474,6422,Shenandoah (1965),Civil War,4.0,1
+1238,474,6440,Barton Fink (1991),movie business,3.5,1
+1239,474,6452,"Long, Hot Summer, The (1958)",In Netflix queue,,1
+1240,474,6454,Music Box (1989),Nazis,3.5,1
+1241,474,6466,Mississippi Masala (1991),In Netflix queue,4.5,1
+1242,474,6502,28 Days Later (2002),zombies,4.5,1
+1243,474,6515,You Only Live Once (1937),fugitive,4.5,1
+1244,474,6516,Anastasia (1956),In Netflix queue,,1
+1245,474,6535,"Legally Blonde 2: Red, White & Blonde (2003)",politics,2.0,1
+1246,474,6536,Sinbad: Legend of the Seven Seas (2003),swashbuckler,3.5,1
+1247,474,6539,Pirates of the Caribbean: The Curse of the Black Pearl (2003),swashbuckler,3.5,1
+1248,474,6545,I Capture the Castle (2003),Dodie Smith,4.5,1
+1249,474,6547,Northfork (2003),flood,2.5,1
+1250,474,6552,Dirty Pretty Things (2002),immigration,4.0,1
+1251,474,6565,Seabiscuit (2003),horses,3.5,1
+1252,474,6579,"One, Two, Three (1961)",Japan,3.5,1
+1253,474,6591,"Magdalene Sisters, The (2002)",religion,4.0,1
+1254,474,6592,"Secret Lives of Dentists, The (2002)",marriage,4.0,1
+1255,474,6603,"Double Life, A (1947)",Othello,2.5,1
+1256,474,6609,"Gospel According to St. Matthew, The (Vangelo secondo Matteo, Il) (1964)",Bible,3.5,1
+1257,474,6620,American Splendor (2003),cancer,4.5,1
+1258,474,6636,"Sure Thing, The (1985)",road trip,3.5,1
+1259,474,6639,Wait Until Dark (1967),blindness,3.5,1
+1260,474,6650,Kind Hearts and Coronets (1949),family / multiple roles / murder,4.0,3
+1261,474,6660,"Red Shoes, The (1948)",ballet,3.5,1
+1262,474,6662,"Pink Panther, The (1963)",Clousseau,2.5,1
+1263,474,6667,Waco: The Rules of Engagement (1997),FBI,3.5,1
+1264,474,6668,"Road Home, The (Wo de fu qin mu qin) (1999)",In Netflix queue,,1
+1265,474,6669,Ikiru (1952),terminal illness,4.0,1
+1266,474,6708,Matchstick Men (2003),con men / fatherhood,3.5,2
+1267,474,6710,Dummy (2002),vertriloquism,3.5,1
+1268,474,6711,Lost in Translation (2003),Japan,3.5,1
+1269,474,6713,Millennium Actress (Sennen joyû) (2001),In Netflix queue,3.5,1
+1270,474,6724,Paper Moon (1973),In Netflix queue,3.5,1
+1271,474,6732,"Hello, Dolly! (1969)",matchmaker,2.5,1
+1272,474,6744,Once Bitten (1985),vampire,2.5,1
+1273,474,6753,Secondhand Lions (2003),Animal movie,3.5,1
+1274,474,6768,Luther (2003),religion,4.0,1
+1275,474,6770,My Life Without Me (2003),adultery / terminal illness,3.5,2
+1276,474,6773,"Triplets of Belleville, The (Les triplettes de Belleville) (2003)",biking,3.5,1
+1277,474,6776,Lagaan: Once Upon a Time in India (2001),India,4.5,1
+1278,474,6785,Seven Brides for Seven Brothers (1954),Lonesome Polecat,4.5,1
+1279,474,6786,Kiss of the Spider Woman (1985),In Netflix queue,,1
+1280,474,6787,All the President's Men (1976),journalism / Watergate,4.0,2
+1281,474,6788,Angie (1994),pregnancy,2.0,1
+1282,474,6791,Babette's Feast (Babettes gæstebud) (1987),Food,5.0,1
+1283,474,6807,Monty Python's The Meaning of Life (1983),british comedy,3.5,1
+1284,474,6810,Sleeping with the Enemy (1991),domestic violence,3.5,1
+1285,474,6820,Ginger Snaps (2000),werewolf,4.0,1
+1286,474,6832,Regarding Henry (1991),amnesia,3.5,1
+1287,474,6849,Scrooge (1970),Christmas,,1
+1288,474,6852,In Cold Blood (1967),black and white / Capote / crime / death penalty / murder,3.5,5
+1289,474,6856,Yankee Doodle Dandy (1942),biopic,4.0,1
+1290,474,6863,School of Rock (2003),school,3.5,1
+1291,474,6867,"Station Agent, The (2003)",trains,4.0,1
+1292,474,6870,Mystic River (2003),child abuse / kidnapping,3.5,2
+1293,474,6874,Kill Bill: Vol. 1 (2003),martial arts / revenge,4.0,2
+1294,474,6881,Pieces of April (2003),Thanksgiving,4.5,1
+1295,474,6890,Elephant (2003),adolescence / violence in america,4.0,2
+1296,474,6909,"Eye, The (Gin gwai) (Jian gui) (2002)",transplants,4.0,1
+1297,474,6912,You'll Never Get Rich (1941),Rita Hayworth can dance!,3.5,1
+1298,474,6918,"Unvanquished, The (Aparajito) (1957)",India,4.0,1
+1299,474,6932,Shattered Glass (2003),journalism,4.5,1
+1300,474,6936,Elf (2003),christmas,4.0,1
+1301,474,6944,Father of the Bride (1991),remake / wedding,2.0,2
+1302,474,6948,Tupac: Resurrection (2003),music business / rap,4.0,2
+1303,474,6963,Devil's Playground (2002),Amish,4.5,1
+1304,474,6970,Desk Set (1957),Hepburn and Tracy,3.5,1
+1305,474,6979,WarGames (1983),Cold War,4.0,1
+1306,474,6981,"Ordet (Word, The) (1955)",religion,4.0,1
+1307,474,6984,"Tale of Two Cities, A (1935)",Dickens,4.0,1
+1308,474,6985,"Passion of Joan of Arc, The (Passion de Jeanne d'Arc, La) (1928)",saint,4.5,1
+1309,474,6993,Hannah and Her Sisters (1986),family,4.0,1
+1310,474,7013,"Night of the Hunter, The (1955)",good and evil,4.5,1
+1311,474,7018,Presumed Innocent (1990),court / Scott Turow,2.5,2
+1312,474,7023,"Wedding Banquet, The (Xi yan) (1993)",In Netflix queue,,1
+1313,474,7025,"Midnight Clear, A (1992)",In Netflix queue,,1
+1314,474,7049,Flying Down to Rio (1933),Astaire and Rogers,3.0,1
+1315,474,7050,Follow the Fleet (1936),Astaire and Rogers,3.5,1
+1316,474,7053,Roberta (1935),Astaire and Rogers,4.0,1
+1317,474,7055,Swing Time (1936),Astaire and Rogers,4.0,1
+1318,474,7059,National Velvet (1944),horses,4.0,1
+1319,474,7061,Dark Victory (1939),terminal illness,4.0,1
+1320,474,7062,Birdman of Alcatraz (1962),birds / prison,4.0,2
+1321,474,7069,"Macbeth (a.k.a. Tragedy of Macbeth, The) (1971)",In Netflix queue / Shakespeare,3.5,2
+1322,474,7070,Red River (1948),cattle drive,4.0,1
+1323,474,7071,"Woman Under the Influence, A (1974)",In Netflix queue,,1
+1324,474,7073,"Shot in the Dark, A (1964)",Clousseau,2.5,1
+1325,474,7079,"Hunchback of Notre Dame, The (1939)",disability,2.5,1
+1326,474,7086,Pygmalion (1938),George Bernard Shaw,3.5,1
+1327,474,7087,"Passage to India, A (1984)",E.M. Forster,4.0,1
+1328,474,7088,Black Orpheus (Orfeu Negro) (1959),In Netflix queue,,1
+1329,474,7090,Hero (Ying xiong) (2002),martial arts,4.0,1
+1330,474,7091,Horse Feathers (1932),Marx brothers,,1
+1331,474,7121,Adam's Rib (1949),Hepburn and Tracy,5.0,1
+1332,474,7132,"Night at the Opera, A (1935)",Marx brothers / opera,3.5,2
+1333,474,7139,In America (2002),immigrants,4.0,1
+1334,474,7141,My Flesh and Blood (2003),In Netflix queue,4.0,1
+1335,474,7153,"Lord of the Rings: The Return of the King, The (2003)",Tolkein,5.0,1
+1336,474,7156,"Fog of War: Eleven Lessons from the Life of Robert S. McNamara, The (2003)",Vietnam,4.0,1
+1337,474,7158,House of Sand and Fog (2003),real estate,4.5,1
+1338,474,7160,Monster (2003),serial killer,4.0,1
+1339,474,7162,Cold Mountain (2003),Civil War,4.0,1
+1340,474,7190,Jane Eyre (1970),Charlotte Bronte,3.5,1
+1341,474,7212,I Was a Male War Bride (1949),cross dressing / men in drag,4.0,2
+1342,474,7217,Dark Passage (1947),amnesia,4.0,1
+1343,474,7218,"Ox-Bow Incident, The (1943)",In Netflix queue,,1
+1344,474,7219,They Drive by Night (1940),truckers,4.0,1
+1345,474,7234,"Strada, La (1954)",circus,4.5,1
+1346,474,7256,Touching the Void (2003),mountain climbing,4.0,1
+1347,474,7285,Thirteen (2003),adolescence,4.0,1
+1348,474,7301,Diary of a Country Priest (Journal d'un curé de campagne) (1951),priest / religion,3.5,2
+1349,474,7318,"Passion of the Christ, The (2004)",religion,4.0,1
+1350,474,7323,"Good bye, Lenin! (2003)",Cold War,4.0,1
+1351,474,7361,Eternal Sunshine of the Spotless Mind (2004),memory,4.5,1
+1352,474,7371,Dogville (2003),Grace,4.5,1
+1353,474,7382,I'm Not Scared (Io non ho paura) (2003),adolescence / crime,4.0,2
+1354,474,7438,Kill Bill: Vol. 2 (2004),revenge,4.5,1
+1355,474,7440,Paper Clips (2004),Holocaust,4.0,1
+1356,474,7451,Mean Girls (2004),High School,4.5,1
+1357,474,7479,Watch on the Rhine (1943),World War II,4.0,1
+1358,474,7493,"Three Faces of Eve, The (1957)",multiple personalities,4.0,1
+1359,474,7572,Wit (2001),cancer,4.5,1
+1360,474,7584,Woman of the Year (1942),Hepburn and Tracy / marriage,4.0,2
+1361,474,7614,Oklahoma! (1955),Rogers and Hammerstein,4.0,1
+1362,474,7618,Chaplin (1992),biopic / In Netflix queue,3.5,2
+1363,474,7619,"Miracle Worker, The (1962)",blindness / deaf,4.0,2
+1364,474,7646,Rose Red (2002),Stephen King,2.0,1
+1365,474,7649,Babylon 5: In the Beginning (1998),space station,4.0,1
+1366,474,7700,"Wages of Fear, The (Salaire de la peur, Le) (1953)",In Netflix queue,4.0,1
+1367,474,7705,Pat and Mike (1952),Hepburn and Tracy / sports,4.0,2
+1368,474,7713,Cat People (1942),sexuality,4.0,1
+1369,474,7714,Camelot (1967),King Arthur,4.0,1
+1370,474,7728,"Postman Always Rings Twice, The (1946)",adultery,4.0,1
+1371,474,7748,Pierrot le fou (1965),In Netflix queue,,1
+1372,474,7766,Throne of Blood (Kumonosu jô) (1957),MacBeth,4.0,1
+1373,474,7789,"""11'09""""01 - September 11 (2002)""",terrorism,4.0,1
+1374,474,7792,"Parallax View, The (1974)",In Netflix queue,,1
+1375,474,7831,Another Thin Man (1939),Nick and Nora Charles,3.5,1
+1376,474,7832,"Thin Man Goes Home, The (1945)",Nick and Nora Charles,3.5,1
+1377,474,7833,Shadow of the Thin Man (1941),Nick and Nora Charles,3.5,1
+1378,474,7834,After the Thin Man (1936),Nick and Nora Charles,4.0,1
+1379,474,7835,Song of the Thin Man (1947),Nick and Nora Charles,3.5,1
+1380,474,7924,Stray Dog (Nora inu) (1949),In Netflix queue,,1
+1381,474,7926,High and Low (Tengoku to jigoku) (1963),In Netflix queue,,1
+1382,474,7932,Dark Days (2000),Amtrak / Homeless / independent / New York / Sundance award winner / Train,4.0,6
+1383,474,7934,Zelig (1983),psychology,4.0,1
+1384,474,7981,Infernal Affairs (Mou gaan dou) (2002),police,4.0,1
+1385,474,7983,Broadway Danny Rose (1984),show business,4.0,1
+1386,474,8011,"Weather Underground, The (2002)",politics,4.0,1
+1387,474,8014,"Spring, Summer, Fall, Winter... and Spring (Bom yeoreum gaeul gyeoul geurigo bom) (2003)",In Netflix queue,,1
+1388,474,8019,Dark Water (Honogurai mizu no soko kara) (2002),remade,4.0,1
+1389,474,8033,How to Steal a Million (1966),In Netflix queue,,1
+1390,474,8094,Bad Day at Black Rock (1955),In Netflix queue,3.5,1
+1391,474,8153,Lust for Life (1956),Van Gogh,2.5,1
+1392,474,8167,Captain Blood (1935),swashbuckler,4.0,1
+1393,474,8183,Educating Rita (1983),In Netflix queue,,1
+1394,474,8188,Sansho the Bailiff (Sanshô dayû) (1954),Not available from Netflix,,1
+1395,474,8190,"Americanization of Emily, The (1964)",In Netflix queue,,1
+1396,474,8191,Anne of the Thousand Days (1969),Anne Boleyn,4.0,1
+1397,474,8197,Hiroshima Mon Amour (1959),In Netflix queue,,1
+1398,474,8207,"Day of the Jackal, The (1973)",assassination,4.0,1
+1399,474,8228,"Maltese Falcon, The (a.k.a. Dangerous Female) (1931)",heist,4.0,1
+1400,474,8235,Safety Last! (1923),Clock,5.0,1
+1401,474,8266,Purple Rain (1984),Prince,2.5,1
+1402,474,8275,College (1927),In Netflix queue,3.5,1
+1403,474,8337,"Caine Mutiny, The (1954)",military,4.0,1
+1404,474,8338,Black Narcissus (1947),convent / religion,4.0,2
+1405,474,8341,Oliver Twist (1948),Dickens,3.5,1
+1406,474,8360,Shrek 2 (2004),ogres,4.0,1
+1407,474,8366,Saved! (2004),pregnancy / religion,4.0,2
+1408,474,8368,Harry Potter and the Prisoner of Azkaban (2004),Magic / Wizards,5.0,2
+1409,474,8375,"Hunting of the President, The (2004)",politics,2.5,1
+1410,474,8376,Napoleon Dynamite (2004),high school,4.0,1
+1411,474,8379,"Dresser, The (1983)",In Netflix queue,,1
+1412,474,8382,Hello Again (1987),death,2.5,1
+1413,474,8424,"Divorcee, The (1930)",divorce,4.0,1
+1414,474,8446,Sands of Iwo Jima (1949),World War II,2.5,1
+1415,474,8463,Johnny Belinda (1948),deafness,4.0,1
+1416,474,8464,Super Size Me (2004),food / McDonalds,4.0,2
+1417,474,8507,Freaks (1932),circus,4.0,1
+1418,474,8530,Dear Frankie (2004),Ireland,4.0,1
+1419,474,8580,Into the Woods (1991),fairy tales / In Netflix queue,,2
+1420,474,8607,Tokyo Godfathers (2003),In Netflix queue,4.0,1
+1421,474,8609,Our Hospitality (1923),In Netflix queue,3.5,1
+1422,474,8622,Fahrenheit 9/11 (2004),politics / terrorism,4.0,2
+1423,474,8636,Spider-Man 2 (2004),Doc Ock,5.0,1
+1424,474,8638,Before Sunset (2004),generation X,4.0,1
+1425,474,8645,"Maria Full of Grace (Maria, Llena eres de gracia) (2004)",drugs / immigrants,4.0,2
+1426,474,8695,"Bachelor and the Bobby-Soxer, The (1947)",court,2.5,1
+1427,474,8714,Night and Day (1946),Cole Porter,2.5,1
+1428,474,8754,"Prime of Miss Jean Brodie, The (1969)",Oscar (Best Actress),4.0,1
+1429,474,8765,This Gun for Hire (1942),In Netflix queue,,1
+1430,474,8784,Garden State (2004),psychology,4.0,1
+1431,474,8796,"Funny Thing Happened on the Way to the Forum, A (1966)",Rome,2.5,1
+1432,474,8809,Danny Deckchair (2003),Australia,4.0,1
+1433,474,8827,"Bill Cosby, Himself (1983)",Stand Up,4.0,1
+1434,474,8838,Alice Doesn't Live Here Anymore (1974),In Netflix queue,,1
+1435,474,8874,Shaun of the Dead (2004),zombies,4.0,1
+1436,474,8875,"Come Back, Little Sheba (1952)",alcoholism / marriage,4.0,2
+1437,474,8879,Murder on the Orient Express (1974),Agatha Christie / Oscar (Best Supporting Actress) / train,3.0,3
+1438,474,8880,Mask (1985),disability,4.0,1
+1439,474,8914,Primer (2004),time travel,4.0,1
+1440,474,8920,"Country Girl, The (1954)",Oscar (Best Actress),3.5,1
+1441,474,8938,Tarnation (2003),parenthood / psychology,4.0,2
+1442,474,8943,Being Julia (2004),stage,2.5,1
+1443,474,8949,Sideways (2004),wine,4.0,1
+1444,474,8950,The Machinist (2004),psychology,4.0,1
+1445,474,8951,Vera Drake (2004),abortion,4.0,1
+1446,474,8958,Ray (2004),biopic,4.0,1
+1447,474,8961,"Incredibles, The (2004)",Disney / superhero,4.0,2
+1448,474,8970,Finding Neverland (2004),Peter Pan,4.0,1
+1449,474,8979,Guerrilla: The Taking of Patty Hearst (2004),Hearst,4.0,1
+1450,474,8983,House of Flying Daggers (Shi mian mai fu) (2004),martial arts,4.0,1
+1451,474,8998,That's Entertainment (1974),In Netflix queue,,1
+1452,474,9018,Control Room (2004),journalism,4.0,1
+1453,474,25753,Greed (1924),gold,4.0,1
+1454,474,25825,Fury (1936),revenge,4.5,1
+1455,474,25841,Stage Door (1937),show business,4.0,1
+1456,474,25855,"Roaring Twenties, The (1939)",In Netflix queue,,1
+1457,474,25865,"Letter, The (1940)",In Netflix queue,4.0,1
+1458,474,25886,Random Harvest (1942),made me cry,4.5,1
+1459,474,25940,"Lady from Shanghai, The (1947)",mirrors,3.5,1
+1460,474,25952,"Letter to Three Wives, A (1949)",In Netflix queue,4.0,1
+1461,474,26085,Mutiny on the Bounty (1962),Not available from Netflix,,1
+1462,474,26131,"Battle of Algiers, The (La battaglia di Algeri) (1966)",In Netflix queue,,1
+1463,474,26151,Au Hasard Balthazar (1966),donkey,3.5,1
+1464,474,26242,Duel (1971),In Netflix queue,,1
+1465,474,26662,Kiki's Delivery Service (Majo no takkyûbin) (1989),anime,4.0,1
+1466,474,26776,Porco Rosso (Crimson Pig) (Kurenai no buta) (1992),In Netflix queue,3.5,1
+1467,474,27731,"Cat Returns, The (Neko no ongaeshi) (2002)",In Netflix queue,4.0,1
+1468,474,27741,"Twilight Samurai, The (Tasogare Seibei) (2002)",In Netflix queue,3.5,1
+1469,474,27790,Millions (2004),religion / saints,4.0,2
+1470,474,27820,"Story of the Weeping Camel, The (Geschichte vom weinenden Kamel, Die) (2003)",Animal movie / camels,4.0,2
+1471,474,27834,"Return, The (Vozvrashcheniye) (2003)",fatherhood,4.0,1
+1472,474,27838,Mean Creek (2004),revenge,4.5,1
+1473,474,27878,Born into Brothels (2004),India,4.0,1
+1474,474,27882,Riding Giants (2004),surfing,4.0,1
+1475,474,30707,Million Dollar Baby (2004),boxing,4.0,1
+1476,474,30749,Hotel Rwanda (2004),genocide,4.5,1
+1477,474,30793,Charlie and the Chocolate Factory (2005),roald dahl,4.0,1
+1478,474,30812,"Aviator, The (2004)",biopic / Howard Hughes / movie business,4.0,3
+1479,474,30820,"Woodsman, The (2004)",child abuse,4.5,1
+1480,474,30822,In Good Company (2004),busniess,4.5,1
+1481,474,30850,"Merchant of Venice, The (2004)",Shakespeare,4.5,1
+1482,474,31030,I Remember Mama (1948),motherhood,4.0,1
+1483,474,31437,Nobody Knows (Dare mo shiranai) (2004),orphans,4.0,1
+1484,474,31658,Howl's Moving Castle (Hauru no ugoku shiro) (2004),06 Oscar Nominated Best Movie - Animation / In Netflix queue,4.0,2
+1485,474,31903,Zelary (2003),marriage,4.0,1
+1486,474,31923,"Three Musketeers, The (1973)",In Netflix queue,,1
+1487,474,32160,Twentieth Century (1934),In Netflix queue,,1
+1488,474,32371,Call Northside 777 (1948),In Netflix queue,,1
+1489,474,32582,"Wild Parrots of Telegraph Hill, The (2003)",birds / parrots,4.5,2
+1490,474,32584,"Ballad of Jack and Rose, The (2005)",fatherhood,4.0,1
+1491,474,33154,Enron: The Smartest Guys in the Room (2005),business / money / scandal,3.5,3
+1492,474,33166,Crash (2004),racism,4.0,1
+1493,474,33493,Star Wars: Episode III - Revenge of the Sith (2005),space / space opera,4.5,2
+1494,474,33660,Cinderella Man (2005),boxing,4.0,1
+1495,474,34271,Hustle & Flow (2005),hip hop,3.5,1
+1496,474,34359,Georgy Girl (1966),pregnancy,4.0,1
+1497,474,34405,Serenity (2005),Firefly,4.5,1
+1498,474,34437,Broken Flowers (2005),In Netflix queue,4.0,1
+1499,474,34482,"Browning Version, The (1951)",In Netflix queue,,1
+1500,474,34528,Junebug (2005),pregnancy,4.0,1
+1501,474,34542,Grizzly Man (2005),Animal movie / bears,4.0,2
+1502,474,35015,Duma (2005),Animal movie / In Netflix queue,3.5,2
+1503,474,36517,"Constant Gardener, The (2005)",Africa / business / politics,4.0,3
+1504,474,36527,Proof (2005),mathematics,3.5,1
+1505,474,36535,Everything Is Illuminated (2005),In Netflix queue,3.5,1
+1506,474,37240,Why We Fight (2005),In Netflix queue,,1
+1507,474,37729,Corpse Bride (2005),06 Oscar Nominated Best Movie - Animation,4.0,1
+1508,474,37733,"History of Violence, A (2005)",In Netflix queue,4.0,1
+1509,474,37736,Oliver Twist (2005),Dickens,3.5,1
+1510,474,37741,Capote (2005),Truman Capote,4.5,1
+1511,474,38038,Wallace & Gromit in The Curse of the Were-Rabbit (2005),06 Oscar Nominated Best Movie - Animation / Aardman,4.5,2
+1512,474,38061,Kiss Kiss Bang Bang (2005),In Netflix queue,,1
+1513,474,38886,"Squid and the Whale, The (2005)",divorce,4.0,1
+1514,474,39234,North Country (2005),courtroom drama / In Netflix queue,4.0,2
+1515,474,39292,"Good Night, and Good Luck. (2005)",In Netflix queue / journalism / McCarthy hearings / Morrow,4.0,4
+1516,474,40583,Syriana (2005),In Netflix queue,3.5,1
+1517,474,40629,Pride & Prejudice (2005),In Netflix queue,3.5,1
+1518,474,40815,Harry Potter and the Goblet of Fire (2005),Magic / Wizards,5.0,2
+1519,474,40819,Walk the Line (2005),Johnny Cash,4.0,1
+1520,474,41566,"Chronicles of Narnia: The Lion, the Witch and the Wardrobe, The (2005)",C.S. Lewis,4.5,1
+1521,474,41997,Munich (2005),In Netflix queue,4.0,1
+1522,474,42002,"Producers, The (2005)",In Netflix queue,4.0,1
+1523,474,42740,Looking for Comedy in the Muslim World (2005),In Netflix queue,3.5,1
+1524,477,32,Twelve Monkeys (a.k.a. 12 Monkeys) (1995),Brad Pitt / Bruce Willis / mindfuck / Post apocalyptic / post-apocalyptic / remake / time travel / twist ending,4.5,8
+1525,477,34,Babe (1995),villain nonexistent or not needed for good story,4.0,1
+1526,477,104,Happy Gilmore (1996),Adam Sandler,4.0,1
+1527,477,216,Billy Madison (1995),Adam Sandler / stop looking at me swan,4.0,2
+1528,477,318,"Shawshank Redemption, The (1994)",Morgan Freeman,5.0,1
+1529,477,541,Blade Runner (1982),androids / artificial intelligence / atmospheric / cyberpunk / future / mindfuck / Philip K. Dick,5.0,7
+1530,477,589,Terminator 2: Judgment Day (1991),Scifi masterpiece,5.0,1
+1531,477,593,"Silence of the Lambs, The (1991)",disturbing / drama / gothic / psychology / suspense,5.0,5
+1532,477,733,"Rock, The (1996)",Michael Bay / terrorism,4.0,2
+1533,477,750,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),black comedy / dark comedy / satire,5.0,3
+1534,477,832,Ransom (1996),GIVE ME BACK MY SON! / It was melodramatic and kind of dumb / Mel Gibson,3.0,3
+1535,477,903,Vertigo (1958),Alfred Hitchcock / Atmospheric / imdb top 250 / James Stewart,3.5,4
+1536,477,904,Rear Window (1954),imdb top 250 / James Stewart / mystery / photographer / photography,3.5,5
+1537,477,908,North by Northwest (1959),Alfred Hitchcock / imdb top 250,4.0,2
+1538,477,922,Sunset Blvd. (a.k.a. Sunset Boulevard) (1950),eerie / movie business,4.5,2
+1539,477,1089,Reservoir Dogs (1992),humorous / neo-noir / Quentin Tarantino / religion / Tarantino,4.0,5
+1540,477,1196,Star Wars: Episode V - The Empire Strikes Back (1980),classic / George Lucas / Harrison Ford / music / original plot / sci-fi / sequel,5.0,7
+1541,477,1219,Psycho (1960),Alfred Hitchcock / black and white / imdb top 250 / remade,4.0,4
+1542,477,1222,Full Metal Jacket (1987),anti-war,5.0,1
+1543,477,1274,Akira (1988),animation / anime / visually stunning,5.0,3
+1544,477,2393,Star Trek: Insurrection (1998),cameo:Whoopi Goldberg / space opera / Star Trek,3.5,3
+1545,477,2694,Big Daddy (1999),Adam Sandler,4.0,1
+1546,477,2706,American Pie (1999),best comedy / Chris Klein / dumb / Jason Biggs / not funny / pizza beer / Seann William Scott / teen,,8
+1547,477,2761,"Iron Giant, The (1999)",animation,4.0,1
+1548,477,3000,Princess Mononoke (Mononoke-hime) (1997),adventure / atmospheric / fantasy world / Studio Ghibli / surreal,5.0,5
+1549,477,3527,Predator (1987),aliens / Arnold Schwarzenegger / dialogue / guns / Jesse Ventura / macho / sci-fi / scifi cult,4.0,8
+1550,477,3994,Unbreakable (2000),atmospheric / comics / father-son relationship / mindfuck / unique,5.0,5
+1551,477,4226,Memento (2000),mystery / twist ending,4.0,2
+1552,477,4454,More (1998),claymation / creativity / dystopia / free to download / imagination / no dialogue / social commentary,5.0,7
+1553,477,4725,Session 9 (2001),mental hospital / psychology / suspense / Well Done,4.0,4
+1554,477,4878,Donnie Darko (2001),dreamlike / hallucinatory / mental illness / psychology / social commentary / teen / thought-provoking,5.0,7
+1555,477,5459,Men in Black II (a.k.a. MIIB) (a.k.a. MIB 2) (2002),crappy sequel / first was much better / sequel,3.0,3
+1556,477,7361,Eternal Sunshine of the Spotless Mind (2004),cult film / imagination / Jim Carrey / love / surreal,4.0,5
+1557,477,7439,"Punisher, The (2004)",comic book,3.0,1
+1558,477,8783,"Village, The (2004)",Atmospheric / good soundtrack / M. Night Shyamalan,4.5,3
+1559,477,8961,"Incredibles, The (2004)",animation / Samuel L. Jackson,4.0,2
+1560,477,41569,King Kong (2005),big budget,4.0,1
+1561,477,42422,Voices of a Distant Star (Hoshi no koe) (2003),love,4.5,1
+1562,477,45499,X-Men: The Last Stand (2006),Halle Berry / Hugh Jackman,3.5,2
+1563,477,45730,Lady in the Water (2006),bad / disappointing / faerie tale / fairy tale / far fetched / M. Night Shyamalan / Paul Giamatti,3.0,7
+1564,477,47610,"Illusionist, The (2006)",costume drama / Edward Norton / magic / Paul Giamatti,4.0,4
+1565,477,52885,Paprika (Papurika) (2006),dreamlike,4.5,1
+1566,477,53468,Fido (2006),zombies,4.0,1
+1567,477,54503,Superbad (2007),friendship / high school / Michael Cera / nerds / self discovery / shenanigans / virginity,5.0,7
+1568,477,55167,Tekkonkinkreet (Tekkon kinkurîto) (2006),anime,4.5,1
+1569,477,56174,I Am Legend (2007),alone in the world / apocalypse / based on a book / last man on earth / plot holes / Post apocalyptic / post-apocalyptic / religion / vampire,4.0,9
+1570,477,56367,Juno (2007),Michael Cera / notable soundtrack / pregnancy / teenage pregnancy / witty,4.0,5
+1571,477,57669,In Bruges (2008),black comedy / Colin Farrell / dark comedy / drugs / friendship / irreverent / Ralph Fiennes / stylized,5.0,8
+1572,477,59141,Son of Rambow (2007),movies about movies,4.5,1
+1573,477,60069,WALL·E (2008),last man on earth / love story / Post apocalyptic / social commentary,5.0,4
+1574,477,61323,Burn After Reading (2008),Brad Pitt / Coen Bros / Coen Brothers / dark comedy / espionage / George Clooney / John Malkovich / satire / twists & turns / weird,4.5,10
+1575,477,62336,FLCL (2000),2D animation / cult film / stylish / surreal,5.0,4
+1576,477,66934,Dr. Horrible's Sing-Along Blog (2008),joss whedon / Nathan Fillion / Neil Patrick Harris / parody,5.0,4
+1577,477,67087,"I Love You, Man (2009)",Andy Samberg / bromance / bromantic / comedy / Jaime Pressly / Jason Segel / masculinity / Paul Rudd,3.5,8
+1578,477,68237,Moon (2009),2001-like / Sci-fi / solitude,4.5,3
+1579,477,68319,X-Men Origins: Wolverine (2009),bad plot / comic book / hugh jackman / Ryan Reynolds / too many characters,3.5,5
+1580,477,68358,Star Trek (2009),future / lack of development / lack of story / quick cuts / sci-fi / Simon Pegg / space / space travel / time travel,4.5,9
+1581,477,68791,Terminator Salvation (2009),artificial intelligence / bad acting / bad plot / bad script / Christian Bale / FIGHTING THE SYSTEM / franchise / new composer / post-apocalyptic / robots / sci-fi / sequel,4.0,12
+1582,477,68945,Neon Genesis Evangelion: Death & Rebirth (Shin seiki Evangelion Gekijô-ban: Shito shinsei) (1997),Recap,3.5,1
+1583,477,69526,Transformers: Revenge of the Fallen (2009),bad plot / Michael Bay / needed more autobots / plot holes / ridiculous / Shia LaBeouf / stop using useless characters for filler,3.0,7
+1584,477,69757,(500) Days of Summer (2009),artistic / Funny / humorous / inspiring / intelligent / quirky / romance / Zooey Deschanel,5.0,8
+1585,477,70286,District 9 (2009),intelligent sci-fi,4.5,1
+1586,477,72224,Gentlemen Broncos (2009),bad humor,3.5,1
+1587,477,72998,Avatar (2009),bad science / futuristic / graphic design / James Cameron / military / poor dialogue / sci-fi / superficial plot / unoriginal / white guilt,4.0,10
+1588,477,79132,Inception (2010),dreamlike / surreal / visually appealing,4.5,3
+1589,477,79702,Scott Pilgrim vs. the World (2010),geeky / Michael Cera / stylized / video games,5.0,4
+1590,477,82242,Rare Exports: A Christmas Tale (Rare Exports) (2010),male nudity,5.0,1
+1591,477,82461,Tron: Legacy (2010),action choreography / Horrid characterisation / Poor plot development / sequel / soundtrack,,5
+1592,487,112552,Whiplash (2014),passion / psychological / suspense,3.0,3
+1593,506,112552,Whiplash (2014),jazz / music / tense,3.5,3
+1594,509,80834,Sintel (2010),adventure / animation / fantasy,3.5,3
+1595,513,750,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),purity of essence / Slim Pickens,5.0,2
+1596,513,6787,All the President's Men (1976),Deep Throat,4.5,1
+1597,520,3039,Trading Places (1983),Dan Aykroyd,5.0,1
+1598,520,60516,Meet Dave (2008),enjoyable,4.5,1
+1599,533,356,Forrest Gump (1994),bubba gump shrimp / lieutenant dan / stupid is as stupid does,5.0,3
+1600,537,527,Schindler's List (1993),based on a true story / biography / disturbing / holocaust,1.0,4
+1601,537,1625,"Game, The (1997)",Mystery,,1
+1602,537,1721,Titanic (1997),romance,3.0,1
+1603,537,2329,American History X (1998),edward norton / emotional / politics,4.5,3
+1604,537,2571,"Matrix, The (1999)",philosophy / post apocalyptic,4.0,2
+1605,537,3949,Requiem for a Dream (2000),depressing / psychology,,2
+1606,537,5989,Catch Me If You Can (2002),cheating / intelligent / Leonardo DiCaprio / lies / smart / Tom Hanks / twists & turns,5.0,7
+1607,537,8533,"Notebook, The (2004)",memory loss / romance / sad,1.5,3
+1608,537,55765,American Gangster (2007),corruption / Denzel Washington / mafia / organized crime,5.0,4
+1609,537,58295,"Bank Job, The (2008)",heist / robbery / small time criminals,5.0,3
+1610,537,69122,"Hangover, The (2009)",casino / comedy / funny / hotel / Las Vegas,4.0,5
+1611,537,69481,"Hurt Locker, The (2008)",war,3.5,1
+1612,537,72998,Avatar (2009),beautiful scenery / graphic design / music / politics / romance / thought-provoking / too long / visually stunning,5.0,8
+1613,537,79132,Inception (2010),big budget / clever / complicated / dead wife / great soundtrack / heist / intellectual / mindfuck / philosophy / psychological / psychology / suspense / thought-provoking,5.0,13
+1614,537,80489,"Town, The (2010)",crime / FBI / romance / too much love interest,,4
+1615,537,80906,Inside Job (2010),business / corruption / economics / investor corruption / politics / truth,5.0,6
+1616,537,89745,"Avengers, The (2012)",Captain America / silly / superhero / superhero team,1.5,4
+1617,537,90439,Margin Call (2011),bank / big corporations / business / corruption / financial crisis / Kevin Spacey / realistic / suspense / Wall Street,5.0,9
+1618,537,92259,Intouchables (2011),emotional / sexuality,,2
+1619,537,95067,"Thousand Words, A (2012)",interesting scenario,3.0,1
+1620,537,95441,Ted (2012),crude humor,,1
+1621,537,97304,Argo (2012),cia / politics / Thrilling,4.5,3
+1622,537,99114,Django Unchained (2012),Soundtrack,4.5,1
+1623,537,104218,Grown Ups 2 (2013),Adam Sandler,3.5,1
+1624,537,104841,Gravity (2013),cliche characters / long shots / predictable / Simple / slow action / visually appealing,3.0,6
+1625,537,105504,Captain Phillips (2013),hostage / ocean / suspense,5.0,3
+1626,537,106782,"Wolf of Wall Street, The (2013)",Stock Market / Wall Street,5.0,2
+1627,543,85565,Chalet Girl (2011),Comedy,,1
+1628,567,1,Toy Story (1995),fun,3.5,1
+1629,567,101,Bottle Rocket (1996),off-beat comedy / quirky,3.0,2
+1630,567,308,Three Colors: White (Trzy kolory: Bialy) (1994),cynical,2.5,1
+1631,567,356,Forrest Gump (1994),bittersweet / emotional / heartwarming / touching,3.0,4
+1632,567,541,Blade Runner (1982),atmospheric / dreamlike / existentialism / philosophical,3.5,4
+1633,567,750,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),black comedy / dark comedy / Quirky,3.0,3
+1634,567,1203,12 Angry Men (1957),claustrophobic / confrontational / earnest / good dialogue / great screenplay / gritty / Motivational / thought-provoking,4.5,8
+1635,567,1237,"Seventh Seal, The (Sjunde inseglet, Det) (1957)",atmospheric / cerebral / existentialism / philosophical / reflective,3.5,5
+1636,567,1260,M (1931),atmospheric / chilly / creepy / menacing / mental illness / oninous,4.0,6
+1637,567,1653,Gattaca (1997),intelligent / thought-provoking,3.0,2
+1638,567,1704,Good Will Hunting (1997),heartwarming / inspirational,3.0,2
+1639,567,1916,Buffalo '66 (a.k.a. Buffalo 66) (1998),avant-garde romantic comedy / elegiac / melancholy / quirky / wry,5.0,5
+1640,567,1921,Pi (1998),artsy / atmospheric / cerebral / enigmatic / existentialism / hallucinatory / insanity / paranoia / paranoid / surreal / tense / visually appealing,3.0,12
+1641,567,2138,Watership Down (1978),atmospheric / beautiful,4.5,2
+1642,567,2324,Life Is Beautiful (La Vita è bella) (1997),bittersweet / emotional / Heartwarming / poignant / sentimental / tear jerker / tearjerking,3.5,7
+1643,567,2731,"400 Blows, The (Les quatre cents coups) (1959)",emotional / gentle / heartwarming / lyrical / reflective,3.5,5
+1644,567,3134,Grand Illusion (La grande illusion) (1937),downbeat / poignant,3.0,2
+1645,567,3266,Man Bites Dog (C'est arrivé près de chez vous) (1992),black comedy / crazy / dark / dark comedy / dark humor / serial killer,5.0,6
+1646,567,3424,Do the Right Thing (1989),great cinematography,4.0,1
+1647,567,3671,Blazing Saddles (1974),dark humor / easygoing / silly,4.5,3
+1648,567,3676,Eraserhead (1977),art house / Atmospheric / creepy / cryptic / dark / disturbing / dreamlike / enigmatic / fucked up / gruesome / hallucinatory / Insane / paranoid / strange / surreal / weird,5.0,16
+1649,567,3994,Unbreakable (2000),atmospheric / somber,4.0,2
+1650,567,4144,In the Mood For Love (Fa yeung nin wa) (2000),atmospheric / Beautiful / bittersweet / dreamy / elegant / heartbreaking / intimate / loneliness / long takes / longing / melancholic / melancholy / moody / nocturnal / romantic / Unique / visually appealing / visually stunning,4.5,18
+1651,567,4226,Memento (2000),cerebral / dreamlike,3.5,2
+1652,567,4552,"Tetsuo, the Ironman (Tetsuo) (1988)","""""""artsy"""""" / atmospheric / gritty / hallucinatory / surreal / visually stunning",3.5,6
+1653,567,4878,Donnie Darko (2001),atmospheric / cerebral / dreamlike / enigmatic / hallucinatory / mental illness / mindfuck / philosophy / psychological / quirky / surreal / thought-provoking / weird,3.5,13
+1654,567,5673,Punch-Drunk Love (2002),anger / awkward / bittersweet / hallucinatory / quirky / sad / surreal / symbolism / tense / unconventional / unique / wistful,3.5,12
+1655,567,5690,Grave of the Fireflies (Hotaru no haka) (1988),beautiful / downbeat / grim / poignant / tear jerker / tragedy / tragic,4.0,7
+1656,567,6214,Irreversible (Irréversible) (2002),dark / disturbing,3.0,2
+1657,567,6291,Lilya 4-Ever (Lilja 4-ever) (2002),Depressing / melancholy / sad,3.0,3
+1658,567,6377,Finding Nemo (2003),heartwarming,3.0,1
+1659,567,6669,Ikiru (1952),meditative / philosophical / poignant / purposefulness,3.5,4
+1660,567,6818,Come and See (Idi i smotri) (1985),atmospheric / bleak / disturbing / gritty / harsh,5.0,5
+1661,567,7024,"Salo, or The 120 Days of Sodom (Salò o le 120 giornate di Sodoma) (1976)",bleak / confrontational / disturbing / harsh / haunting / inhumane / thought-provoking,4.0,7
+1662,567,7361,Eternal Sunshine of the Spotless Mind (2004),arthouse / artistic / atmospheric / beautiful / bittersweet / colourful / comedy / dreamlike / emotional / feel-good / happpiness / humane / insightful / intelligent / lovely / melancholy / mind-bending / philosophy / quirky / quirky romantic / romantic / surreal / surrealism / thought-provoking,5.0,24
+1663,567,8335,Make Way for Tomorrow (1937),heartbreaking,3.5,1
+1664,567,8477,"Jetée, La (1962)",post-apocalyptic,5.0,1
+1665,567,25771,"Andalusian Dog, An (Chien andalou, Un) (1929)",mindfuck / surreal / surrealism,5.0,3
+1666,567,26717,Begotten (1990),boring / psychedelic / symbolic,0.5,3
+1667,567,27773,Old Boy (2003),bizarre / claustrophobic / depressing / disturbing / hallucinatory / paranoid / surreal / twisted,4.5,8
+1668,567,30810,"Life Aquatic with Steve Zissou, The (2004)",heartwarming / off-beat comedy / quirky / trippy / visually appealing / whimsical,4.0,6
+1669,567,40491,"Match Factory Girl, The (Tulitikkutehtaan tyttö) (1990)",depression,5.0,1
+1670,567,45880,Marie Antoinette (2006),cinematography / lyrical,3.0,2
+1671,567,48394,"Pan's Labyrinth (Laberinto del fauno, El) (2006)",atmospheric / bittersweet / visually appealing,3.0,3
+1672,567,48780,"Prestige, The (2006)",atmospheric / enigmatic,3.5,2
+1673,567,50872,Ratatouille (2007),clever / inspirational,4.0,2
+1674,567,56782,There Will Be Blood (2007),atmospheric / cerebral / character study / gritty / intense / long shots / morality / visually appealing,5.0,8
+1675,567,57502,Cat Soup (Nekojiru-so) (2001),abstract / dark / psychedelic / surreal,4.0,4
+1676,567,58301,Funny Games U.S. (2007),dark / dark humor / intelligent / thought-provoking,4.5,4
+1677,567,58559,"Dark Knight, The (2008)",dark / gritty,4.0,2
+1678,567,63062,Changeling (2008),emotional,3.5,1
+1679,567,68954,Up (2009),bittersweet / emotional / heartbreaking / touching,3.0,4
+1680,567,71899,Mary and Max (2009),bittersweet / black comedy / character study / dark comedy / friendship / loneliness / mental illness / philosophical / poignant / quirky / sad / sweet / touching,5.0,13
+1681,567,74791,"Town Called Panic, A (Panique au village) (2009)",surreal / whimsical,3.5,2
+1682,567,79132,Inception (2010),cerebral / dreamlike / philosophy / thought-provoking,3.0,4
+1683,567,80463,"Social Network, The (2010)",good dialogue / loneliness / witty,3.5,3
+1684,567,89745,"Avengers, The (2012)",fun / great humor / visually appealing,4.0,3
+1685,567,94959,Moonrise Kingdom (2012),quirky,3.5,1
+1686,567,95558,Beasts of the Southern Wild (2012),Beautiful / emotional / poetic,3.0,3
+1687,567,96079,Skyfall (2012),beautiful cinematography / beautifully filmed / cinematography,3.0,3
+1688,567,99764,It's Such a Beautiful Day (2012),moving / philosopical / surreal / weird,5.0,4
+1689,567,99917,Upstream Color (2013),artistic / artsy / atmospheric / Beautiful / dreamlike / existentialism,3.5,6
+1690,567,104875,"History of Future Folk, The (2012)",quirky,3.5,1
+1691,567,104944,Short Term 12 (2013),emotional / feel-good / heartwarming / mental illness / touching,3.5,5
+1692,567,105504,Captain Phillips (2013),suspense / tense,3.0,2
+1693,567,106766,Inside Llewyn Davis (2013),atmospheric / cinematography / depressing / funny,4.0,4
+1694,567,107406,Snowpiercer (2013),fatalistic,3.0,1
+1695,567,108932,The Lego Movie (2014),cheeky / clever / colorful / feel-good / fun / imaginative / quirky,4.5,7
+1696,567,109487,Interstellar (2014),bad dialogue / philosophical issues / thought-provoking / visually appealing,3.0,4
+1697,567,112421,Frank (2014),adorable / black comedy / Eccentric / introspection / mental illness / quirky,4.5,6
+1698,567,112552,Whiplash (2014),inspirational / inspiring / intense,3.5,3
+1699,567,112852,Guardians of the Galaxy (2014),funny / Great Visuals / humorous / unlikely hero,3.5,4
+1700,567,113705,"Two Days, One Night (Deux jours, une nuit) (2014)",bittersweet,3.5,1
+1701,567,114627,Angel's Egg (Tenshi no tamago) (1985),atmospheric / bizzare / eerie / symbolism,3.5,4
+1702,567,116797,The Imitation Game (2014),inspirational / intelligent,3.0,2
+1703,567,117877,The Rabbi's Cat (Le chat du rabbin) (2011),philosophical / trippy,3.0,2
+1704,567,117887,Paddington (2014),heartwarming,3.5,1
+1705,567,119145,Kingsman: The Secret Service (2015),slick,3.0,1
+1706,567,122882,Mad Max: Fury Road (2015),beautiful / cinematography / visually appealing,4.0,3
+1707,567,122912,Avengers: Infinity War - Part I (2018),Dark / emotional / Sad / Visually appealing / Visually stunning,3.0,5
+1708,567,122916,Thor: Ragnarok (2017),awesome / humor / quirky / unconventional / white guilt,3.0,5
+1709,567,122918,Guardians of the Galaxy 2 (2017),fun,3.5,1
+1710,567,122922,Doctor Strange (2016),visually appealing,3.0,1
+1711,567,127298,A Pigeon Sat on a Branch Reflecting on Existence (2014),depressing / understated,3.5,2
+1712,567,134130,The Martian (2015),smart,3.0,1
+1713,567,134170,Kung Fury (2015),funny / ridiculous / silly,4.5,3
+1714,567,138036,The Man from U.N.C.L.E. (2015),slick / stylish,3.0,2
+1715,567,139385,The Revenant (2015),cinematography / visually appealing / Visually Striking,3.0,3
+1716,567,139644,Sicario (2015),atmospheric / tension,3.5,2
+1717,567,140174,Room (2015),moving / touching,3.0,2
+1718,567,141890,Beasts of No Nation (2015),Moving,3.0,1
+1719,567,143367,Silence (2016),contemplative / philosophical / thought-provoking / tragic,4.5,4
+1720,567,148626,"Big Short, The (2015)",funny / interesting / Witty,3.0,3
+1721,567,148881,World of Tomorrow (2015),Existential / surreal,5.0,2
+1722,567,152077,10 Cloverfield Lane (2016),creepy / suspense,3.0,2
+1723,567,153070,Rabbits (2002),nightmare,3.5,1
+1724,567,155288,Eye in the Sky (2016),suspense / thought-provoking,3.5,2
+1725,567,156605,Paterson,quirky / sweet / understated,4.5,3
+1726,567,161634,Don't Breathe (2016),intense,3.0,1
+1727,567,164179,Arrival (2016),beautiful visuals / Cerebral / cinematography / good cinematography / smart / thought-provoking / visually appealing,4.0,7
+1728,567,164909,La La Land (2016),Bittersweet / visually appealing,3.0,2
+1729,567,167746,The Lego Batman Movie (2017),funny / heartwarming,3.5,2
+1730,567,168252,Logan (2017),dark / emotional / gritty / heartbreaking / predictible plot,4.0,5
+1731,567,170945,It Comes at Night (2017),paranoia / Suspenseful,3.5,2
+1732,567,174055,Dunkirk (2017),brilliant / inspiring / tense,3.5,3
+1733,567,176371,Blade Runner 2049 (2017),atmospheric / beautiful / cinematography / dark / dreamlike / existentialism / moody / philosophical,5.0,8
+1734,567,176419,Mother! (2017),allegorical / uncomfortable / unsettling,3.0,3
+1735,567,180031,The Shape of Water (2017),atmospheric / dreamlike,4.0,2
+1736,567,180985,The Greatest Showman (2017),bad music,1.0,1
+1737,573,248,Houseguest (1994),bad / Sinbad,,2
+1738,573,413,Airheads (1994),Comedy,,1
+1739,573,540,Sliver (1993),bad,,1
+1740,573,707,Mulholland Falls (1996),bad,,1
+1741,573,836,Chain Reaction (1996),seen at the cinema,3.0,1
+1742,573,1441,Benny & Joon (1993),Not Seen,,1
+1743,573,1779,Sphere (1998),good,,1
+1744,573,1801,"Man in the Iron Mask, The (1998)",seen more than once,4.0,1
+1745,573,2116,"Lord of the Rings, The (1978)",classic,,1
+1746,573,2431,Patch Adams (1998),bad,,1
+1747,573,2662,"War of the Worlds, The (1953)",classic,,1
+1748,573,2951,"Fistful of Dollars, A (Per un pugno di dollari) (1964)",bad,,1
+1749,573,4015,"Dude, Where's My Car? (2000)",bad,,1
+1750,573,4343,Evolution (2001),really bad / Seann William Scott,,2
+1751,573,4446,Final Fantasy: The Spirits Within (2001),sci-fi,,1
+1752,573,4448,"Score, The (2001)",boring,,1
+1753,573,5064,The Count of Monte Cristo (2002),remake,4.0,1
+1754,573,5254,Blade II (2002),Great movie / Wesley Snipes,4.5,2
+1755,573,6016,City of God (Cidade de Deus) (2002),not seen,,1
+1756,573,6157,Daredevil (2003),bad / Ben Affleck,,2
+1757,573,6373,Bruce Almighty (2003),classic,4.5,1
+1758,573,35836,"40-Year-Old Virgin, The (2005)",BEST PICTURE / classic / hilarious / steve carell,5.0,4
+1759,573,52712,"Invisible, The (2007)",HORRIBLE ACTING / interesting,0.5,2
+1760,599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),Action / assassin / assassination / assassins / awkward romance / corruption / crime / disturbing / drama / French / friendship / Gary Oldman / great acting / Guns / hit men / hitman / humorous / imdb top 250 / Jean Reno / Lolita theme / loneliness / love story / Luc Besson / Natalie Portman / organized crime / police / police corruption / quirky / sniper / tense / touching / unique,5.0,32
+1761,599,296,Pulp Fiction (1994),1990s / achronological / action / action packed / aggressive / amazing / amazing dialogues / anthology / assassin / atmospheric / AWESOME / bad ass / bad language / bad-ass / bible / biblical references / big boys with guns / big name actors / Black comedy / black humor / black humour / blood / blood splatters / bloody / bruce willis / brutality / casual violence / character development / characters / classic / classic movie / coke / comedy / conversation / cool / cool style / crime / crime scene scrubbing / cult / cult classic / cult film / dance / dancing / dark / dark comedy / dark humor / dialogue / different / diner / disjointed timeline / disturbing / drama / drug overdose / drugs / drugs & music / ensemble cast / entertaining / entirely dialogue / episodic / exciting / fast paced / fast-paced / film noir / film-noir / foul language / fun / funny / gangster / gangsters / genius / golden watch / good dialogue / good music / gore / great acting / great dialogue / great soundtrack / gritty / guns / Harvey Keitel / heroin / Highly quotable / hit men / hitman / homosexuality / humour / iconic / imdb top 250 / innovative / intellectual / intelligent / intense / interesting / intertwining storylines / interwoven storylines / ironic / irony / John Travolta / killer-as-protagonist / los angeles / Mafia / masterpiece / meaningless violence / milkshake / mobster / mobsters / monologue / motherfucker / multiple stories / multiple storylines / neo-noir / noir / non-linear / non-linear timeline / nonlinear / nonlinear narrative / nonlinear storyline / nonlinear timeline / notable soundtrack / offensive / organised crime / organized crime / original / original plot / out of order / Palme d'Or / parody / philosophical / pop culture references / psychological / pulp / Quentin Tarantino / quirky / Quotable / r:disturbing violent content including rape / r:disturbing violent images / r:graphic sexuality / r:some violence / r:strong bloody violence / r:strong language / r:sustained strong stylized violence / r:violence / random / rape / retro / Roger Avary / royal with cheese / Samuel L. Jackson / sarcasm / satire / sexy / smart writing / sophisticated / soundtrack / splatter / Steve Buscemi / storytelling / stylish / stylized / suspense / Tarantino / thought-provoking / thriller / travolta / twist ending / Uma Thurman / unique / unpredictable / unusual / very funny / violence / violent / witty,5.0,173
+1762,599,924,2001: A Space Odyssey (1968),aliens / apes / Arthur C. Clarke / artificial intelligence / atmospheric / cinematography / classic / computer / confusing ending / cult film / Dull / future / futuristic / imdb top 250 / masterpiece / meditative / music / mystery / Oscar (Best Effects - Visual Effects) / overrated / philosophical / relaxing / revolutionary / robots / sci-fi / setting:space/space ship / slow / slow paced / soundtrack / space / space travel / spacecraft / Stanley Kubrick / superb soundtrack / surreal / technology / tedious / visual / visually appealing,5.0,39
+1763,599,1732,"Big Lebowski, The (1998)",black comedy / bowling / classic / coen brothers / comedy / crime / Cult classic / cult film / dark comedy / deadpan / drugs / funny / great dialogue / great soundtrack / Highly quotable / imdb top 250 / Jeff Bridges / John Goodman / Julianne Moore / kidnapping / marijuana / Nudity (Full Frontal) / off-beat comedy / Philip Seymour Hoffman / quirky / ransom / rug / sarcasm / satirical / Steve Buscemi / violence,5.0,31
+1764,599,2959,Fight Club (1999),action / atmospheric / based on a book / Brad Pitt / challenging / Chuck Palahniuk / classic / clever / complicated / consumerism / crime / dark / dark comedy / David Fincher / disturbing / double life / Edward Norton / fighting / great acting / helena bonham carter / imaginary friend / imdb top 250 / mental illness / mind-blowing / mindfuck / narrated / Nudity (Topless) / Palahnuik / philosophical / philosophy / postmodern / powerful ending / psychological / psychological thriller / psychology / quirky / satirical / schizophrenia / social commentary / societal criticism / stylized / surreal / TERRORISM / thought-provoking / twist / twist ending / violence / violent,5.0,48
+1765,600,273,Mary Shelley's Frankenstein (Frankenstein) (1994),gothic,,1
+1766,606,1357,Shine (1996),music,4.0,1
+1767,606,1948,Tom Jones (1963),British,3.5,1
+1768,606,3578,Gladiator (2000),Romans,3.5,1
+1769,606,5694,Staying Alive (1983),70mm,3.0,1
+1770,606,6107,"Night of the Shooting Stars (Notte di San Lorenzo, La) (1982)",World War II,4.0,1
+1771,606,7382,I'm Not Scared (Io non ho paura) (2003),for katie,4.5,1
+1772,606,7936,Shame (Skammen) (1968),austere,,1
+1773,610,3265,Hard-Boiled (Lat sau san taam) (1992),gun fu / heroic bloodshed,5.0,2
+1774,610,168248,John Wick: Chapter Two (2017),Heroic Bloodshed,5.0,1
