@@ -3,9 +3,12 @@
     <h1>Movies-Legit<br>
     New Movie Recommender Pitch</h1>
   </header>
-<div align='left'>  
+<div align='left'>    
 
-![](images/movie_banner.jpg)
+![](images/kayla.png)  
+
+![](images/movie_banner.jpg)  
+
 [source](https://www.facebook.com/MRPJD/photos/a.113642393607538/116536716651439)  
 
 ## Table of Contents
