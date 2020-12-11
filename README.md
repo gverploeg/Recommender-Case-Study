@@ -41,7 +41,7 @@ Of all the places that could have information, we only have 1.7% of that informa
 
 
 ## Analysis and Business Advice
-Nobody wants to look at all these numbers, so don't, but please know how proud we are of all of our great results! We have 10 of 11 models that improve the current recommendation results. 
+Nobody wants to look at all these numbers, so don't, but please know how proud we are of all of our great results! We have 8 of 11 models that improve the current recommendation results (GlobalMeans RMSE = 1.0425, MeanOfMeans RMSE = 0.9306). 
 |    **Algorithm**    | **5-Fold CrossVal RMSE** | **% Improvement Over GlobalMean** | **% Improvement Over MeanOfMeans** | **Fit Time**   | **Test Time** |
 |:-----------------:|:----------------------:|:-------------------------------:|:--------------------------------:|:------------:|:-----------:|
 | SVDpp           | 0.860833             | 17.429158                     | 7.510634                       | 458.891514 | 9.244243  |
