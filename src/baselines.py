@@ -6,7 +6,8 @@ http://surprise.readthedocs.io/en/stable/building_custom_algo.html
 
 import sys
 import numpy as np
-from surprise import AlgoBase, Dataset
+import pandas as pd 
+from surprise import AlgoBase, Dataset, Reader
 from surprise.model_selection.validation import cross_validate
 
 class GlobalMean(AlgoBase):
@@ -78,7 +79,10 @@ class MeanofMeans(AlgoBase):
 
 if __name__ == "__main__":
 
-    data = Dataset.load_builtin('ml-100k')
+    df = pd.read_csv('../data/ml-latest-small/ratings.csv').drop(columns='timestamp')
+    reader = Reader(rating_scale=(0.5, 5))
+    data = Dataset.load_from_df(df[['userId', 'movieId', 'rating']], reader)
+    
     print("\nGlobal Mean...")
     algo = GlobalMean()
     cross_validate(algo, data, measures=['RMSE', 'MAE'], cv=5, verbose=True)
@@ -86,3 +90,4 @@ if __name__ == "__main__":
     print("\nMeanOfMeans...")
     algo = MeanofMeans()
     cross_validate(algo, data, measures=['RMSE', 'MAE'], cv=5, verbose=True)
+  
