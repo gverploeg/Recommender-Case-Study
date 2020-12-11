@@ -107,6 +107,7 @@ This algorithm creates a group, a kismet, of people with the same movie-personal
 <div align="center"> 
 <img src="images/kayla.png" class="center">
 <div align='left'> 
+<<<<<<< HEAD
 
 
 
@@ -135,3 +136,7 @@ This algorithm creates a group, a kismet, of people with the same movie-personal
     - SlopeOne is a straightforward implementation of the SlopeOne algorithm.
   - Co-clustering
     - Coclustering is a collaborative filtering algorithm based on co-clustering.
+=======
+    
+# Conclusion ~
+>>>>>>> 7da3bc466593d8b1ab64e973a0009b6ab7126d73
