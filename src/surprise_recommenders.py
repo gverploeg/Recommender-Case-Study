@@ -1,5 +1,6 @@
 import pandas as pd 
 import numpy as np 
+from collections import defaultdict
 from surprise import Reader, Dataset
 from surprise import KNNBasic, KNNWithMeans, KNNBaseline, SVD, NMF, SlopeOne, CoClustering
 from surprise import SVDpp, NormalPredictor, KNNWithZScore, BaselineOnly
@@ -20,9 +21,9 @@ def get_mean_errors(cross_val_dict, rmse_key, mae_key):
 def percent_diff_errors(base_error, our_error):
     return ((base_error - our_error) / base_error) * 100
 
-def get_SVD_model(data):
+def get_KNN_model(data):
     trainset = data.build_full_trainset()
-    algo = SVD()
+    algo = KNNBaseline()
     algo.fit(trainset)
     return algo
 
@@ -30,7 +31,7 @@ def read_item_names(filepath):
     df = pd.read_csv(filepath)
     rid_to_name = {}
     name_to_rid = {}
-    for index, row in df.iterrows():
+    for idx, row in df.iterrows():
         rid_to_name[row['movieId']] = row['title']
         name_to_rid[row['title']] = row['movieId']
     return rid_to_name, name_to_rid
@@ -93,5 +94,20 @@ if __name__ == '__main__':
     # surprise_results = surprise_results[cols]
 
     rid_to_name, name_to_rid = read_item_names('../data/ml-latest-small/movies.csv')
-    algo = get_SVD_model(data)
+    algo = get_KNN_model(data)
+    print('\n')
     show_recommendations(algo, rid_to_name, name_to_rid, 'Forrest Gump (1994)')
+    print('\n')
+    show_recommendations(algo, rid_to_name, name_to_rid, 'Shawshank Redemption, The (1994)')
+    print('\n')
+    show_recommendations(algo, rid_to_name, name_to_rid, 'Pulp Fiction (1994)')
+    print('\n')
+    show_recommendations(algo, rid_to_name, name_to_rid, 'Silence of the Lambs, The (1991)')
+    print('\n')
+    show_recommendations(algo, rid_to_name, name_to_rid, 'Matrix, The (1999)')
+    print('\n')
+    show_recommendations(algo, rid_to_name, name_to_rid, 'Star Wars: Episode IV - A New Hope (1977)')
+    print('\n')
+    show_recommendations(algo, rid_to_name, name_to_rid, 'Jurassic Park (1993)')
+    print('\n')
+    show_recommendations(algo, rid_to_name, name_to_rid, 'Braveheart (1995)')

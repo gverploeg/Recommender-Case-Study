@@ -32,13 +32,12 @@ The data used to evaluate the current **Mean of Means** model, as well as build 
 -  ```tags.csv```: User identified keyword/words tags for each movie specified by the unique ```userId``` and ```movieId```
 -  ```links.csv``` : Specific IDs for IMDB and TMIBD, which are sourced movie and TV databases
 
-## Merged Data: PySpark, SQL & Pandas
+We used SQL with PySpark to do initial EDA on our data and found these were the top 10 most rated movies.
+
+![](images/top_reviewed_movies.png)
 
 ### Density Problem : 0.017
-Of all the places that could have information, we only have 1.7% of that information!
-
-
-
+Of all the places that could have information, we only have 1.7% of that information! We need to find a more reliable and quick model to fill in the recommendations on movies users have not seen.
 
 
 ## Analysis and Business Advice
@@ -48,7 +47,7 @@ Nobody wants to look at all these numbers, so don't, but please know how proud w
 | SVDpp           | 0.860833             | 17.429158                     | 7.510634                       | 458.891514 | 9.244243  |
 | BaselineOnly    | 0.872352             | 16.324263                     | 6.273017                       | 0.202521   | 0.116606  |
 | SVD             | 0.874329             | 16.134664                     | 6.060644                       | 4.278943   | 0.152708  |
-| KNNBaseline     | 0.874614             | 16.107319                     | 6.030014                       | 0.301779   | 1.793125  |
+| **KNNBaseline**     | **0.874614**    | **16.107319**         | **6.030014**                  | **0.301779**   | **1.793125**  |
 | KNNWithZScore   | 0.896911             | 13.968609                     | 3.634399                       | 0.182884   | 1.687832  |
 | KNNWithMeans    | 0.897265             | 13.934625                     | 3.596333                       | 0.131177   | 1.488005  |
 | SlopeOne        | 0.901140             | 13.562966                     | 3.180030                       | 4.169153   | 6.961816  |
@@ -62,23 +61,24 @@ Nobody wants to look at all these numbers, so don't, but please know how proud w
 * SVDpp did perform the best but also had a drasticly longer Fit time
 * SVD also had a strong performance but compared to the BaselineOnly & KNNBaseline models had a Fit Time more than 20x 
 
-* Select the BaselineOnly & KNNBaseline
+* **Select the BaselineOnly & KNNBaseline**
   * (Fastest) BaselineOnly algorithm predicts the baseline estimate for given user and movie.
   * (Generate Movie Neighbors) KNNBaseline is a basic collaborative filtering algorithm taking into account a baseline rating (0.5).
-<br>
+<br>  
+
 **10 Recommended Movies if you like these top rated movies:**  
 
-|  Forrest Gump (1994): | Shawshank Redemption, The (1994):    | | Pulp Fiction (1994):                       |
-|:---------------------------------------------------------:|:--------------------------------------:|:--:|:--------------------------------------------:|
-| Inception (2010)                                        | Total Recall (1990)                  |  | Enemy of the State (1998)                  |
-| Swan Princess, The (1994)                               | Road Warrior, The (Mad Max 2) (1981) |  | Dark Knight Rises, The (2012)              |
-| Congo (1995)                                            | Dark Knight Rises, The (2012)        |  | Clonus Horror, The (1979)                  |
-| Lawnmower Man 2: Beyond Cyberspace (1996)               | Clonus Horror, The (1979)            |  | Billy Elliot (2000)                        |
-| Silence of the Lambs, The (1991)                        | NeverEnding Story III, The (1994)    |  | Screamers (1995)                           |
-| Groundhog Day (1993)                                    | Species (1995)                       |  | Rumble in the Bronx (Hont faan kui) (1995) |
-| Enemy of the State (1998)                               | True Lies (1994)                     |  | Wolf of Wall Street, The (2013)            |
-| Piano, The (1993)                                       | She’s the One (1996)                 |  | Big Green, The (1995)                      |
-| Twelfth Night (1996)                                    | Red Dawn (1984)                      |  | Happy Gilmore (1996)      
+|  Forrest Gump (1994): | Shawshank Redemption, The (1994):    | Pulp Fiction (1994):                       |
+|:-------------------------------------:|:-------------------------------:|:------------------------------------:|
+| Inception (2010)                                        | Total Recall (1990)                  | Enemy of the State (1998)                  |
+| Swan Princess, The (1994)                               | Road Warrior, The (Mad Max 2) (1981) | Dark Knight Rises, The (2012)              |
+| Congo (1995)                                            | Dark Knight Rises, The (2012)        | Clonus Horror, The (1979)                  |
+| Lawnmower Man 2: Beyond Cyberspace (1996)               | Clonus Horror, The (1979)            | Billy Elliot (2000)                        |
+| Silence of the Lambs, The (1991)                        | NeverEnding Story III, The (1994)    | Screamers (1995)                           |
+| Groundhog Day (1993)                                    | Species (1995)                       | Rumble in the Bronx (Hont faan kui) (1995) |
+| Enemy of the State (1998)                               | True Lies (1994)                     | Wolf of Wall Street, The (2013)            |
+| Piano, The (1993)                                       | She’s the One (1996)                 | Big Green, The (1995)                      |
+| Twelfth Night (1996)                                    | Red Dawn (1984)                      | Happy Gilmore (1996)      
   
 ## Inovative Solutions in Development
 ### **The Pedro**
@@ -103,13 +103,9 @@ This algorithm creates a group, a kismet, of people with the same movie-personal
 **BEST PART:** even unwanted recommendations give the kismet something to connect about...we are providing connection, remember?
 
 
-
 <div align="center"> 
 <img src="images/kayla.png" class="center">
 <div align='left'> 
-<<<<<<< HEAD
-
-
 
 
 
@@ -136,7 +132,3 @@ This algorithm creates a group, a kismet, of people with the same movie-personal
     - SlopeOne is a straightforward implementation of the SlopeOne algorithm.
   - Co-clustering
     - Coclustering is a collaborative filtering algorithm based on co-clustering.
-=======
-    
-# Conclusion ~
->>>>>>> 7da3bc466593d8b1ab64e973a0009b6ab7126d73
