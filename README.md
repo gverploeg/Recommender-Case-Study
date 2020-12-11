@@ -13,7 +13,7 @@
 1. [Background](#background)
 2. [Data](#data)
 3. [Analysis and Business Advice](#analysis-and-business-advice)
-4. [New and Innovative Models in Development](#new-and-innovative-models-in-development)
+4. [Inovative Solutions in Development](#inovative-solutions-in-development)
 
 ## Background
 
