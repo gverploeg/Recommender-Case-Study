@@ -65,20 +65,23 @@ Nobody wants to look at all these numbers, so don't, but please know how proud w
 * Select the BaselineOnly & KNNBaseline
   * (Fastest) BaselineOnly algorithm predicts the baseline estimate for given user and movie.
   * (Generate Movie Neighbors) KNNBaseline is a basic collaborative filtering algorithm taking into account a baseline rating (0.5).
-<br>
+<br>  
+
+
+
 **10 Recommended Movies if you like these top rated movies:**  
 
-|  Forrest Gump (1994): | Shawshank Redemption, The (1994):    | | Pulp Fiction (1994):                       |
-|:---------------------------------------------------------:|:--------------------------------------:|:--:|:--------------------------------------------:|
-| Inception (2010)                                        | Total Recall (1990)                  |  | Enemy of the State (1998)                  |
-| Swan Princess, The (1994)                               | Road Warrior, The (Mad Max 2) (1981) |  | Dark Knight Rises, The (2012)              |
-| Congo (1995)                                            | Dark Knight Rises, The (2012)        |  | Clonus Horror, The (1979)                  |
-| Lawnmower Man 2: Beyond Cyberspace (1996)               | Clonus Horror, The (1979)            |  | Billy Elliot (2000)                        |
-| Silence of the Lambs, The (1991)                        | NeverEnding Story III, The (1994)    |  | Screamers (1995)                           |
-| Groundhog Day (1993)                                    | Species (1995)                       |  | Rumble in the Bronx (Hont faan kui) (1995) |
-| Enemy of the State (1998)                               | True Lies (1994)                     |  | Wolf of Wall Street, The (2013)            |
-| Piano, The (1993)                                       | She’s the One (1996)                 |  | Big Green, The (1995)                      |
-| Twelfth Night (1996)                                    | Red Dawn (1984)                      |  | Happy Gilmore (1996)      
+|  Forrest Gump (1994): | Shawshank Redemption, The (1994):    | Pulp Fiction (1994):                       |
+|:-------------------------------------:|:-------------------------------:|:------------------------------------:|
+| Inception (2010)                                        | Total Recall (1990)                  | Enemy of the State (1998)                  |
+| Swan Princess, The (1994)                               | Road Warrior, The (Mad Max 2) (1981) | Dark Knight Rises, The (2012)              |
+| Congo (1995)                                            | Dark Knight Rises, The (2012)        | Clonus Horror, The (1979)                  |
+| Lawnmower Man 2: Beyond Cyberspace (1996)               | Clonus Horror, The (1979)            | Billy Elliot (2000)                        |
+| Silence of the Lambs, The (1991)                        | NeverEnding Story III, The (1994)    | Screamers (1995)                           |
+| Groundhog Day (1993)                                    | Species (1995)                       | Rumble in the Bronx (Hont faan kui) (1995) |
+| Enemy of the State (1998)                               | True Lies (1994)                     | Wolf of Wall Street, The (2013)            |
+| Piano, The (1993)                                       | She’s the One (1996)                 | Big Green, The (1995)                      |
+| Twelfth Night (1996)                                    | Red Dawn (1984)                      | Happy Gilmore (1996)      
   
 ## Inovative Solutions in Development
 ### **The Pedro**
@@ -107,7 +110,7 @@ This algorithm creates a group, a kismet, of people with the same movie-personal
 <div align="center"> 
 <img src="images/kayla.png" class="center">
 <div align='left'> 
-<<<<<<< HEAD
+
 
 
 
@@ -136,7 +139,3 @@ This algorithm creates a group, a kismet, of people with the same movie-personal
     - SlopeOne is a straightforward implementation of the SlopeOne algorithm.
   - Co-clustering
     - Coclustering is a collaborative filtering algorithm based on co-clustering.
-=======
-    
-# Conclusion ~
->>>>>>> 7da3bc466593d8b1ab64e973a0009b6ab7126d73
