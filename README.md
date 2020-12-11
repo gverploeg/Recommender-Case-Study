@@ -3,9 +3,11 @@
     <h1>Movies-Legit<br>
     New Movie Recommender Pitch</h1>
   </header>
-<div align='left'>    
+<div align='left'>  
 
-![](images/kayla.png)  
+<div align="center"> 
+<img src="images/kayla.png" class="center">
+<div align='left'> 
 
 ## Table of Contents
 1. [Background](#background)
