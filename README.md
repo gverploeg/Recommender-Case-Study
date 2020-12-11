@@ -7,7 +7,7 @@
 
 ![](images/kayla.png)  
 
-![](images/movie_banner.jpg)  
+ 
 
 [source](https://www.facebook.com/MRPJD/photos/a.113642393607538/116536716651439)  
 
@@ -21,7 +21,9 @@
 
 Our data science team has been tasked with proposing a new movie recommender platform for **Movies-Legit**.   
 
-Currently, the company uses their **Mean of Means** solution, which captures the general per-user and per-item trends of rating movies. If there are any missing ratings, the model averages the global mean along with the mean of the user and item ratings to fill in the value. 
+Currently, the company uses their **Mean of Means** solution, which captures the general per-user and per-item trends of rating movies. If there are any missing ratings, the model averages the global mean along with the mean of the user and item ratings to fill in the value.   
+
+![](images/movie_banner.jpg) 
 
 ## Data  
 
