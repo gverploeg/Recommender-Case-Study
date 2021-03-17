@@ -103,11 +103,6 @@ This algorithm creates a group, a kismet, of people with the same movie-personal
 **BEST PART:** even unwanted recommendations give the kismet something to connect about...we are providing connection, remember?
 
 
-<div align="center"> 
-<img src="images/kayla.png" class="center">
-<div align='left'> 
-
-
 
 
 ## **End Notes**
